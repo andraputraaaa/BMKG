@@ -150,9 +150,11 @@ def extract_centroids_from_json():
             if lat is not None and lon is not None:
                 p_code = resolve_province_code(props, kab_raw)
                 code_counts[p_code] = code_counts.get(p_code, 0) + 1
+                adm4 = str(props.get('KDEPUM', props.get('kdepum', ''))).strip()
 
                 regions_list.append({
                     "code": str(idx + 1).zfill(4),
+                    "adm4": adm4,
                     "province_code": p_code,
                     "province": prov_raw,
                     "region": kab_raw,

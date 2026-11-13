@@ -1,10 +1,13 @@
 import json
 import os
-import random
+import requests
 from utils.ibf_calculator import calculate_ibf_risk
 from utils.raster_processor import process_landcover_tiles, get_dem_elevation
 
 REGIONAL_FILE = os.path.join('data', 'indonesia_514_regencies.json')
+BMKG_WEATHER_URL = 'https://api.bmkg.go.id/publik/prakiraan-cuaca'
+BMKG_REQUEST_TIMEOUT = 10
+WEATHER_CACHE = {}
 
 # Backup Stasiun Utama jika JSON belum di-extract dari SHP
 DEFAULT_AWS_STATIONS = {
@@ -25,6 +28,46 @@ def load_master_regions():
         except Exception as e:
             print(f"Error membaca {REGIONAL_FILE}: {e}")
     return []
+
+def fetch_bmkg_weather(adm4):
+    """Mengambil prakiraan cuaca BMKG untuk satu kode wilayah ADM4."""
+    if not adm4:
+        raise ValueError('Kode wilayah ADM4 tidak tersedia untuk wilayah BMKG')
+
+    if adm4 in WEATHER_CACHE:
+        return WEATHER_CACHE[adm4]
+
+    response = requests.get(
+        BMKG_WEATHER_URL,
+        params={'adm4': adm4},
+        timeout=BMKG_REQUEST_TIMEOUT
+    )
+    response.raise_for_status()
+    payload = response.json()
+
+    try:
+        forecast = payload['data'][0]['cuaca'][0][0]
+    except (KeyError, IndexError, TypeError) as error:
+        raise ValueError(f'Respons prakiraan BMKG tidak valid untuk {adm4}') from error
+
+    wind_speed_ms = forecast.get('ws')
+    rainfall = forecast.get('tp')
+    if wind_speed_ms is None or rainfall is None:
+        raise ValueError(f'Respons prakiraan BMKG tidak memiliki data cuaca untuk {adm4}')
+
+    weather_data = {
+        'wind_speed': round(float(wind_speed_ms) * 1.94384, 1),
+        'rainfall': round(float(rainfall), 1),
+        'pressure': 1012.0,
+        'pressure_drop_3h': 0.0,
+        'temperature': forecast.get('t'),
+        'humidity': forecast.get('hu'),
+        'weather': forecast.get('weather_desc'),
+        'forecast_datetime': forecast.get('local_datetime'),
+        'source': 'BMKG Public API'
+    }
+    WEATHER_CACHE[adm4] = weather_data
+    return weather_data
 
 def get_aws_weather_data():
     """Mengembalikan data EWS terintegrasi untuk seluruh wilayah."""
@@ -48,14 +91,8 @@ def get_aws_weather_data():
         p_code = str(reg.get('province_code', '0000'))
         r_name = str(reg.get('region', 'Kota/Kabupaten'))
 
-        # 1. Parameter Cuaca Real-Time AWS BMKG (Stream / Simulation)
-        weather_data = {
-            "wind_speed": round(random.uniform(5.0, 25.0), 1),
-            "rainfall": round(random.uniform(0.0, 15.0), 1),
-            "pressure": round(random.uniform(1008.0, 1013.0), 1),
-            "pressure_drop_3h": round(random.uniform(0.0, 1.5), 1),
-            "source": "AWS BMKG Station"
-        }
+        # 1. Prakiraan cuaca BMKG untuk wilayah administratif tingkat IV.
+        weather_data = fetch_bmkg_weather(reg.get('adm4'))
 
         # 2. Ekstraksi Data Spasial dari GeoTIFF Landcover & DEM SRTM
         region_code = reg.get('code')

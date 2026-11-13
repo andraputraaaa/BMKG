@@ -1,6 +1,7 @@
 [
   {
     "code": "0001",
+    "adm4": "12.02.05.2012",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Tapanuli Utara",
@@ -9,6 +10,7 @@
   },
   {
     "code": "0002",
+    "adm4": "61.10.02.2003",
     "province_code": "6100",
     "province": "Kalimantan Barat",
     "region": "Melawi",
@@ -17,6 +19,7 @@
   },
   {
     "code": "0003",
+    "adm4": "36.03.04.2009",
     "province_code": "3600",
     "province": "Banten",
     "region": "Tangerang",
@@ -25,6 +28,7 @@
   },
   {
     "code": "0004",
+    "adm4": "11.17.10.2009",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Bener Meriah",
@@ -33,6 +37,7 @@
   },
   {
     "code": "0005",
+    "adm4": "19.06.06.2003",
     "province_code": "1900",
     "province": "Kepulauan Bangka Belitung",
     "region": "Belitung Timur",
@@ -41,6 +46,7 @@
   },
   {
     "code": "0006",
+    "adm4": "53.01.10.2010",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Kupang",
@@ -49,6 +55,7 @@
   },
   {
     "code": "0007",
+    "adm4": "81.07.03.2005",
     "province_code": "8100",
     "province": "Maluku",
     "region": "Kepulauan Aru",
@@ -57,6 +64,7 @@
   },
   {
     "code": "0008",
+    "adm4": "63.07.11.2008",
     "province_code": "6300",
     "province": "Kalimantan Selatan",
     "region": "Hulu Sungai Tengah",
@@ -65,6 +73,7 @@
   },
   {
     "code": "0009",
+    "adm4": "18.06.16.2005",
     "province_code": "1800",
     "province": "Lampung",
     "region": "Tanggamus",
@@ -73,6 +82,7 @@
   },
   {
     "code": "0010",
+    "adm4": "53.15.03.2021",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Manggarai Barat",
@@ -81,6 +91,7 @@
   },
   {
     "code": "0011",
+    "adm4": "92.05.21.2004",
     "province_code": "9100",
     "province": "Papua Barat Daya",
     "region": "Raja Ampat",
@@ -89,6 +100,7 @@
   },
   {
     "code": "0012",
+    "adm4": "53.16.03.2004",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Nagekeo",
@@ -97,6 +109,7 @@
   },
   {
     "code": "0013",
+    "adm4": "53.71.06.1004",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Kota Kupang",
@@ -105,6 +118,7 @@
   },
   {
     "code": "0014",
+    "adm4": "91.22.05.2035",
     "province_code": "9600",
     "province": "Papua Pegunungan",
     "region": "Yalimo",
@@ -113,6 +127,7 @@
   },
   {
     "code": "0015",
+    "adm4": "34.03.01.2007",
     "province_code": "3400",
     "province": "Daerah Istimewa Yogyakarta",
     "region": "Gunungkidul",
@@ -121,6 +136,7 @@
   },
   {
     "code": "0016",
+    "adm4": "32.78.08.1002",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Kota Tasikmalaya",
@@ -129,6 +145,7 @@
   },
   {
     "code": "0017",
+    "adm4": "18.07.05.2006",
     "province_code": "1800",
     "province": "Lampung",
     "region": "Lampung Timur",
@@ -137,6 +154,7 @@
   },
   {
     "code": "0018",
+    "adm4": "33.22.09.2011",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Semarang",
@@ -145,6 +163,7 @@
   },
   {
     "code": "0019",
+    "adm4": "15.71.11.1003",
     "province_code": "1500",
     "province": "Jambi",
     "region": "Kota Jambi",
@@ -153,6 +172,7 @@
   },
   {
     "code": "0020",
+    "adm4": "32.16.23.2002",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Bekasi",
@@ -161,6 +181,7 @@
   },
   {
     "code": "0021",
+    "adm4": "72.09.09.2003",
     "province_code": "7200",
     "province": "Sulawesi Tengah",
     "region": "Tojo Una Una",
@@ -169,6 +190,7 @@
   },
   {
     "code": "0022",
+    "adm4": "32.12.13.2015",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Indramayu",
@@ -177,6 +199,7 @@
   },
   {
     "code": "0023",
+    "adm4": "11.06.10.2018",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Aceh Besar",
@@ -185,6 +208,7 @@
   },
   {
     "code": "0024",
+    "adm4": "91.28.01.2008",
     "province_code": "9500",
     "province": "Papua Tengah",
     "region": "Deiyai",
@@ -193,6 +217,7 @@
   },
   {
     "code": "0025",
+    "adm4": "12.78.04.2009",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Kota Gunungsitoli",
@@ -201,6 +226,7 @@
   },
   {
     "code": "0026",
+    "adm4": "18.11.04.2009",
     "province_code": "1800",
     "province": "Lampung",
     "region": "Mesuji",
@@ -209,6 +235,7 @@
   },
   {
     "code": "0027",
+    "adm4": "62.02.05.1001",
     "province_code": "6200",
     "province": "Kalimantan Tengah",
     "region": "Kotawaringin Timur",
@@ -217,6 +244,7 @@
   },
   {
     "code": "0028",
+    "adm4": "52.72.01.1014",
     "province_code": "5200",
     "province": "Nusa Tenggara Barat",
     "region": "Kota Bima",
@@ -225,6 +253,7 @@
   },
   {
     "code": "0029",
+    "adm4": "12.75.01.1003",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Kota Binjai",
@@ -233,6 +262,7 @@
   },
   {
     "code": "0030",
+    "adm4": "71.08.01.2011",
     "province_code": "7100",
     "province": "Sulawesi Utara",
     "region": "Bolaang Mongondow Utara",
@@ -241,6 +271,7 @@
   },
   {
     "code": "0031",
+    "adm4": "73.02.01.2019",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Bulukumba",
@@ -249,6 +280,7 @@
   },
   {
     "code": "0032",
+    "adm4": "73.08.16.2013",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Bone",
@@ -257,6 +289,7 @@
   },
   {
     "code": "0033",
+    "adm4": "11.01.08.2011",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Aceh Selatan",
@@ -265,6 +298,7 @@
   },
   {
     "code": "0034",
+    "adm4": "65.04.05.2003",
     "province_code": "6500",
     "province": "Kalimantan Utara",
     "region": "Tana Tidung",
@@ -273,6 +307,7 @@
   },
   {
     "code": "0035",
+    "adm4": "16.02.18.2013",
     "province_code": "1600",
     "province": "Sumatera Selatan",
     "region": "Ogan Komering Ilir",
@@ -281,6 +316,7 @@
   },
   {
     "code": "0036",
+    "adm4": "13.08.05.2005",
     "province_code": "1300",
     "province": "Sumatera Barat",
     "region": "Pasaman",
@@ -289,6 +325,7 @@
   },
   {
     "code": "0037",
+    "adm4": "34.71.03.1004",
     "province_code": "3400",
     "province": "Daerah Istimewa Yogyakarta",
     "region": "Kota Yogyakarta",
@@ -297,6 +334,7 @@
   },
   {
     "code": "0038",
+    "adm4": "21.71.07.1002",
     "province_code": "2100",
     "province": "Kepulauan Riau",
     "region": "Kota Batam",
@@ -305,6 +343,7 @@
   },
   {
     "code": "0039",
+    "adm4": "92.11.01.2007",
     "province_code": "9100",
     "province": "Papua Barat",
     "region": "Manokwari Selatan",
@@ -313,6 +352,7 @@
   },
   {
     "code": "0040",
+    "adm4": "61.07.11.2003",
     "province_code": "6100",
     "province": "Kalimantan Barat",
     "region": "Bengkayang",
@@ -321,6 +361,7 @@
   },
   {
     "code": "0041",
+    "adm4": "65.02.10.2004",
     "province_code": "6500",
     "province": "Kalimantan Utara",
     "region": "Malinau",
@@ -329,6 +370,7 @@
   },
   {
     "code": "0042",
+    "adm4": "14.02.02.2018",
     "province_code": "1400",
     "province": "Riau",
     "region": "Indragiri Hulu",
@@ -337,6 +379,7 @@
   },
   {
     "code": "0043",
+    "adm4": "12.77.05.2010",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Kota Padang Sidempuan",
@@ -345,6 +388,7 @@
   },
   {
     "code": "0044",
+    "adm4": "74.14.04.2018",
     "province_code": "7400",
     "province": "Sulawesi Tenggara",
     "region": "Buton Tengah",
@@ -353,6 +397,7 @@
   },
   {
     "code": "0045",
+    "adm4": "33.28.07.2002",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Tegal",
@@ -361,6 +406,7 @@
   },
   {
     "code": "0047",
+    "adm4": "33.09.06.2012",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Boyolali",
@@ -369,6 +415,7 @@
   },
   {
     "code": "0048",
+    "adm4": "35.73.01.1002",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Kota Malang",
@@ -377,6 +424,7 @@
   },
   {
     "code": "0049",
+    "adm4": "71.07.07.2007",
     "province_code": "7100",
     "province": "Sulawesi Utara",
     "region": "Minahasa Tenggara",
@@ -385,6 +433,7 @@
   },
   {
     "code": "0050",
+    "adm4": "64.74.01.1006",
     "province_code": "6400",
     "province": "Kalimantan Timur",
     "region": "Kota Bontang",
@@ -393,6 +442,7 @@
   },
   {
     "code": "0051",
+    "adm4": "35.28.06.2004",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Pamekasan",
@@ -401,6 +451,7 @@
   },
   {
     "code": "0052",
+    "adm4": "91.21.03.2009",
     "province_code": "9400",
     "province": "Papua Pegunungan",
     "region": "Mamberamo Tengah",
@@ -409,6 +460,7 @@
   },
   {
     "code": "0053",
+    "adm4": "91.25.03.2014",
     "province_code": "9500",
     "province": "Papua Tengah",
     "region": "Puncak",
@@ -417,6 +469,7 @@
   },
   {
     "code": "0054",
+    "adm4": "32.09.03.2003",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Cirebon",
@@ -425,6 +478,7 @@
   },
   {
     "code": "0055",
+    "adm4": "65.01.09.2010",
     "province_code": "6500",
     "province": "Kalimantan Utara",
     "region": "Bulungan",
@@ -433,6 +487,7 @@
   },
   {
     "code": "0056",
+    "adm4": "16.09.10.2019",
     "province_code": "1600",
     "province": "Sumatera Selatan",
     "region": "Ogan Komering Ulu Selatan",
@@ -441,6 +496,7 @@
   },
   {
     "code": "0057",
+    "adm4": "17.04.07.2010",
     "province_code": "1700",
     "province": "Bengkulu",
     "region": "Kaur",
@@ -449,6 +505,7 @@
   },
   {
     "code": "0058",
+    "adm4": "52.02.12.2006",
     "province_code": "5200",
     "province": "Nusa Tenggara Barat",
     "region": "Lombok Tengah",
@@ -457,6 +514,7 @@
   },
   {
     "code": "0059",
+    "adm4": "72.02.05.2002",
     "province_code": "7200",
     "province": "Sulawesi Tengah",
     "region": "Poso",
@@ -465,6 +523,7 @@
   },
   {
     "code": "0060",
+    "adm4": "14.06.16.2004",
     "province_code": "1400",
     "province": "Riau",
     "region": "Rokan Hulu",
@@ -473,6 +532,7 @@
   },
   {
     "code": "0061",
+    "adm4": "35.77.03.1003",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Kota Madiun",
@@ -481,6 +541,7 @@
   },
   {
     "code": "0062",
+    "adm4": "74.72.06.1010",
     "province_code": "7400",
     "province": "Sulawesi Tenggara",
     "region": "Kota Bau Bau",
@@ -489,6 +550,7 @@
   },
   {
     "code": "0063",
+    "adm4": "13.11.05.2001",
     "province_code": "1300",
     "province": "Sumatera Barat",
     "region": "Solok Selatan",
@@ -497,6 +559,7 @@
   },
   {
     "code": "0064",
+    "adm4": "35.03.05.2014",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Trenggalek",
@@ -505,6 +568,7 @@
   },
   {
     "code": "0065",
+    "adm4": "32.15.01.1003",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Karawang",
@@ -513,6 +577,7 @@
   },
   {
     "code": "0066",
+    "adm4": "76.05.02.2003",
     "province_code": "7600",
     "province": "Sulawesi Barat",
     "region": "Majene",
@@ -521,6 +586,7 @@
   },
   {
     "code": "0067",
+    "adm4": "91.08.25.2010",
     "province_code": "9500",
     "province": "Papua Tengah",
     "region": "Paniai",
@@ -529,6 +595,7 @@
   },
   {
     "code": "0068",
+    "adm4": "61.08.06.2010",
     "province_code": "6100",
     "province": "Kalimantan Barat",
     "region": "Landak",
@@ -537,6 +604,7 @@
   },
   {
     "code": "0069",
+    "adm4": "62.04.01.2005",
     "province_code": "6200",
     "province": "Kalimantan Tengah",
     "region": "Barito Selatan",
@@ -545,6 +613,7 @@
   },
   {
     "code": "0070",
+    "adm4": "16.72.03.1022",
     "province_code": "1600",
     "province": "Sumatera Selatan",
     "region": "Kota Pagar Alam",
@@ -553,6 +622,7 @@
   },
   {
     "code": "0071",
+    "adm4": "73.05.05.2012",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Takalar",
@@ -561,6 +631,7 @@
   },
   {
     "code": "0072",
+    "adm4": "53.21.11.2003",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Malaka",
@@ -569,6 +640,7 @@
   },
   {
     "code": "0073",
+    "adm4": "32.75.10.1002",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Kota Bekasi",
@@ -577,6 +649,7 @@
   },
   {
     "code": "0074",
+    "adm4": "33.03.13.2011",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Purbalingga",
@@ -585,6 +658,7 @@
   },
   {
     "code": "0075",
+    "adm4": "61.01.18.2004",
     "province_code": "6100",
     "province": "Kalimantan Barat",
     "region": "Sambas",
@@ -593,6 +667,7 @@
   },
   {
     "code": "0076",
+    "adm4": "72.01.05.2023",
     "province_code": "7200",
     "province": "Sulawesi Tengah",
     "region": "Banggai",
@@ -601,6 +676,7 @@
   },
   {
     "code": "0077",
+    "adm4": "64.07.07.1021",
     "province_code": "6400",
     "province": "Kalimantan Timur",
     "region": "Kutai Barat",
@@ -609,6 +685,7 @@
   },
   {
     "code": "0078",
+    "adm4": "53.12.15.2010",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Sumba Barat",
@@ -617,6 +694,7 @@
   },
   {
     "code": "0079",
+    "adm4": "14.72.03.1004",
     "province_code": "1400",
     "province": "Riau",
     "region": "Kota Dumai",
@@ -625,6 +703,7 @@
   },
   {
     "code": "0081",
+    "adm4": "64.71.04.1006",
     "province_code": "6400",
     "province": "Kalimantan Timur",
     "region": "Kota Balikpapan",
@@ -633,6 +712,7 @@
   },
   {
     "code": "0082",
+    "adm4": "11.11.09.2013",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Bireuen",
@@ -641,6 +721,7 @@
   },
   {
     "code": "0083",
+    "adm4": "33.05.14.2001",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Kebumen",
@@ -649,6 +730,7 @@
   },
   {
     "code": "0084",
+    "adm4": "74.12.05.2015",
     "province_code": "7400",
     "province": "Sulawesi Tenggara",
     "region": "Konawe Kepulauan",
@@ -657,6 +739,7 @@
   },
   {
     "code": "0085",
+    "adm4": "63.10.04.2023",
     "province_code": "6300",
     "province": "Kalimantan Selatan",
     "region": "Tanah Bumbu",
@@ -665,6 +748,7 @@
   },
   {
     "code": "0086",
+    "adm4": "12.10.09.2008",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Labuhanbatu",
@@ -673,6 +757,7 @@
   },
   {
     "code": "0087",
+    "adm4": "16.10.11.2012",
     "province_code": "1600",
     "province": "Sumatera Selatan",
     "region": "Ogan Ilir",
@@ -681,6 +766,7 @@
   },
   {
     "code": "0088",
+    "adm4": "51.06.04.2020",
     "province_code": "5100",
     "province": "Bali",
     "region": "Bangli",
@@ -689,6 +775,7 @@
   },
   {
     "code": "0089",
+    "adm4": "61.03.10.2001",
     "province_code": "6100",
     "province": "Kalimantan Barat",
     "region": "Sanggau",
@@ -697,6 +784,7 @@
   },
   {
     "code": "0090",
+    "adm4": "None",
     "province_code": "2100",
     "province": "Kepulauan Riau",
     "region": "Natuna",
@@ -705,6 +793,7 @@
   },
   {
     "code": "0091",
+    "adm4": "33.12.17.2010",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Wonogiri",
@@ -713,6 +802,7 @@
   },
   {
     "code": "0092",
+    "adm4": "73.07.01.2007",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Sinjai",
@@ -721,6 +811,7 @@
   },
   {
     "code": "0093",
+    "adm4": "61.05.04.2002",
     "province_code": "6100",
     "province": "Kalimantan Barat",
     "region": "Sintang",
@@ -729,6 +820,7 @@
   },
   {
     "code": "0094",
+    "adm4": "72.10.14.2011",
     "province_code": "7200",
     "province": "Sulawesi Tengah",
     "region": "Sigi",
@@ -737,6 +829,7 @@
   },
   {
     "code": "0095",
+    "adm4": "35.18.05.2009",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Nganjuk",
@@ -745,6 +838,7 @@
   },
   {
     "code": "0096",
+    "adm4": "35.05.21.2007",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Blitar",
@@ -753,6 +847,7 @@
   },
   {
     "code": "0097",
+    "adm4": "16.73.03.1009",
     "province_code": "1600",
     "province": "Sumatera Selatan",
     "region": "Kota Lubuk Linggau",
@@ -761,6 +856,7 @@
   },
   {
     "code": "0098",
+    "adm4": "62.08.01.2005",
     "province_code": "6200",
     "province": "Kalimantan Tengah",
     "region": "Sukamara",
@@ -769,6 +865,7 @@
   },
   {
     "code": "0099",
+    "adm4": "33.10.07.2007",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Klaten",
@@ -777,6 +874,7 @@
   },
   {
     "code": "0100",
+    "adm4": "11.74.03.2007",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Kota Langsa",
@@ -785,6 +883,7 @@
   },
   {
     "code": "0101",
+    "adm4": "91.26.03.2001",
     "province_code": "9500",
     "province": "Papua Tengah",
     "region": "Dogiyai",
@@ -793,6 +892,7 @@
   },
   {
     "code": "0102",
+    "adm4": "32.71.03.1008",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Kota Bogor",
@@ -801,6 +901,7 @@
   },
   {
     "code": "0103",
+    "adm4": "15.02.18.2003",
     "province_code": "1500",
     "province": "Jambi",
     "region": "Merangin",
@@ -809,6 +910,7 @@
   },
   {
     "code": "0104",
+    "adm4": "92.02.15.2014",
     "province_code": "9100",
     "province": "Papua Barat",
     "region": "Manokwari",
@@ -817,6 +919,7 @@
   },
   {
     "code": "0105",
+    "adm4": "32.07.13.2005",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Ciamis",
@@ -825,6 +928,7 @@
   },
   {
     "code": "0106",
+    "adm4": "91.10.04.2014",
     "province_code": "9400",
     "province": "Papua",
     "region": "Sarmi",
@@ -833,6 +937,7 @@
   },
   {
     "code": "0107",
+    "adm4": "63.01.02.2007",
     "province_code": "6300",
     "province": "Kalimantan Selatan",
     "region": "Tanah Laut",
@@ -841,6 +946,7 @@
   },
   {
     "code": "0108",
+    "adm4": "71.02.09.2008",
     "province_code": "7100",
     "province": "Sulawesi Utara",
     "region": "Minahasa",
@@ -849,6 +955,7 @@
   },
   {
     "code": "0109",
+    "adm4": "73.18.01.2017",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Tana Toraja",
@@ -857,6 +964,7 @@
   },
   {
     "code": "0110",
+    "adm4": "75.05.02.2021",
     "province_code": "7500",
     "province": "Gorontalo",
     "region": "Gorontalo Utara",
@@ -865,6 +973,7 @@
   },
   {
     "code": "0111",
+    "adm4": "19.05.01.2005",
     "province_code": "1900",
     "province": "Kepulauan Bangka Belitung",
     "region": "Bangka Barat",
@@ -873,6 +982,7 @@
   },
   {
     "code": "0112",
+    "adm4": "51.71.02.1010",
     "province_code": "5100",
     "province": "Bali",
     "region": "Kota Denpasar",
@@ -881,6 +991,7 @@
   },
   {
     "code": "0113",
+    "adm4": "17.05.03.2012",
     "province_code": "1700",
     "province": "Bengkulu",
     "region": "Seluma",
@@ -889,6 +1000,7 @@
   },
   {
     "code": "0114",
+    "adm4": "82.06.04.2018",
     "province_code": "8200",
     "province": "Maluku Utara",
     "region": "Halmahera Timur",
@@ -897,6 +1009,7 @@
   },
   {
     "code": "0115",
+    "adm4": "36.73.05.1004",
     "province_code": "3200",
     "province": "Banten",
     "region": "Kota Serang",
@@ -905,6 +1018,7 @@
   },
   {
     "code": "0116",
+    "adm4": "15.07.04.2007",
     "province_code": "1500",
     "province": "Jambi",
     "region": "Tanjung Jabung Timur",
@@ -913,6 +1027,7 @@
   },
   {
     "code": "0117",
+    "adm4": "13.02.07.2007",
     "province_code": "1300",
     "province": "Sumatera Barat",
     "region": "Solok",
@@ -921,6 +1036,7 @@
   },
   {
     "code": "0118",
+    "adm4": "16.13.04.2007",
     "province_code": "1600",
     "province": "Sumatera Selatan",
     "region": "Musi Rawas Utara",
@@ -929,6 +1045,7 @@
   },
   {
     "code": "0119",
+    "adm4": "63.03.06.2023",
     "province_code": "3200",
     "province": "Kalimantan Selatan",
     "region": "Banjar",
@@ -937,6 +1054,7 @@
   },
   {
     "code": "0120",
+    "adm4": "17.09.09.2002",
     "province_code": "1700",
     "province": "Bengkulu",
     "region": "Bengkulu Tengah",
@@ -945,6 +1063,7 @@
   },
   {
     "code": "0121",
+    "adm4": "32.74.02.1004",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Kota Cirebon",
@@ -953,6 +1072,7 @@
   },
   {
     "code": "0122",
+    "adm4": "81.08.07.2004",
     "province_code": "8100",
     "province": "Maluku",
     "region": "Maluku Barat Daya",
@@ -961,6 +1081,7 @@
   },
   {
     "code": "0123",
+    "adm4": "21.04.04.2009",
     "province_code": "2100",
     "province": "Kepulauan Riau",
     "region": "Lingga",
@@ -969,6 +1090,7 @@
   },
   {
     "code": "0124",
+    "adm4": "11.16.04.2013",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Aceh Tamiang",
@@ -977,6 +1099,7 @@
   },
   {
     "code": "0125",
+    "adm4": "52.08.04.2011",
     "province_code": "5200",
     "province": "Nusa Tenggara Barat",
     "region": "Lombok Utara",
@@ -985,6 +1108,7 @@
   },
   {
     "code": "0126",
+    "adm4": "91.18.23.2004",
     "province_code": "9300",
     "province": "Papua Selatan",
     "region": "Asmat",
@@ -993,6 +1117,7 @@
   },
   {
     "code": "0127",
+    "adm4": "33.11.01.2007",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Sukoharjo",
@@ -1001,6 +1126,7 @@
   },
   {
     "code": "0128",
+    "adm4": "32.79.02.1001",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Kota Banjar",
@@ -1009,6 +1135,7 @@
   },
   {
     "code": "0129",
+    "adm4": "73.73.07.1002",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Kota Palopo",
@@ -1017,6 +1144,7 @@
   },
   {
     "code": "0130",
+    "adm4": "63.09.07.2008",
     "province_code": "6300",
     "province": "Kalimantan Selatan",
     "region": "Tabalong",
@@ -1025,6 +1153,7 @@
   },
   {
     "code": "0131",
+    "adm4": "35.11.05.2001",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Bondowoso",
@@ -1033,6 +1162,7 @@
   },
   {
     "code": "0132",
+    "adm4": "75.02.07.2005",
     "province_code": "7500",
     "province": "Gorontalo",
     "region": "Boalemo",
@@ -1041,6 +1171,7 @@
   },
   {
     "code": "0133",
+    "adm4": "15.72.08.1005",
     "province_code": "1500",
     "province": "Jambi",
     "region": "Kota Sungai Penuh",
@@ -1049,6 +1180,7 @@
   },
   {
     "code": "0134",
+    "adm4": "17.07.12.2006",
     "province_code": "1700",
     "province": "Bengkulu",
     "region": "Lebong",
@@ -1057,6 +1189,7 @@
   },
   {
     "code": "0136",
+    "adm4": "12.12.23.2005",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Toba",
@@ -1065,6 +1198,7 @@
   },
   {
     "code": "0138",
+    "adm4": "91.05.10.2006",
     "province_code": "9400",
     "province": "Papua",
     "region": "Kepulauan Yapen",
@@ -1073,6 +1207,7 @@
   },
   {
     "code": "0139",
+    "adm4": "16.12.03.2005",
     "province_code": "1600",
     "province": "Sumatera Selatan",
     "region": "Penukal Abab Lematang Ilir",
@@ -1081,6 +1216,7 @@
   },
   {
     "code": "0140",
+    "adm4": "35.08.20.2005",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Lumajang",
@@ -1089,6 +1225,7 @@
   },
   {
     "code": "0141",
+    "adm4": "73.26.18.2007",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Toraja Utara",
@@ -1097,6 +1234,7 @@
   },
   {
     "code": "0142",
+    "adm4": "16.08.14.2006",
     "province_code": "1600",
     "province": "Sumatera Selatan",
     "region": "Ogan Komering Ulu Timur",
@@ -1105,6 +1243,7 @@
   },
   {
     "code": "0143",
+    "adm4": "53.13.03.2003",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Lembata",
@@ -1113,6 +1252,7 @@
   },
   {
     "code": "0144",
+    "adm4": "91.16.18.2005",
     "province_code": "9300",
     "province": "Papua Selatan",
     "region": "Boven Digoel",
@@ -1121,6 +1261,7 @@
   },
   {
     "code": "0145",
+    "adm4": "35.25.12.2011",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Gresik",
@@ -1129,6 +1270,7 @@
   },
   {
     "code": "0146",
+    "adm4": "81.71.01.2004",
     "province_code": "8100",
     "province": "Maluku",
     "region": "Kota Ambon",
@@ -1137,6 +1279,7 @@
   },
   {
     "code": "0147",
+    "adm4": "12.15.06.2002",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Pakpak Bharat",
@@ -1145,6 +1288,7 @@
   },
   {
     "code": "0148",
+    "adm4": "53.14.04.2013",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Rote Ndao",
@@ -1153,6 +1297,7 @@
   },
   {
     "code": "0149",
+    "adm4": "33.21.01.2014",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Demak",
@@ -1161,6 +1306,7 @@
   },
   {
     "code": "0150",
+    "adm4": "64.08.08.2004",
     "province_code": "6400",
     "province": "Kalimantan Timur",
     "region": "Kutai Timur",
@@ -1169,6 +1315,7 @@
   },
   {
     "code": "0151",
+    "adm4": "11.02.16.2017",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Aceh Tenggara",
@@ -1177,6 +1324,7 @@
   },
   {
     "code": "0152",
+    "adm4": "74.09.05.2006",
     "province_code": "7400",
     "province": "Sulawesi Tenggara",
     "region": "Konawe Utara",
@@ -1185,6 +1333,7 @@
   },
   {
     "code": "0153",
+    "adm4": "73.13.04.2006",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Wajo",
@@ -1193,6 +1342,7 @@
   },
   {
     "code": "0154",
+    "adm4": "62.06.10.2016",
     "province_code": "6200",
     "province": "Kalimantan Tengah",
     "region": "Katingan",
@@ -1201,6 +1351,7 @@
   },
   {
     "code": "0155",
+    "adm4": "74.10.02.2011",
     "province_code": "7400",
     "province": "Sulawesi Tenggara",
     "region": "Buton Utara",
@@ -1209,6 +1360,7 @@
   },
   {
     "code": "0156",
+    "adm4": "72.03.10.2005",
     "province_code": "7200",
     "province": "Sulawesi Tengah",
     "region": "Donggala",
@@ -1217,6 +1369,7 @@
   },
   {
     "code": "0157",
+    "adm4": "63.08.09.2003",
     "province_code": "6300",
     "province": "Kalimantan Selatan",
     "region": "Hulu Sungai Utara",
@@ -1225,6 +1378,7 @@
   },
   {
     "code": "0158",
+    "adm4": "15.01.16.2014",
     "province_code": "1500",
     "province": "Jambi",
     "region": "Kerinci",
@@ -1233,6 +1387,7 @@
   },
   {
     "code": "0159",
+    "adm4": "18.03.16.2006",
     "province_code": "1800",
     "province": "Lampung",
     "region": "Lampung Utara",
@@ -1241,6 +1396,7 @@
   },
   {
     "code": "0160",
+    "adm4": "32.18.07.2002",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Pangandaran",
@@ -1249,6 +1405,7 @@
   },
   {
     "code": "0161",
+    "adm4": "35.27.03.2002",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Sampang",
@@ -1257,6 +1414,7 @@
   },
   {
     "code": "0162",
+    "adm4": "13.10.11.2005",
     "province_code": "1300",
     "province": "Sumatera Barat",
     "region": "Dharmasraya",
@@ -1265,6 +1423,7 @@
   },
   {
     "code": "0163",
+    "adm4": "17.02.19.1008",
     "province_code": "1700",
     "province": "Bengkulu",
     "region": "Rejang Lebong",
@@ -1273,6 +1432,7 @@
   },
   {
     "code": "0164",
+    "adm4": "82.07.01.2018",
     "province_code": "8200",
     "province": "Maluku Utara",
     "region": "Pulau Morotai",
@@ -1281,6 +1441,7 @@
   },
   {
     "code": "0165",
+    "adm4": "91.15.10.2007",
     "province_code": "8100",
     "province": "Papua",
     "region": "Waropen",
@@ -1289,6 +1450,7 @@
   },
   {
     "code": "0166",
+    "adm4": "92.04.21.2003",
     "province_code": "9100",
     "province": "Papua Barat Daya",
     "region": "Sorong Selatan",
@@ -1297,6 +1459,7 @@
   },
   {
     "code": "0167",
+    "adm4": "36.02.21.2011",
     "province_code": "3600",
     "province": "Banten",
     "region": "Lebak",
@@ -1305,6 +1468,7 @@
   },
   {
     "code": "0168",
+    "adm4": "33.01.06.2008",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Cilacap",
@@ -1313,6 +1477,7 @@
   },
   {
     "code": "0169",
+    "adm4": "31.75.04.1005",
     "province_code": "3100",
     "province": "DKI Jakarta",
     "region": "Kota Administrasi Jakarta Timur",
@@ -1321,6 +1486,7 @@
   },
   {
     "code": "0170",
+    "adm4": "18.05.12.2013",
     "province_code": "1800",
     "province": "Lampung",
     "region": "Tulang Bawang",
@@ -1329,6 +1495,7 @@
   },
   {
     "code": "0171",
+    "adm4": "33.72.05.1001",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Kota Surakarta",
@@ -1337,6 +1504,7 @@
   },
   {
     "code": "0172",
+    "adm4": "74.08.05.2018",
     "province_code": "7400",
     "province": "Sulawesi Tenggara",
     "region": "Kolaka Utara",
@@ -1345,6 +1513,7 @@
   },
   {
     "code": "0173",
+    "adm4": "53.04.02.2001",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Belu",
@@ -1353,6 +1522,7 @@
   },
   {
     "code": "0174",
+    "adm4": "12.05.02.2008",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Langkat",
@@ -1361,6 +1531,7 @@
   },
   {
     "code": "0175",
+    "adm4": "31.73.04.1007",
     "province_code": "3100",
     "province": "DKI Jakarta",
     "region": "Kota Administrasi Jakarta Barat",
@@ -1369,6 +1540,7 @@
   },
   {
     "code": "0176",
+    "adm4": "91.71.01.1007",
     "province_code": "9400",
     "province": "Papua",
     "region": "Kota Jayapura",
@@ -1377,6 +1549,7 @@
   },
   {
     "code": "0177",
+    "adm4": "35.71.02.1002",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Kota Kediri",
@@ -1385,6 +1558,7 @@
   },
   {
     "code": "0178",
+    "adm4": "35.09.17.2004",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Jember",
@@ -1393,6 +1567,7 @@
   },
   {
     "code": "0179",
+    "adm4": "18.09.02.2007",
     "province_code": "1800",
     "province": "Lampung",
     "region": "Pesawaran",
@@ -1401,6 +1576,7 @@
   },
   {
     "code": "0181",
+    "adm4": "35.16.08.2003",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Mojokerto",
@@ -1409,6 +1585,7 @@
   },
   {
     "code": "0182",
+    "adm4": "76.02.13.2007",
     "province_code": "7600",
     "province": "Sulawesi Barat",
     "region": "Mamuju",
@@ -1417,6 +1594,7 @@
   },
   {
     "code": "0183",
+    "adm4": "72.11.07.2007",
     "province_code": "7200",
     "province": "Sulawesi Tengah",
     "region": "Banggai Laut",
@@ -1425,6 +1603,7 @@
   },
   {
     "code": "0184",
+    "adm4": "33.29.05.2009",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Brebes",
@@ -1433,6 +1612,7 @@
   },
   {
     "code": "0185",
+    "adm4": "61.04.04.2006",
     "province_code": "6100",
     "province": "Kalimantan Barat",
     "region": "Ketapang",
@@ -1441,6 +1621,7 @@
   },
   {
     "code": "0186",
+    "adm4": "11.14.06.2013",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Aceh Jaya",
@@ -1449,6 +1630,7 @@
   },
   {
     "code": "0187",
+    "adm4": "53.05.04.2006",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Alor",
@@ -1457,6 +1639,7 @@
   },
   {
     "code": "0188",
+    "adm4": "73.11.04.2007",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Barru",
@@ -1465,6 +1648,7 @@
   },
   {
     "code": "0189",
+    "adm4": "13.76.03.1001",
     "province_code": "1300",
     "province": "Sumatera Barat",
     "region": "Kota Payakumbuh",
@@ -1473,6 +1657,7 @@
   },
   {
     "code": "0190",
+    "adm4": "71.71.10.1004",
     "province_code": "7100",
     "province": "Sulawesi Utara",
     "region": "Kota Manado",
@@ -1481,6 +1666,7 @@
   },
   {
     "code": "0191",
+    "adm4": "17.01.09.2002",
     "province_code": "1700",
     "province": "Bengkulu",
     "region": "Bengkulu Selatan",
@@ -1489,6 +1675,7 @@
   },
   {
     "code": "0192",
+    "adm4": "91.12.16.2005",
     "province_code": "9600",
     "province": "Papua Pegunungan",
     "region": "Pegunungan Bintang",
@@ -1497,6 +1684,7 @@
   },
   {
     "code": "0193",
+    "adm4": "33.07.03.2016",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Wonosobo",
@@ -1505,6 +1693,7 @@
   },
   {
     "code": "0194",
+    "adm4": "72.12.04.2005",
     "province_code": "7200",
     "province": "Sulawesi Tengah",
     "region": "Morowali Utara",
@@ -1513,6 +1702,7 @@
   },
   {
     "code": "0195",
+    "adm4": "82.05.12.2004",
     "province_code": "8200",
     "province": "Maluku Utara",
     "region": "Kepulauan Sula",
@@ -1521,6 +1711,7 @@
   },
   {
     "code": "0196",
+    "adm4": "62.71.02.1004",
     "province_code": "6200",
     "province": "Kalimantan Tengah",
     "region": "Kota Palangkaraya",
@@ -1529,6 +1720,7 @@
   },
   {
     "code": "0197",
+    "adm4": "31.74.03.1002",
     "province_code": "3100",
     "province": "DKI Jakarta",
     "region": "Kota Administrasi Jakarta Selatan",
@@ -1537,6 +1729,7 @@
   },
   {
     "code": "0198",
+    "adm4": "12.20.03.2009",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Padang Lawas Utara",
@@ -1545,6 +1738,7 @@
   },
   {
     "code": "0199",
+    "adm4": "91.13.40.2008",
     "province_code": "9600",
     "province": "Papua Pegunungan",
     "region": "Yahukimo",
@@ -1553,6 +1747,7 @@
   },
   {
     "code": "0200",
+    "adm4": "11.13.01.2027",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Gayo Lues",
@@ -1561,6 +1756,7 @@
   },
   {
     "code": "0201",
+    "adm4": "11.18.06.2038",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Pidie Jaya",
@@ -1569,6 +1765,7 @@
   },
   {
     "code": "0202",
+    "adm4": "91.24.28.2006",
     "province_code": "9600",
     "province": "Papua Pegunungan",
     "region": "Nduga",
@@ -1577,6 +1774,7 @@
   },
   {
     "code": "0203",
+    "adm4": "17.06.08.2012",
     "province_code": "1700",
     "province": "Bengkulu",
     "region": "Muko Muko",
@@ -1585,6 +1783,7 @@
   },
   {
     "code": "0204",
+    "adm4": "18.04.23.2006",
     "province_code": "1800",
     "province": "Lampung",
     "region": "Lampung Barat",
@@ -1593,6 +1792,7 @@
   },
   {
     "code": "0205",
+    "adm4": "32.01.36.2004",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Bogor",
@@ -1601,6 +1801,7 @@
   },
   {
     "code": "0206",
+    "adm4": "92.03.13.2001",
     "province_code": "9100",
     "province": "Papua Barat",
     "region": "Fak Fak",
@@ -1609,6 +1810,7 @@
   },
   {
     "code": "0207",
+    "adm4": "13.01.09.2002",
     "province_code": "1300",
     "province": "Sumatera Barat",
     "region": "Pesisir Selatan",
@@ -1617,6 +1819,7 @@
   },
   {
     "code": "0208",
+    "adm4": "73.17.08.2002",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Luwu",
@@ -1625,6 +1828,7 @@
   },
   {
     "code": "0209",
+    "adm4": "32.10.03.2008",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Majalengka",
@@ -1633,6 +1837,7 @@
   },
   {
     "code": "0210",
+    "adm4": "71.04.09.2004",
     "province_code": "7100",
     "province": "Sulawesi Utara",
     "region": "Kepulauan Talaud",
@@ -1641,6 +1846,7 @@
   },
   {
     "code": "0211",
+    "adm4": "16.03.14.2020",
     "province_code": "1600",
     "province": "Sumatera Selatan",
     "region": "Muara Enim",
@@ -1649,6 +1855,7 @@
   },
   {
     "code": "0213",
+    "adm4": "72.07.11.2001",
     "province_code": "7200",
     "province": "Sulawesi Tengah",
     "region": "Banggai Kepulauan",
@@ -1657,6 +1864,7 @@
   },
   {
     "code": "0214",
+    "adm4": "63.06.05.2016",
     "province_code": "6300",
     "province": "Kalimantan Selatan",
     "region": "Hulu Sungai Selatan",
@@ -1665,6 +1873,7 @@
   },
   {
     "code": "0215",
+    "adm4": "12.21.14.2010",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Padang Lawas",
@@ -1673,6 +1882,7 @@
   },
   {
     "code": "0216",
+    "adm4": "32.76.05.1003",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Kota Depok",
@@ -1681,6 +1891,7 @@
   },
   {
     "code": "0217",
+    "adm4": "82.03.09.2003",
     "province_code": "8200",
     "province": "Maluku Utara",
     "region": "Halmahera Utara",
@@ -1689,6 +1900,7 @@
   },
   {
     "code": "0218",
+    "adm4": "12.14.22.2010",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Nias Selatan",
@@ -1697,6 +1909,7 @@
   },
   {
     "code": "0219",
+    "adm4": "18.72.01.1004",
     "province_code": "1800",
     "province": "Lampung",
     "region": "Kota Metro",
@@ -1705,6 +1918,7 @@
   },
   {
     "code": "0220",
+    "adm4": "35.78.08.1003",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Kota Surabaya",
@@ -1713,6 +1927,7 @@
   },
   {
     "code": "0221",
+    "adm4": "64.03.01.2014",
     "province_code": "6400",
     "province": "Kalimantan Timur",
     "region": "Berau",
@@ -1721,6 +1936,7 @@
   },
   {
     "code": "0222",
+    "adm4": "91.23.28.2001",
     "province_code": "9600",
     "province": "Papua Pegunungan",
     "region": "Lanny Jaya",
@@ -1729,6 +1945,7 @@
   },
   {
     "code": "0223",
+    "adm4": "19.71.01.1007",
     "province_code": "1900",
     "province": "Kepulauan Bangka Belitung",
     "region": "Kota Pangkal Pinang",
@@ -1737,6 +1954,7 @@
   },
   {
     "code": "0224",
+    "adm4": "73.06.01.2006",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Gowa",
@@ -1745,6 +1963,7 @@
   },
   {
     "code": "0225",
+    "adm4": "63.11.08.2012",
     "province_code": "6300",
     "province": "Kalimantan Selatan",
     "region": "Balangan",
@@ -1753,6 +1972,7 @@
   },
   {
     "code": "0226",
+    "adm4": "35.20.01.1005",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Magetan",
@@ -1761,6 +1981,7 @@
   },
   {
     "code": "0227",
+    "adm4": "21.05.06.2006",
     "province_code": "2100",
     "province": "Kepulauan Riau",
     "region": "Kepulauan Anambas",
@@ -1769,6 +1990,7 @@
   },
   {
     "code": "0228",
+    "adm4": "82.08.04.2012",
     "province_code": "8200",
     "province": "Maluku Utara",
     "region": "Pulau Taliabu",
@@ -1777,6 +1999,7 @@
   },
   {
     "code": "0229",
+    "adm4": "53.03.21.2005",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Timor Tengah Utara",
@@ -1785,6 +2008,7 @@
   },
   {
     "code": "0230",
+    "adm4": "62.11.05.2004",
     "province_code": "6200",
     "province": "Kalimantan Tengah",
     "region": "Pulang Pisau",
@@ -1793,6 +2017,7 @@
   },
   {
     "code": "0231",
+    "adm4": "81.09.04.2009",
     "province_code": "8200",
     "province": "Maluku",
     "region": "Buru Selatan",
@@ -1801,6 +2026,7 @@
   },
   {
     "code": "0232",
+    "adm4": "16.74.05.1005",
     "province_code": "1600",
     "province": "Sumatera Selatan",
     "region": "Kota Prabumulih",
@@ -1809,6 +2035,7 @@
   },
   {
     "code": "0233",
+    "adm4": "74.04.24.2006",
     "province_code": "7400",
     "province": "Sulawesi Tenggara",
     "region": "Buton",
@@ -1817,6 +2044,7 @@
   },
   {
     "code": "0234",
+    "adm4": "32.13.29.2004",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Subang",
@@ -1825,6 +2053,7 @@
   },
   {
     "code": "0235",
+    "adm4": "91.02.27.2002",
     "province_code": "9600",
     "province": "Papua Pegunungan",
     "region": "Jayawijaya",
@@ -1833,6 +2062,7 @@
   },
   {
     "code": "0236",
+    "adm4": "62.05.01.2005",
     "province_code": "6200",
     "province": "Kalimantan Tengah",
     "region": "Barito Utara",
@@ -1841,6 +2071,7 @@
   },
   {
     "code": "0237",
+    "adm4": "17.03.19.2008",
     "province_code": "1700",
     "province": "Bengkulu",
     "region": "Bengkulu Utara",
@@ -1849,6 +2080,7 @@
   },
   {
     "code": "0238",
+    "adm4": "18.13.07.2010",
     "province_code": "1800",
     "province": "Lampung",
     "region": "Pesisir Barat",
@@ -1857,6 +2089,7 @@
   },
   {
     "code": "0239",
+    "adm4": "35.07.23.2005",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Malang",
@@ -1865,6 +2098,7 @@
   },
   {
     "code": "0240",
+    "adm4": "52.03.12.2005",
     "province_code": "5200",
     "province": "Nusa Tenggara Barat",
     "region": "Lombok Timur",
@@ -1873,6 +2107,7 @@
   },
   {
     "code": "0241",
+    "adm4": "11.12.02.2001",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Aceh Barat Daya",
@@ -1881,6 +2116,7 @@
   },
   {
     "code": "0243",
+    "adm4": "35.24.11.2010",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Lamongan",
@@ -1889,6 +2125,7 @@
   },
   {
     "code": "0244",
+    "adm4": "32.02.44.2002",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Sukabumi",
@@ -1897,6 +2134,7 @@
   },
   {
     "code": "0245",
+    "adm4": "16.11.10.2007",
     "province_code": "1600",
     "province": "Sumatera Selatan",
     "region": "Empat Lawang",
@@ -1905,6 +2143,7 @@
   },
   {
     "code": "0246",
+    "adm4": "64.02.11.2012",
     "province_code": "6400",
     "province": "Kalimantan Timur",
     "region": "Kutai Kartanegara",
@@ -1913,6 +2152,7 @@
   },
   {
     "code": "0247",
+    "adm4": "71.05.16.2005",
     "province_code": "7100",
     "province": "Sulawesi Utara",
     "region": "Minahasa Selatan",
@@ -1921,6 +2161,7 @@
   },
   {
     "code": "0248",
+    "adm4": "11.10.12.2005",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Aceh Singkil",
@@ -1929,6 +2170,7 @@
   },
   {
     "code": "0249",
+    "adm4": "75.71.02.1010",
     "province_code": "7500",
     "province": "Gorontalo",
     "region": "Kota Gorontalo",
@@ -1937,6 +2179,7 @@
   },
   {
     "code": "0250",
+    "adm4": "81.02.13.2005",
     "province_code": "8100",
     "province": "Maluku",
     "region": "Maluku Tenggara",
@@ -1945,6 +2188,7 @@
   },
   {
     "code": "0251",
+    "adm4": "81.03.07.2001",
     "province_code": "8100",
     "province": "Maluku",
     "region": "Kepulauan Tanimbar",
@@ -1953,6 +2197,7 @@
   },
   {
     "code": "0252",
+    "adm4": "16.06.05.2001",
     "province_code": "1600",
     "province": "Sumatera Selatan",
     "region": "Musi Banyuasin",
@@ -1961,6 +2206,7 @@
   },
   {
     "code": "0253",
+    "adm4": "14.01.10.2012",
     "province_code": "1400",
     "province": "Riau",
     "region": "Kampar",
@@ -1969,6 +2215,7 @@
   },
   {
     "code": "0254",
+    "adm4": "53.07.04.2002",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Sikka",
@@ -1977,6 +2224,7 @@
   },
   {
     "code": "0255",
+    "adm4": "16.05.20.2009",
     "province_code": "1600",
     "province": "Sumatera Selatan",
     "region": "Musi Rawas",
@@ -1985,6 +2233,7 @@
   },
   {
     "code": "0256",
+    "adm4": "12.23.04.2007",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Labuhanbatu Utara",
@@ -1993,6 +2242,7 @@
   },
   {
     "code": "0257",
+    "adm4": "72.04.08.2006",
     "province_code": "7200",
     "province": "Sulawesi Tengah",
     "region": "Toli Toli",
@@ -2001,6 +2251,7 @@
   },
   {
     "code": "0258",
+    "adm4": "62.13.08.2009",
     "province_code": "6200",
     "province": "Kalimantan Tengah",
     "region": "Barito Timur",
@@ -2009,6 +2260,7 @@
   },
   {
     "code": "0259",
+    "adm4": "13.06.07.2005",
     "province_code": "1300",
     "province": "Sumatera Barat",
     "region": "Agam",
@@ -2017,6 +2269,7 @@
   },
   {
     "code": "0260",
+    "adm4": "82.04.06.2014",
     "province_code": "8200",
     "province": "Maluku Utara",
     "region": "Halmahera Selatan",
@@ -2025,6 +2278,7 @@
   },
   {
     "code": "0261",
+    "adm4": "12.72.08.1003",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Kota Pematangsiantar",
@@ -2033,6 +2287,7 @@
   },
   {
     "code": "0262",
+    "adm4": "12.11.09.2003",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Dairi",
@@ -2041,6 +2296,7 @@
   },
   {
     "code": "0263",
+    "adm4": "61.12.06.2006",
     "province_code": "6100",
     "province": "Kalimantan Barat",
     "region": "Kubu Raya",
@@ -2049,6 +2305,7 @@
   },
   {
     "code": "0264",
+    "adm4": "12.07.02.2008",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Deli Serdang",
@@ -2057,6 +2314,7 @@
   },
   {
     "code": "0265",
+    "adm4": "21.72.01.1003",
     "province_code": "2100",
     "province": "Kepulauan Riau",
     "region": "Kota Tanjung Pinang",
@@ -2065,6 +2323,7 @@
   },
   {
     "code": "0266",
+    "adm4": "92.06.16.2001",
     "province_code": "9100",
     "province": "Papua Barat",
     "region": "Teluk Bintuni",
@@ -2073,6 +2332,7 @@
   },
   {
     "code": "0267",
+    "adm4": "92.12.09.2009",
     "province_code": "9100",
     "province": "Papua Barat",
     "region": "Pegunungan Arfak",
@@ -2081,6 +2341,7 @@
   },
   {
     "code": "0268",
+    "adm4": "32.11.01.2004",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Sumedang",
@@ -2089,6 +2350,7 @@
   },
   {
     "code": "0269",
+    "adm4": "35.19.10.2008",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Madiun",
@@ -2097,6 +2359,7 @@
   },
   {
     "code": "0270",
+    "adm4": "15.08.06.2002",
     "province_code": "1500",
     "province": "Jambi",
     "region": "Bungo",
@@ -2105,6 +2368,7 @@
   },
   {
     "code": "0271",
+    "adm4": "11.04.01.2036",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Aceh Tengah",
@@ -2113,6 +2377,7 @@
   },
   {
     "code": "0272",
+    "adm4": "73.01.03.2007",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Kepulauan Selayar",
@@ -2121,6 +2386,7 @@
   },
   {
     "code": "0273",
+    "adm4": "74.01.20.2006",
     "province_code": "7400",
     "province": "Sulawesi Tenggara",
     "region": "Kolaka",
@@ -2129,6 +2395,7 @@
   },
   {
     "code": "0274",
+    "adm4": "73.04.07.2012",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Jeneponto",
@@ -2137,6 +2404,7 @@
   },
   {
     "code": "0275",
+    "adm4": "32.72.06.1004",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Kota Sukabumi",
@@ -2145,6 +2413,7 @@
   },
   {
     "code": "0276",
+    "adm4": "14.05.01.2002",
     "province_code": "1400",
     "province": "Riau",
     "region": "Pelalawan",
@@ -2153,6 +2422,7 @@
   },
   {
     "code": "0278",
+    "adm4": "18.10.03.2006",
     "province_code": "1800",
     "province": "Lampung",
     "region": "Pringsewu",
@@ -2161,6 +2431,7 @@
   },
   {
     "code": "0279",
+    "adm4": "35.14.22.2003",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Pasuruan",
@@ -2169,6 +2440,7 @@
   },
   {
     "code": "0280",
+    "adm4": "15.03.09.2012",
     "province_code": "1500",
     "province": "Jambi",
     "region": "Sarolangun",
@@ -2177,6 +2449,7 @@
   },
   {
     "code": "0281",
+    "adm4": "74.05.05.2022",
     "province_code": "7400",
     "province": "Sulawesi Tenggara",
     "region": "Konawe Selatan",
@@ -2185,6 +2458,7 @@
   },
   {
     "code": "0282",
+    "adm4": "21.01.10.2002",
     "province_code": "1400",
     "province": "Kepulauan Riau",
     "region": "Bintan",
@@ -2193,6 +2467,7 @@
   },
   {
     "code": "0284",
+    "adm4": "52.01.01.2007",
     "province_code": "5200",
     "province": "Nusa Tenggara Barat",
     "region": "Lombok Barat",
@@ -2201,6 +2476,7 @@
   },
   {
     "code": "0285",
+    "adm4": "11.75.03.2015",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Kota Subulussalam",
@@ -2209,6 +2485,7 @@
   },
   {
     "code": "0286",
+    "adm4": "74.06.11.2004",
     "province_code": "7400",
     "province": "Sulawesi Tenggara",
     "region": "Bombana",
@@ -2217,6 +2494,7 @@
   },
   {
     "code": "0287",
+    "adm4": "14.09.01.2004",
     "province_code": "1400",
     "province": "Riau",
     "region": "Kuantan Singingi",
@@ -2225,6 +2503,7 @@
   },
   {
     "code": "0288",
+    "adm4": "75.03.13.2005",
     "province_code": "7500",
     "province": "Gorontalo",
     "region": "Bone Bolango",
@@ -2233,6 +2512,7 @@
   },
   {
     "code": "0289",
+    "adm4": "73.24.03.2007",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Luwu Timur",
@@ -2241,6 +2521,7 @@
   },
   {
     "code": "0290",
+    "adm4": "91.01.03.2020",
     "province_code": "9300",
     "province": "Papua Selatan",
     "region": "Merauke",
@@ -2249,6 +2530,7 @@
   },
   {
     "code": "0291",
+    "adm4": "91.14.40.2006",
     "province_code": "9600",
     "province": "Papua Pegunungan",
     "region": "Tolikara",
@@ -2257,6 +2539,7 @@
   },
   {
     "code": "0292",
+    "adm4": "12.09.14.2010",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Asahan",
@@ -2265,6 +2548,7 @@
   },
   {
     "code": "0293",
+    "adm4": "35.72.01.1006",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Kota Blitar",
@@ -2273,6 +2557,7 @@
   },
   {
     "code": "0294",
+    "adm4": "91.27.04.2011",
     "province_code": "9500",
     "province": "Papua Tengah",
     "region": "Intan Jaya",
@@ -2281,6 +2566,7 @@
   },
   {
     "code": "0295",
+    "adm4": "91.19.05.2004",
     "province_code": "9400",
     "province": "Papua",
     "region": "Supiori",
@@ -2289,6 +2575,7 @@
   },
   {
     "code": "0296",
+    "adm4": "18.01.04.2012",
     "province_code": "1800",
     "province": "Lampung",
     "region": "Lampung Selatan",
@@ -2297,6 +2584,7 @@
   },
   {
     "code": "0297",
+    "adm4": "52.04.29.2003",
     "province_code": "5200",
     "province": "Nusa Tenggara Barat",
     "region": "Sumbawa",
@@ -2305,6 +2593,7 @@
   },
   {
     "code": "0298",
+    "adm4": "51.05.02.2008",
     "province_code": "5100",
     "province": "Bali",
     "region": "Klungkung",
@@ -2313,6 +2602,7 @@
   },
   {
     "code": "0299",
+    "adm4": "12.17.03.2009",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Samosir",
@@ -2321,6 +2611,7 @@
   },
   {
     "code": "0300",
+    "adm4": "92.09.22.2006",
     "province_code": "9100",
     "province": "Papua Barat Daya",
     "region": "Tambrauw",
@@ -2329,6 +2620,7 @@
   },
   {
     "code": "0301",
+    "adm4": "15.05.11.2006",
     "province_code": "1500",
     "province": "Jambi",
     "region": "Muaro Jambi",
@@ -2337,6 +2629,7 @@
   },
   {
     "code": "0302",
+    "adm4": "33.14.14.2008",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Sragen",
@@ -2345,6 +2638,7 @@
   },
   {
     "code": "0303",
+    "adm4": "11.73.01.2002",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Kota Lhokseumawe",
@@ -2353,6 +2647,7 @@
   },
   {
     "code": "0304",
+    "adm4": "92.01.07.1001",
     "province_code": "9100",
     "province": "Papua Barat Daya",
     "region": "Sorong",
@@ -2361,6 +2656,7 @@
   },
   {
     "code": "0305",
+    "adm4": "12.03.03.2008",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Tapanuli Selatan",
@@ -2369,6 +2665,7 @@
   },
   {
     "code": "0306",
+    "adm4": "32.73.23.1002",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Kota Bandung",
@@ -2377,6 +2674,7 @@
   },
   {
     "code": "0307",
+    "adm4": "82.72.02.2007",
     "province_code": "8200",
     "province": "Maluku Utara",
     "region": "Kota Tidore Kepulauan",
@@ -2385,6 +2683,7 @@
   },
   {
     "code": "0308",
+    "adm4": "33.24.05.2011",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Kendal",
@@ -2393,6 +2692,7 @@
   },
   {
     "code": "0309",
+    "adm4": "82.71.01.1005",
     "province_code": "8200",
     "province": "Maluku Utara",
     "region": "Kota Ternate",
@@ -2401,6 +2701,7 @@
   },
   {
     "code": "0310",
+    "adm4": "32.14.04.2009",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Purwakarta",
@@ -2409,6 +2710,7 @@
   },
   {
     "code": "0311",
+    "adm4": "36.01.09.2006",
     "province_code": "3600",
     "province": "Banten",
     "region": "Pandeglang",
@@ -2417,6 +2719,7 @@
   },
   {
     "code": "0312",
+    "adm4": "91.07.28.2001",
     "province_code": "9500",
     "province": "Papua Tengah",
     "region": "Puncak Jaya",
@@ -2425,6 +2728,7 @@
   },
   {
     "code": "0313",
+    "adm4": "91.03.02.2004",
     "province_code": "9400",
     "province": "Papua",
     "region": "Jayapura",
@@ -2433,6 +2737,7 @@
   },
   {
     "code": "0314",
+    "adm4": "64.11.02.2010",
     "province_code": "6400",
     "province": "Kalimantan Timur",
     "region": "Mahakam Ulu",
@@ -2441,6 +2746,7 @@
   },
   {
     "code": "0315",
+    "adm4": "16.01.13.1011",
     "province_code": "1600",
     "province": "Sumatera Selatan",
     "region": "Ogan Komering Ulu",
@@ -2449,6 +2755,7 @@
   },
   {
     "code": "0316",
+    "adm4": "74.13.06.2004",
     "province_code": "7400",
     "province": "Sulawesi Tenggara",
     "region": "Muna Barat",
@@ -2457,6 +2764,7 @@
   },
   {
     "code": "0317",
+    "adm4": "74.02.40.2004",
     "province_code": "7400",
     "province": "Sulawesi Tenggara",
     "region": "Konawe",
@@ -2465,6 +2773,7 @@
   },
   {
     "code": "0318",
+    "adm4": "53.02.28.2001",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Timor Tengah Selatan",
@@ -2473,6 +2782,7 @@
   },
   {
     "code": "0319",
+    "adm4": "35.22.07.2005",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Bojonegoro",
@@ -2481,6 +2791,7 @@
   },
   {
     "code": "0320",
+    "adm4": "12.18.13.2002",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Serdang Bedagai",
@@ -2489,6 +2800,7 @@
   },
   {
     "code": "0321",
+    "adm4": "33.20.02.2005",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Jepara",
@@ -2497,6 +2809,7 @@
   },
   {
     "code": "0322",
+    "adm4": "76.06.03.2001",
     "province_code": "7600",
     "province": "Sulawesi Barat",
     "region": "Mamuju Tengah",
@@ -2505,6 +2818,7 @@
   },
   {
     "code": "0323",
+    "adm4": "12.13.23.2003",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Mandailing Natal",
@@ -2513,6 +2827,7 @@
   },
   {
     "code": "0324",
+    "adm4": "82.01.01.2018",
     "province_code": "8200",
     "province": "Maluku Utara",
     "region": "Halmahera Barat",
@@ -2521,6 +2836,7 @@
   },
   {
     "code": "0325",
+    "adm4": "36.72.02.1001",
     "province_code": "3600",
     "province": "Banten",
     "region": "Kota Cilegon",
@@ -2529,6 +2845,7 @@
   },
   {
     "code": "0326",
+    "adm4": "35.01.06.2004",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Pacitan",
@@ -2537,6 +2854,7 @@
   },
   {
     "code": "0327",
+    "adm4": "53.10.05.2034",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Manggarai",
@@ -2545,6 +2863,7 @@
   },
   {
     "code": "0328",
+    "adm4": "16.04.29.2002",
     "province_code": "1600",
     "province": "Sumatera Selatan",
     "region": "Lahat",
@@ -2553,6 +2872,7 @@
   },
   {
     "code": "0329",
+    "adm4": "13.07.09.2003",
     "province_code": "1300",
     "province": "Sumatera Barat",
     "region": "Lima Puluh Kota",
@@ -2561,6 +2881,7 @@
   },
   {
     "code": "0330",
+    "adm4": "91.04.06.2016",
     "province_code": "9500",
     "province": "Papua Tengah",
     "region": "Nabire",
@@ -2569,6 +2890,7 @@
   },
   {
     "code": "0331",
+    "adm4": "32.06.27.2009",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Tasikmalaya",
@@ -2577,6 +2899,7 @@
   },
   {
     "code": "0332",
+    "adm4": "65.03.12.2003",
     "province_code": "6500",
     "province": "Kalimantan Utara",
     "region": "Nunukan",
@@ -2585,6 +2908,7 @@
   },
   {
     "code": "0333",
+    "adm4": "33.23.02.2002",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Temanggung",
@@ -2593,6 +2917,7 @@
   },
   {
     "code": "0334",
+    "adm4": "36.74.07.1005",
     "province_code": "3600",
     "province": "Banten",
     "region": "Kota Tangerang Selatan",
@@ -2601,6 +2926,7 @@
   },
   {
     "code": "0335",
+    "adm4": "74.11.10.2001",
     "province_code": "7400",
     "province": "Sulawesi Tenggara",
     "region": "Kolaka Timur",
@@ -2609,6 +2935,7 @@
   },
   {
     "code": "0336",
+    "adm4": "35.23.17.2012",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Tuban",
@@ -2617,6 +2944,7 @@
   },
   {
     "code": "0337",
+    "adm4": "53.18.06.2016",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Sumba Barat Daya",
@@ -2625,6 +2953,7 @@
   },
   {
     "code": "0338",
+    "adm4": "16.71.06.1007",
     "province_code": "1600",
     "province": "Sumatera Selatan",
     "region": "Kota Palembang",
@@ -2633,6 +2962,7 @@
   },
   {
     "code": "0339",
+    "adm4": "62.12.04.2018",
     "province_code": "6200",
     "province": "Kalimantan Tengah",
     "region": "Murung Raya",
@@ -2641,6 +2971,7 @@
   },
   {
     "code": "0340",
+    "adm4": "33.18.01.2002",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Pati",
@@ -2649,6 +2980,7 @@
   },
   {
     "code": "0341",
+    "adm4": "73.09.03.2008",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Maros",
@@ -2657,6 +2989,7 @@
   },
   {
     "code": "0342",
+    "adm4": "72.06.10.2011",
     "province_code": "7200",
     "province": "Sulawesi Tengah",
     "region": "Morowali",
@@ -2665,6 +2998,7 @@
   },
   {
     "code": "0343",
+    "adm4": "19.04.01.1002",
     "province_code": "1900",
     "province": "Kepulauan Bangka Belitung",
     "region": "Bangka Tengah",
@@ -2673,6 +3007,7 @@
   },
   {
     "code": "0344",
+    "adm4": "11.15.08.2001",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Nagan Raya",
@@ -2681,6 +3016,7 @@
   },
   {
     "code": "0345",
+    "adm4": "73.72.03.1007",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Kota Pare Pare",
@@ -2689,6 +3025,7 @@
   },
   {
     "code": "0346",
+    "adm4": "51.03.02.1014",
     "province_code": "5100",
     "province": "Bali",
     "region": "Badung",
@@ -2697,6 +3034,7 @@
   },
   {
     "code": "0347",
+    "adm4": "12.24.05.2004",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Nias Utara",
@@ -2705,6 +3043,7 @@
   },
   {
     "code": "0348",
+    "adm4": "72.05.05.2007",
     "province_code": "7200",
     "province": "Sulawesi Tengah",
     "region": "Buol",
@@ -2713,6 +3052,7 @@
   },
   {
     "code": "0349",
+    "adm4": "71.74.03.2004",
     "province_code": "7100",
     "province": "Sulawesi Utara",
     "region": "Kota Kotamobagu",
@@ -2721,6 +3061,7 @@
   },
   {
     "code": "0350",
+    "adm4": "14.07.08.2003",
     "province_code": "1400",
     "province": "Riau",
     "region": "Rokan Hilir",
@@ -2729,6 +3070,7 @@
   },
   {
     "code": "0351",
+    "adm4": "14.10.01.2006",
     "province_code": "1400",
     "province": "Riau",
     "region": "Kepulauan Meranti",
@@ -2737,6 +3079,7 @@
   },
   {
     "code": "0352",
+    "adm4": "81.01.13.2001",
     "province_code": "8100",
     "province": "Maluku",
     "region": "Maluku Tengah",
@@ -2745,6 +3088,7 @@
   },
   {
     "code": "0353",
+    "adm4": "61.11.01.2004",
     "province_code": "6100",
     "province": "Kalimantan Barat",
     "region": "Kayong Utara",
@@ -2753,6 +3097,7 @@
   },
   {
     "code": "0354",
+    "adm4": "15.09.06.2014",
     "province_code": "1500",
     "province": "Jambi",
     "region": "Tebo",
@@ -2761,6 +3106,7 @@
   },
   {
     "code": "0355",
+    "adm4": "12.01.06.2010",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Tapanuli Tengah",
@@ -2769,6 +3115,7 @@
   },
   {
     "code": "0356",
+    "adm4": "11.07.16.2043",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Pidie",
@@ -2777,6 +3124,7 @@
   },
   {
     "code": "0357",
+    "adm4": "35.75.03.1005",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Kota Pasuruan",
@@ -2785,6 +3133,7 @@
   },
   {
     "code": "0358",
+    "adm4": "51.04.03.1005",
     "province_code": "5100",
     "province": "Bali",
     "region": "Gianyar",
@@ -2793,6 +3142,7 @@
   },
   {
     "code": "0359",
+    "adm4": "73.03.03.2003",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Bantaeng",
@@ -2801,6 +3151,7 @@
   },
   {
     "code": "0360",
+    "adm4": "14.03.09.1001",
     "province_code": "1400",
     "province": "Riau",
     "region": "Bengkalis",
@@ -2809,6 +3160,7 @@
   },
   {
     "code": "0361",
+    "adm4": "64.01.01.2017",
     "province_code": "6400",
     "province": "Kalimantan Timur",
     "region": "Paser",
@@ -2817,6 +3169,7 @@
   },
   {
     "code": "0362",
+    "adm4": "35.79.03.2002",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Kota Batu",
@@ -2825,6 +3178,7 @@
   },
   {
     "code": "0363",
+    "adm4": "91.20.03.2003",
     "province_code": "9400",
     "province": "Papua",
     "region": "Mamberamo Raya",
@@ -2833,6 +3187,7 @@
   },
   {
     "code": "0364",
+    "adm4": "13.77.04.2008",
     "province_code": "1300",
     "province": "Sumatera Barat",
     "region": "Kota Pariaman",
@@ -2841,6 +3196,7 @@
   },
   {
     "code": "0365",
+    "adm4": "13.05.01.2004",
     "province_code": "1300",
     "province": "Sumatera Barat",
     "region": "Padang Pariaman",
@@ -2849,6 +3205,7 @@
   },
   {
     "code": "0366",
+    "adm4": "62.01.03.2001",
     "province_code": "6200",
     "province": "Kalimantan Tengah",
     "region": "Kotawaringin Barat",
@@ -2857,6 +3214,7 @@
   },
   {
     "code": "0367",
+    "adm4": "61.71.04.1003",
     "province_code": "6100",
     "province": "Kalimantan Barat",
     "region": "Kota Pontianak",
@@ -2865,6 +3223,7 @@
   },
   {
     "code": "0368",
+    "adm4": "71.09.01.1012",
     "province_code": "7100",
     "province": "Sulawesi Utara",
     "region": "Kepulauan Siau Tagulandang Biaro",
@@ -2873,6 +3232,7 @@
   },
   {
     "code": "0369",
+    "adm4": "13.71.11.1003",
     "province_code": "1300",
     "province": "Sumatera Barat",
     "region": "Kota Padang",
@@ -2881,6 +3241,7 @@
   },
   {
     "code": "0370",
+    "adm4": "33.19.09.2004",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Kudus",
@@ -2889,6 +3250,7 @@
   },
   {
     "code": "0371",
+    "adm4": "81.04.02.2006",
     "province_code": "8100",
     "province": "Maluku",
     "region": "Buru",
@@ -2897,6 +3259,7 @@
   },
   {
     "code": "0372",
+    "adm4": "33.76.03.1002",
     "province_code": "3200",
     "province": "Jawa Tengah",
     "region": "Kota Tegal",
@@ -2905,6 +3268,7 @@
   },
   {
     "code": "0373",
+    "adm4": "92.10.16.2001",
     "province_code": "9100",
     "province": "Papua Barat Daya",
     "region": "Maybrat",
@@ -2913,6 +3277,7 @@
   },
   {
     "code": "0374",
+    "adm4": "35.26.14.2010",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Bangkalan",
@@ -2921,6 +3286,7 @@
   },
   {
     "code": "0375",
+    "adm4": "12.71.07.1003",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Kota Medan",
@@ -2929,6 +3295,7 @@
   },
   {
     "code": "0376",
+    "adm4": "71.01.14.2002",
     "province_code": "7100",
     "province": "Sulawesi Utara",
     "region": "Bolaang Mongondow",
@@ -2937,6 +3304,7 @@
   },
   {
     "code": "0377",
+    "adm4": "11.05.07.2002",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Aceh Barat",
@@ -2945,6 +3313,7 @@
   },
   {
     "code": "0378",
+    "adm4": "31.71.07.1002",
     "province_code": "3100",
     "province": "DKI Jakarta",
     "region": "Kota Administrasi Jakarta Pusat",
@@ -2953,6 +3322,7 @@
   },
   {
     "code": "0379",
+    "adm4": "32.77.02.1001",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Kota Cimahi",
@@ -2961,6 +3331,7 @@
   },
   {
     "code": "0380",
+    "adm4": "71.73.01.1003",
     "province_code": "7100",
     "province": "Sulawesi Utara",
     "region": "Kota Tomohon",
@@ -2969,6 +3340,7 @@
   },
   {
     "code": "0381",
+    "adm4": "53.19.09.2003",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Manggarai Timur",
@@ -2977,6 +3349,7 @@
   },
   {
     "code": "0383",
+    "adm4": "35.74.04.1005",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Kota Probolinggo",
@@ -2985,6 +3358,7 @@
   },
   {
     "code": "0384",
+    "adm4": "76.04.06.2009",
     "province_code": "7600",
     "province": "Sulawesi Barat",
     "region": "Polewali Mandar",
@@ -2993,6 +3367,7 @@
   },
   {
     "code": "0385",
+    "adm4": "35.29.05.2007",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Sumenep",
@@ -3001,6 +3376,7 @@
   },
   {
     "code": "0386",
+    "adm4": "12.16.05.2009",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Humbang Hasundutan",
@@ -3009,6 +3385,7 @@
   },
   {
     "code": "0387",
+    "adm4": "11.08.04.2019",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Aceh Utara",
@@ -3017,6 +3394,7 @@
   },
   {
     "code": "0388",
+    "adm4": "53.09.19.2004",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Ngada",
@@ -3025,6 +3403,7 @@
   },
   {
     "code": "0389",
+    "adm4": "92.07.09.2001",
     "province_code": "9100",
     "province": "Papua Barat",
     "region": "Teluk Wondama",
@@ -3033,6 +3412,7 @@
   },
   {
     "code": "0390",
+    "adm4": "34.01.04.2001",
     "province_code": "3400",
     "province": "Daerah Istimewa Yogyakarta",
     "region": "Kulon Progo",
@@ -3041,6 +3421,7 @@
   },
   {
     "code": "0391",
+    "adm4": "14.04.14.2004",
     "province_code": "1400",
     "province": "Riau",
     "region": "Indragiri Hilir",
@@ -3049,6 +3430,7 @@
   },
   {
     "code": "0392",
+    "adm4": "73.10.01.2008",
     "province_code": "5100",
     "province": "Sulawesi Selatan",
     "region": "Pangkajene Kepulauan",
@@ -3057,6 +3439,7 @@
   },
   {
     "code": "0393",
+    "adm4": "33.08.08.2006",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Magelang",
@@ -3065,6 +3448,7 @@
   },
   {
     "code": "0394",
+    "adm4": "53.20.02.2002",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Sabu Raijua",
@@ -3073,6 +3457,7 @@
   },
   {
     "code": "0395",
+    "adm4": "74.03.30.2004",
     "province_code": "7400",
     "province": "Sulawesi Tenggara",
     "region": "Muna",
@@ -3081,6 +3466,7 @@
   },
   {
     "code": "0396",
+    "adm4": "53.08.06.2020",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Ende",
@@ -3089,6 +3475,7 @@
   },
   {
     "code": "0397",
+    "adm4": "74.07.02.2023",
     "province_code": "7400",
     "province": "Sulawesi Tenggara",
     "region": "Wakatobi",
@@ -3097,6 +3484,7 @@
   },
   {
     "code": "0398",
+    "adm4": "61.72.04.1006",
     "province_code": "6100",
     "province": "Kalimantan Barat",
     "region": "Kota Singkawang",
@@ -3105,6 +3493,7 @@
   },
   {
     "code": "0399",
+    "adm4": "76.01.02.2015",
     "province_code": "7600",
     "province": "Sulawesi Barat",
     "region": "Pasangkayu",
@@ -3113,6 +3502,7 @@
   },
   {
     "code": "0400",
+    "adm4": "35.04.13.2014",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Tulungagung",
@@ -3121,6 +3511,7 @@
   },
   {
     "code": "0401",
+    "adm4": "53.11.09.2007",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Sumba Timur",
@@ -3129,6 +3520,7 @@
   },
   {
     "code": "0402",
+    "adm4": "61.09.02.2008",
     "province_code": "6100",
     "province": "Kalimantan Barat",
     "region": "Sekadau",
@@ -3137,6 +3529,7 @@
   },
   {
     "code": "0403",
+    "adm4": "35.15.14.2003",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Sidoarjo",
@@ -3145,6 +3538,7 @@
   },
   {
     "code": "0404",
+    "adm4": "31.72.05.1003",
     "province_code": "3100",
     "province": "DKI Jakarta",
     "region": "Kota Administrasi Jakarta Utara",
@@ -3153,6 +3547,7 @@
   },
   {
     "code": "0405",
+    "adm4": "63.04.03.2001",
     "province_code": "6300",
     "province": "Kalimantan Selatan",
     "region": "Barito Kuala",
@@ -3161,6 +3556,7 @@
   },
   {
     "code": "0406",
+    "adm4": "13.09.01.2007",
     "province_code": "1300",
     "province": "Sumatera Barat",
     "region": "Kepulauan Mentawai",
@@ -3169,6 +3565,7 @@
   },
   {
     "code": "0407",
+    "adm4": "65.71.03.1002",
     "province_code": "6500",
     "province": "Kalimantan Utara",
     "region": "Kota Tarakan",
@@ -3177,6 +3574,7 @@
   },
   {
     "code": "0408",
+    "adm4": "33.17.04.2014",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Rembang",
@@ -3185,6 +3583,7 @@
   },
   {
     "code": "0409",
+    "adm4": "33.13.14.2002",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Karanganyar",
@@ -3193,6 +3592,7 @@
   },
   {
     "code": "0410",
+    "adm4": "63.05.01.2006",
     "province_code": "6300",
     "province": "Kalimantan Selatan",
     "region": "Tapin",
@@ -3201,6 +3601,7 @@
   },
   {
     "code": "0411",
+    "adm4": "32.17.12.2004",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Bandung Barat",
@@ -3209,6 +3610,7 @@
   },
   {
     "code": "0412",
+    "adm4": "12.04.06.2019",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Nias",
@@ -3217,6 +3619,7 @@
   },
   {
     "code": "0413",
+    "adm4": "91.17.12.2001",
     "province_code": "9300",
     "province": "Papua Selatan",
     "region": "Mappi",
@@ -3225,6 +3628,7 @@
   },
   {
     "code": "0414",
+    "adm4": "63.02.03.2011",
     "province_code": "6300",
     "province": "Kalimantan Selatan",
     "region": "Kotabaru",
@@ -3233,6 +3637,7 @@
   },
   {
     "code": "0415",
+    "adm4": "33.15.19.2004",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Grobogan",
@@ -3241,6 +3646,7 @@
   },
   {
     "code": "0416",
+    "adm4": "63.72.03.1002",
     "province_code": "6300",
     "province": "Kalimantan Selatan",
     "region": "Kota Banjarbaru",
@@ -3249,6 +3655,7 @@
   },
   {
     "code": "0417",
+    "adm4": "12.06.07.2013",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Karo",
@@ -3257,6 +3664,7 @@
   },
   {
     "code": "0418",
+    "adm4": "75.04.03.2013",
     "province_code": "7500",
     "province": "Gorontalo",
     "region": "Pohuwato",
@@ -3265,6 +3673,7 @@
   },
   {
     "code": "0419",
+    "adm4": "35.13.13.2015",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Probolinggo",
@@ -3273,6 +3682,7 @@
   },
   {
     "code": "0420",
+    "adm4": "11.71.03.2006",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Kota Banda Aceh",
@@ -3281,6 +3691,7 @@
   },
   {
     "code": "0421",
+    "adm4": "76.03.02.2018",
     "province_code": "7600",
     "province": "Sulawesi Barat",
     "region": "Mamasa",
@@ -3289,6 +3700,7 @@
   },
   {
     "code": "0422",
+    "adm4": "14.08.12.2007",
     "province_code": "1400",
     "province": "Riau",
     "region": "Siak",
@@ -3297,6 +3709,7 @@
   },
   {
     "code": "0423",
+    "adm4": "71.03.19.2009",
     "province_code": "7100",
     "province": "Sulawesi Utara",
     "region": "Kepulauan Sangihe",
@@ -3305,6 +3718,7 @@
   },
   {
     "code": "0424",
+    "adm4": "53.17.04.2002",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Sumba Tengah",
@@ -3313,6 +3727,7 @@
   },
   {
     "code": "0425",
+    "adm4": "74.15.02.2010",
     "province_code": "7400",
     "province": "Sulawesi Tenggara",
     "region": "Buton Selatan",
@@ -3321,6 +3736,7 @@
   },
   {
     "code": "0426",
+    "adm4": "32.05.20.2002",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Garut",
@@ -3329,6 +3745,7 @@
   },
   {
     "code": "0427",
+    "adm4": "35.21.02.2010",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Ngawi",
@@ -3337,6 +3754,7 @@
   },
   {
     "code": "0429",
+    "adm4": "17.08.08.2002",
     "province_code": "1700",
     "province": "Bengkulu",
     "region": "Kepahiang",
@@ -3345,6 +3763,7 @@
   },
   {
     "code": "0430",
+    "adm4": "36.04.31.2006",
     "province_code": "3600",
     "province": "Banten",
     "region": "Serang",
@@ -3353,6 +3772,7 @@
   },
   {
     "code": "0431",
+    "adm4": "73.14.10.2006",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Sidenreng Rappang",
@@ -3361,6 +3781,7 @@
   },
   {
     "code": "0432",
+    "adm4": "34.02.17.2001",
     "province_code": "3400",
     "province": "Daerah Istimewa Yogyakarta",
     "region": "Bantul",
@@ -3369,6 +3790,7 @@
   },
   {
     "code": "0433",
+    "adm4": "13.72.01.1006",
     "province_code": "1300",
     "province": "Sumatera Barat",
     "region": "Kota Solok",
@@ -3377,6 +3799,7 @@
   },
   {
     "code": "0434",
+    "adm4": "12.08.31.2011",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Simalungun",
@@ -3385,6 +3808,7 @@
   },
   {
     "code": "0435",
+    "adm4": "16.07.10.1002",
     "province_code": "1600",
     "province": "Sumatera Selatan",
     "region": "Banyuasin",
@@ -3393,6 +3817,7 @@
   },
   {
     "code": "0436",
+    "adm4": "72.08.05.2005",
     "province_code": "7200",
     "province": "Sulawesi Tengah",
     "region": "Parigi Moutong",
@@ -3401,6 +3826,7 @@
   },
   {
     "code": "0437",
+    "adm4": "73.16.01.2014",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Enrekang",
@@ -3409,6 +3835,7 @@
   },
   {
     "code": "0438",
+    "adm4": "74.71.06.1003",
     "province_code": "7400",
     "province": "Sulawesi Tenggara",
     "region": "Kota Kendari",
@@ -3417,6 +3844,7 @@
   },
   {
     "code": "0439",
+    "adm4": "52.05.06.2004",
     "province_code": "5200",
     "province": "Nusa Tenggara Barat",
     "region": "Dompu",
@@ -3425,6 +3853,7 @@
   },
   {
     "code": "0440",
+    "adm4": "71.06.06.2004",
     "province_code": "7100",
     "province": "Sulawesi Utara",
     "region": "Minahasa Utara",
@@ -3433,6 +3862,7 @@
   },
   {
     "code": "0441",
+    "adm4": "73.22.02.2011",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Luwu Utara",
@@ -3441,6 +3871,7 @@
   },
   {
     "code": "0442",
+    "adm4": "36.71.01.1001",
     "province_code": "3600",
     "province": "Banten",
     "region": "Kota Tangerang",
@@ -3449,6 +3880,7 @@
   },
   {
     "code": "0443",
+    "adm4": "12.74.05.1006",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Kota Tanjung Balai",
@@ -3457,6 +3889,7 @@
   },
   {
     "code": "0444",
+    "adm4": "71.11.04.2002",
     "province_code": "7100",
     "province": "Sulawesi Utara",
     "region": "Bolaang Mongondow Selatan",
@@ -3465,6 +3898,7 @@
   },
   {
     "code": "0445",
+    "adm4": "18.02.03.2010",
     "province_code": "1800",
     "province": "Lampung",
     "region": "Lampung Tengah",
@@ -3473,6 +3907,7 @@
   },
   {
     "code": "0446",
+    "adm4": "11.03.12.2014",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Aceh Timur",
@@ -3481,6 +3916,7 @@
   },
   {
     "code": "0447",
+    "adm4": "53.06.05.2007",
     "province_code": "5300",
     "province": "Nusa Tenggara Timur",
     "region": "Flores Timur",
@@ -3489,6 +3925,7 @@
   },
   {
     "code": "0448",
+    "adm4": "64.09.02.2002",
     "province_code": "6400",
     "province": "Kalimantan Timur",
     "region": "Penajam Paser Utara",
@@ -3497,6 +3934,7 @@
   },
   {
     "code": "0449",
+    "adm4": "62.03.05.2003",
     "province_code": "6200",
     "province": "Kalimantan Tengah",
     "region": "Kapuas",
@@ -3505,6 +3943,7 @@
   },
   {
     "code": "0450",
+    "adm4": "71.10.05.2003",
     "province_code": "7100",
     "province": "Sulawesi Utara",
     "region": "Bolaang Mongondow Timur",
@@ -3513,6 +3952,7 @@
   },
   {
     "code": "0451",
+    "adm4": "33.06.02.2042",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Purworejo",
@@ -3521,6 +3961,7 @@
   },
   {
     "code": "0452",
+    "adm4": "61.06.12.2001",
     "province_code": "6100",
     "province": "Kalimantan Barat",
     "region": "Kapuas Hulu",
@@ -3529,6 +3970,7 @@
   },
   {
     "code": "0453",
+    "adm4": "81.05.07.2011",
     "province_code": "8100",
     "province": "Maluku",
     "region": "Seram Bagian Timur",
@@ -3537,6 +3979,7 @@
   },
   {
     "code": "0454",
+    "adm4": "33.26.03.2011",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Pekalongan",
@@ -3545,6 +3988,7 @@
   },
   {
     "code": "0455",
+    "adm4": "17.71.07.1003",
     "province_code": "1700",
     "province": "Bengkulu",
     "region": "Kota Bengkulu",
@@ -3553,6 +3997,7 @@
   },
   {
     "code": "0456",
+    "adm4": "51.01.05.2007",
     "province_code": "5100",
     "province": "Bali",
     "region": "Jembrana",
@@ -3561,6 +4006,7 @@
   },
   {
     "code": "0457",
+    "adm4": "52.07.04.2004",
     "province_code": "5200",
     "province": "Nusa Tenggara Barat",
     "region": "Sumbawa Barat",
@@ -3569,6 +4015,7 @@
   },
   {
     "code": "0458",
+    "adm4": "73.12.03.2007",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Soppeng",
@@ -3577,6 +4024,7 @@
   },
   {
     "code": "0459",
+    "adm4": "33.04.04.2002",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Banjarnegara",
@@ -3585,6 +4033,7 @@
   },
   {
     "code": "0460",
+    "adm4": "12.22.04.2006",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Labuhanbatu Selatan",
@@ -3593,6 +4042,7 @@
   },
   {
     "code": "0461",
+    "adm4": "92.71.04.1001",
     "province_code": "9100",
     "province": "Papua Barat Daya",
     "region": "Kota Sorong",
@@ -3601,6 +4051,7 @@
   },
   {
     "code": "0462",
+    "adm4": "33.25.05.2001",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Batang",
@@ -3609,6 +4060,7 @@
   },
   {
     "code": "0463",
+    "adm4": "91.11.10.2003",
     "province_code": "9400",
     "province": "Papua",
     "region": "Keerom",
@@ -3617,6 +4069,7 @@
   },
   {
     "code": "0464",
+    "adm4": "13.03.06.2004",
     "province_code": "1300",
     "province": "Sumatera Barat",
     "region": "Sijunjung",
@@ -3625,6 +4078,7 @@
   },
   {
     "code": "0465",
+    "adm4": "13.04.01.2007",
     "province_code": "1300",
     "province": "Sumatera Barat",
     "region": "Tanah Datar",
@@ -3633,6 +4087,7 @@
   },
   {
     "code": "0466",
+    "adm4": "12.25.06.2002",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Nias Barat",
@@ -3641,6 +4096,7 @@
   },
   {
     "code": "0467",
+    "adm4": "15.06.07.1001",
     "province_code": "1500",
     "province": "Jambi",
     "region": "Tanjung Jabung Barat",
@@ -3649,6 +4105,7 @@
   },
   {
     "code": "0468",
+    "adm4": "63.71.04.1003",
     "province_code": "6300",
     "province": "Kalimantan Selatan",
     "region": "Kota Banjarmasin",
@@ -3657,6 +4114,7 @@
   },
   {
     "code": "0469",
+    "adm4": "52.71.06.1005",
     "province_code": "5200",
     "province": "Nusa Tenggara Barat",
     "region": "Kota Mataram",
@@ -3665,6 +4123,7 @@
   },
   {
     "code": "0470",
+    "adm4": "35.02.16.2013",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Ponorogo",
@@ -3673,6 +4132,7 @@
   },
   {
     "code": "0471",
+    "adm4": "51.02.06.2014",
     "province_code": "5100",
     "province": "Bali",
     "region": "Tabanan",
@@ -3681,6 +4141,7 @@
   },
   {
     "code": "0472",
+    "adm4": "71.72.01.1001",
     "province_code": "7100",
     "province": "Sulawesi Utara",
     "region": "Kota Bitung",
@@ -3689,6 +4150,7 @@
   },
   {
     "code": "0473",
+    "adm4": "64.72.03.1005",
     "province_code": "6400",
     "province": "Kalimantan Timur",
     "region": "Kota Samarinda",
@@ -3697,6 +4159,7 @@
   },
   {
     "code": "0474",
+    "adm4": "18.12.06.2005",
     "province_code": "1800",
     "province": "Lampung",
     "region": "Tulang Bawang Barat",
@@ -3705,6 +4168,7 @@
   },
   {
     "code": "0475",
+    "adm4": "35.12.12.2008",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Situbondo",
@@ -3713,6 +4177,7 @@
   },
   {
     "code": "0476",
+    "adm4": "13.12.01.2001",
     "province_code": "1300",
     "province": "Sumatera Barat",
     "region": "Pasaman Barat",
@@ -3721,6 +4186,7 @@
   },
   {
     "code": "0477",
+    "adm4": "51.07.05.2001",
     "province_code": "5100",
     "province": "Bali",
     "region": "Karangasem",
@@ -3729,6 +4195,7 @@
   },
   {
     "code": "0478",
+    "adm4": "18.71.16.1006",
     "province_code": "1800",
     "province": "Lampung",
     "region": "Kota Bandar Lampung",
@@ -3737,6 +4204,7 @@
   },
   {
     "code": "0479",
+    "adm4": "33.73.03.1001",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Kota Salatiga",
@@ -3745,6 +4213,7 @@
   },
   {
     "code": "0480",
+    "adm4": "13.73.01.1001",
     "province_code": "1300",
     "province": "Sumatera Barat",
     "region": "Kota Sawahlunto",
@@ -3753,6 +4222,7 @@
   },
   {
     "code": "0481",
+    "adm4": "34.04.01.2002",
     "province_code": "3400",
     "province": "Daerah Istimewa Yogyakarta",
     "region": "Sleman",
@@ -3761,6 +4231,7 @@
   },
   {
     "code": "0482",
+    "adm4": "82.02.05.2008",
     "province_code": "8200",
     "province": "Maluku Utara",
     "region": "Halmahera Tengah",
@@ -3769,6 +4240,7 @@
   },
   {
     "code": "0483",
+    "adm4": "32.03.23.2001",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Cianjur",
@@ -3777,6 +4249,7 @@
   },
   {
     "code": "0484",
+    "adm4": "35.10.18.2009",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Banyuwangi",
@@ -3785,6 +4258,7 @@
   },
   {
     "code": "0485",
+    "adm4": "62.09.01.2007",
     "province_code": "6200",
     "province": "Kalimantan Tengah",
     "region": "Lamandau",
@@ -3793,6 +4267,7 @@
   },
   {
     "code": "0486",
+    "adm4": "12.19.01.1001",
     "province_code": "1200",
     "province": "Sumatera Utara",
     "region": "Batu Bara",
@@ -3801,6 +4276,7 @@
   },
   {
     "code": "0487",
+    "adm4": "72.71.08.1002",
     "province_code": "7200",
     "province": "Sulawesi Tengah",
     "region": "Kota Palu",
@@ -3809,6 +4285,7 @@
   },
   {
     "code": "0488",
+    "adm4": "11.72.01.2005",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Kota Sabang",
@@ -3817,6 +4294,7 @@
   },
   {
     "code": "0489",
+    "adm4": "19.03.03.2008",
     "province_code": "1900",
     "province": "Kepulauan Bangka Belitung",
     "region": "Bangka Selatan",
@@ -3825,6 +4303,7 @@
   },
   {
     "code": "0490",
+    "adm4": "91.09.07.2002",
     "province_code": "9500",
     "province": "Papua Tengah",
     "region": "Mimika",
@@ -3833,6 +4312,7 @@
   },
   {
     "code": "0491",
+    "adm4": "73.71.12.1004",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Kota Makassar",
@@ -3841,6 +4321,7 @@
   },
   {
     "code": "0492",
+    "adm4": "81.06.11.2006",
     "province_code": "8100",
     "province": "Maluku",
     "region": "Seram Bagian Barat",
@@ -3849,6 +4330,7 @@
   },
   {
     "code": "0493",
+    "adm4": "14.71.06.1013",
     "province_code": "1400",
     "province": "Riau",
     "region": "Kota Pekanbaru",
@@ -3857,6 +4339,7 @@
   },
   {
     "code": "0494",
+    "adm4": "35.06.10.2021",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Kediri",
@@ -3865,6 +4348,7 @@
   },
   {
     "code": "0495",
+    "adm4": "92.08.05.2004",
     "province_code": "9100",
     "province": "Papua Barat",
     "region": "Kaimana",
@@ -3873,6 +4357,7 @@
   },
   {
     "code": "0496",
+    "adm4": "52.06.14.2002",
     "province_code": "5200",
     "province": "Nusa Tenggara Barat",
     "region": "Bima",
@@ -3881,6 +4366,7 @@
   },
   {
     "code": "0497",
+    "adm4": "33.02.23.2014",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Banyumas",
@@ -3889,6 +4375,7 @@
   },
   {
     "code": "0498",
+    "adm4": "19.02.01.2014",
     "province_code": "1900",
     "province": "Kepulauan Bangka Belitung",
     "region": "Belitung",
@@ -3897,6 +4384,7 @@
   },
   {
     "code": "0499",
+    "adm4": "61.02.17.2006",
     "province_code": "6100",
     "province": "Kalimantan Barat",
     "region": "Mempawah",
@@ -3905,6 +4393,7 @@
   },
   {
     "code": "0500",
+    "adm4": "62.07.04.2003",
     "province_code": "6200",
     "province": "Kalimantan Tengah",
     "region": "Seruyan",
@@ -3913,6 +4402,7 @@
   },
   {
     "code": "0501",
+    "adm4": "33.16.10.2003",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Blora",
@@ -3921,6 +4411,7 @@
   },
   {
     "code": "0502",
+    "adm4": "62.10.03.2011",
     "province_code": "6200",
     "province": "Kalimantan Tengah",
     "region": "Gunung Mas",
@@ -3929,6 +4420,7 @@
   },
   {
     "code": "0503",
+    "adm4": "75.01.24.2004",
     "province_code": "7500",
     "province": "Gorontalo",
     "region": "Gorontalo",
@@ -3937,6 +4429,7 @@
   },
   {
     "code": "0504",
+    "adm4": "32.04.31.2005",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Bandung",
@@ -3945,6 +4438,7 @@
   },
   {
     "code": "0505",
+    "adm4": "21.02.02.1009",
     "province_code": "2100",
     "province": "Kepulauan Riau",
     "region": "Karimun",
@@ -3953,6 +4447,7 @@
   },
   {
     "code": "0506",
+    "adm4": "33.27.05.2012",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Pemalang",
@@ -3961,6 +4456,7 @@
   },
   {
     "code": "0507",
+    "adm4": "32.08.09.2014",
     "province_code": "3200",
     "province": "Jawa Barat",
     "region": "Kuningan",
@@ -3969,6 +4465,7 @@
   },
   {
     "code": "0508",
+    "adm4": "19.01.02.1010",
     "province_code": "1900",
     "province": "Kepulauan Bangka Belitung",
     "region": "Bangka",
@@ -3977,6 +4474,7 @@
   },
   {
     "code": "0509",
+    "adm4": "18.08.06.2016",
     "province_code": "1800",
     "province": "Lampung",
     "region": "Way Kanan",
@@ -3985,6 +4483,7 @@
   },
   {
     "code": "0510",
+    "adm4": "51.08.06.2016",
     "province_code": "5100",
     "province": "Bali",
     "region": "Buleleng",
@@ -3993,6 +4492,7 @@
   },
   {
     "code": "0511",
+    "adm4": "33.74.10.1001",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Kota Semarang",
@@ -4001,6 +4501,7 @@
   },
   {
     "code": "0512",
+    "adm4": "81.72.01.2003",
     "province_code": "8100",
     "province": "Maluku",
     "region": "Kota Tual",
@@ -4009,6 +4510,7 @@
   },
   {
     "code": "0513",
+    "adm4": "33.75.04.1002",
     "province_code": "3300",
     "province": "Jawa Tengah",
     "region": "Kota Pekalongan",
@@ -4017,6 +4519,7 @@
   },
   {
     "code": "0514",
+    "adm4": "91.06.12.2008",
     "province_code": "9400",
     "province": "Papua",
     "region": "Biak Numfor",
@@ -4025,6 +4528,7 @@
   },
   {
     "code": "0515",
+    "adm4": "73.15.10.2005",
     "province_code": "7300",
     "province": "Sulawesi Selatan",
     "region": "Pinrang",
@@ -4033,6 +4537,7 @@
   },
   {
     "code": "0516",
+    "adm4": "15.04.04.2006",
     "province_code": "1500",
     "province": "Jambi",
     "region": "Batanghari",
@@ -4041,6 +4546,7 @@
   },
   {
     "code": "0517",
+    "adm4": "35.17.19.2003",
     "province_code": "3500",
     "province": "Jawa Timur",
     "region": "Jombang",
@@ -4049,6 +4555,7 @@
   },
   {
     "code": "0518",
+    "adm4": "11.09.09.2007",
     "province_code": "1100",
     "province": "Aceh",
     "region": "Simeulue",
