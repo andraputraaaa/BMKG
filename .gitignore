@@ -1,0 +1,6 @@
+data/dem_indonesia.tif/
+data/landcover_indonesia.tif/
+data/indonesia-latest.osm.pbf
+__pycache__/
+*.pyc
+.conversion-venv/

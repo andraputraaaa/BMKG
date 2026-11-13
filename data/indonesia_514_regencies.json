@@ -1,0 +1,4058 @@
+[
+  {
+    "code": "0001",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Tapanuli Utara",
+    "lat": 2.0286,
+    "lon": 99.0717
+  },
+  {
+    "code": "0002",
+    "province_code": "6100",
+    "province": "Kalimantan Barat",
+    "region": "Melawi",
+    "lat": -0.7239,
+    "lon": 111.7962
+  },
+  {
+    "code": "0003",
+    "province_code": "3600",
+    "province": "Banten",
+    "region": "Tangerang",
+    "lat": -6.1837,
+    "lon": 106.5323
+  },
+  {
+    "code": "0004",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Bener Meriah",
+    "lat": 4.7734,
+    "lon": 96.9501
+  },
+  {
+    "code": "0005",
+    "province_code": "1900",
+    "province": "Kepulauan Bangka Belitung",
+    "region": "Belitung Timur",
+    "lat": -2.9094,
+    "lon": 108.0208
+  },
+  {
+    "code": "0006",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Kupang",
+    "lat": -9.8468,
+    "lon": 123.7637
+  },
+  {
+    "code": "0007",
+    "province_code": "8100",
+    "province": "Maluku",
+    "region": "Kepulauan Aru",
+    "lat": -6.1302,
+    "lon": 134.4794
+  },
+  {
+    "code": "0008",
+    "province_code": "6300",
+    "province": "Kalimantan Selatan",
+    "region": "Hulu Sungai Tengah",
+    "lat": -2.6164,
+    "lon": 115.4856
+  },
+  {
+    "code": "0009",
+    "province_code": "1800",
+    "province": "Lampung",
+    "region": "Tanggamus",
+    "lat": -5.5152,
+    "lon": 104.7552
+  },
+  {
+    "code": "0010",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Manggarai Barat",
+    "lat": -8.5703,
+    "lon": 119.8917
+  },
+  {
+    "code": "0011",
+    "province_code": "9100",
+    "province": "Papua Barat Daya",
+    "region": "Raja Ampat",
+    "lat": -1.023,
+    "lon": 130.5215
+  },
+  {
+    "code": "0012",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Nagekeo",
+    "lat": -8.6741,
+    "lon": 121.3103
+  },
+  {
+    "code": "0013",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Kota Kupang",
+    "lat": -10.2056,
+    "lon": 123.6021
+  },
+  {
+    "code": "0014",
+    "province_code": "9600",
+    "province": "Papua Pegunungan",
+    "region": "Yalimo",
+    "lat": -3.8324,
+    "lon": 139.5374
+  },
+  {
+    "code": "0015",
+    "province_code": "3400",
+    "province": "Daerah Istimewa Yogyakarta",
+    "region": "Gunungkidul",
+    "lat": -7.9972,
+    "lon": 110.5843
+  },
+  {
+    "code": "0016",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Kota Tasikmalaya",
+    "lat": -7.3497,
+    "lon": 108.2347
+  },
+  {
+    "code": "0017",
+    "province_code": "1800",
+    "province": "Lampung",
+    "region": "Lampung Timur",
+    "lat": -5.1344,
+    "lon": 105.5911
+  },
+  {
+    "code": "0018",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Semarang",
+    "lat": -7.2878,
+    "lon": 110.449
+  },
+  {
+    "code": "0019",
+    "province_code": "1500",
+    "province": "Jambi",
+    "region": "Kota Jambi",
+    "lat": -1.6131,
+    "lon": 103.6026
+  },
+  {
+    "code": "0020",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Bekasi",
+    "lat": -6.2129,
+    "lon": 107.1269
+  },
+  {
+    "code": "0021",
+    "province_code": "7200",
+    "province": "Sulawesi Tengah",
+    "region": "Tojo Una Una",
+    "lat": -0.8885,
+    "lon": 121.6356
+  },
+  {
+    "code": "0022",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Indramayu",
+    "lat": -6.456,
+    "lon": 108.1972
+  },
+  {
+    "code": "0023",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Aceh Besar",
+    "lat": 5.3866,
+    "lon": 95.4461
+  },
+  {
+    "code": "0024",
+    "province_code": "9500",
+    "province": "Papua Tengah",
+    "region": "Deiyai",
+    "lat": -4.1918,
+    "lon": 136.4651
+  },
+  {
+    "code": "0025",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Kota Gunungsitoli",
+    "lat": 1.2761,
+    "lon": 97.6064
+  },
+  {
+    "code": "0026",
+    "province_code": "1800",
+    "province": "Lampung",
+    "region": "Mesuji",
+    "lat": -3.9727,
+    "lon": 105.4051
+  },
+  {
+    "code": "0027",
+    "province_code": "6200",
+    "province": "Kalimantan Tengah",
+    "region": "Kotawaringin Timur",
+    "lat": -2.2458,
+    "lon": 112.6694
+  },
+  {
+    "code": "0028",
+    "province_code": "5200",
+    "province": "Nusa Tenggara Barat",
+    "region": "Kota Bima",
+    "lat": -8.4307,
+    "lon": 118.7881
+  },
+  {
+    "code": "0029",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Kota Binjai",
+    "lat": 3.6146,
+    "lon": 98.4892
+  },
+  {
+    "code": "0030",
+    "province_code": "7100",
+    "province": "Sulawesi Utara",
+    "region": "Bolaang Mongondow Utara",
+    "lat": 0.7534,
+    "lon": 123.4314
+  },
+  {
+    "code": "0031",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Bulukumba",
+    "lat": -5.4496,
+    "lon": 120.2023
+  },
+  {
+    "code": "0032",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Bone",
+    "lat": -4.6813,
+    "lon": 120.0739
+  },
+  {
+    "code": "0033",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Aceh Selatan",
+    "lat": 3.0682,
+    "lon": 97.4248
+  },
+  {
+    "code": "0034",
+    "province_code": "6500",
+    "province": "Kalimantan Utara",
+    "region": "Tana Tidung",
+    "lat": 3.5489,
+    "lon": 117.2456
+  },
+  {
+    "code": "0035",
+    "province_code": "1600",
+    "province": "Sumatera Selatan",
+    "region": "Ogan Komering Ilir",
+    "lat": -3.3289,
+    "lon": 105.3596
+  },
+  {
+    "code": "0036",
+    "province_code": "1300",
+    "province": "Sumatera Barat",
+    "region": "Pasaman",
+    "lat": 0.4023,
+    "lon": 100.0526
+  },
+  {
+    "code": "0037",
+    "province_code": "3400",
+    "province": "Daerah Istimewa Yogyakarta",
+    "region": "Kota Yogyakarta",
+    "lat": -7.8003,
+    "lon": 110.3741
+  },
+  {
+    "code": "0038",
+    "province_code": "2100",
+    "province": "Kepulauan Riau",
+    "region": "Kota Batam",
+    "lat": 0.9106,
+    "lon": 104.0613
+  },
+  {
+    "code": "0039",
+    "province_code": "9100",
+    "province": "Papua Barat",
+    "region": "Manokwari Selatan",
+    "lat": -1.525,
+    "lon": 133.9833
+  },
+  {
+    "code": "0040",
+    "province_code": "6100",
+    "province": "Kalimantan Barat",
+    "region": "Bengkayang",
+    "lat": 1.0339,
+    "lon": 109.488
+  },
+  {
+    "code": "0041",
+    "province_code": "6500",
+    "province": "Kalimantan Utara",
+    "region": "Malinau",
+    "lat": 2.6202,
+    "lon": 115.6796
+  },
+  {
+    "code": "0042",
+    "province_code": "1400",
+    "province": "Riau",
+    "region": "Indragiri Hulu",
+    "lat": -0.5055,
+    "lon": 102.2472
+  },
+  {
+    "code": "0043",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Kota Padang Sidempuan",
+    "lat": 1.3903,
+    "lon": 99.2852
+  },
+  {
+    "code": "0044",
+    "province_code": "7400",
+    "province": "Sulawesi Tenggara",
+    "region": "Buton Tengah",
+    "lat": -5.3131,
+    "lon": 122.2864
+  },
+  {
+    "code": "0045",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Tegal",
+    "lat": -7.0472,
+    "lon": 109.1641
+  },
+  {
+    "code": "0047",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Boyolali",
+    "lat": -7.3839,
+    "lon": 110.6275
+  },
+  {
+    "code": "0048",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Kota Malang",
+    "lat": -7.9797,
+    "lon": 112.6416
+  },
+  {
+    "code": "0049",
+    "province_code": "7100",
+    "province": "Sulawesi Utara",
+    "region": "Minahasa Tenggara",
+    "lat": 0.9891,
+    "lon": 124.7304
+  },
+  {
+    "code": "0050",
+    "province_code": "6400",
+    "province": "Kalimantan Timur",
+    "region": "Kota Bontang",
+    "lat": 0.1141,
+    "lon": 117.4525
+  },
+  {
+    "code": "0051",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Pamekasan",
+    "lat": -7.0601,
+    "lon": 113.5032
+  },
+  {
+    "code": "0052",
+    "province_code": "9400",
+    "province": "Papua Pegunungan",
+    "region": "Mamberamo Tengah",
+    "lat": -3.5674,
+    "lon": 139.0377
+  },
+  {
+    "code": "0053",
+    "province_code": "9500",
+    "province": "Papua Tengah",
+    "region": "Puncak",
+    "lat": -3.6248,
+    "lon": 137.4838
+  },
+  {
+    "code": "0054",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Cirebon",
+    "lat": -6.7531,
+    "lon": 108.5772
+  },
+  {
+    "code": "0055",
+    "province_code": "6500",
+    "province": "Kalimantan Utara",
+    "region": "Bulungan",
+    "lat": 2.8437,
+    "lon": 116.9886
+  },
+  {
+    "code": "0056",
+    "province_code": "1600",
+    "province": "Sumatera Selatan",
+    "region": "Ogan Komering Ulu Selatan",
+    "lat": -4.5809,
+    "lon": 103.8735
+  },
+  {
+    "code": "0057",
+    "province_code": "1700",
+    "province": "Bengkulu",
+    "region": "Kaur",
+    "lat": -4.593,
+    "lon": 103.4304
+  },
+  {
+    "code": "0058",
+    "province_code": "5200",
+    "province": "Nusa Tenggara Barat",
+    "region": "Lombok Tengah",
+    "lat": -8.6738,
+    "lon": 116.2694
+  },
+  {
+    "code": "0059",
+    "province_code": "7200",
+    "province": "Sulawesi Tengah",
+    "region": "Poso",
+    "lat": -1.6749,
+    "lon": 120.5226
+  },
+  {
+    "code": "0060",
+    "province_code": "1400",
+    "province": "Riau",
+    "region": "Rokan Hulu",
+    "lat": 0.9091,
+    "lon": 100.524
+  },
+  {
+    "code": "0061",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Kota Madiun",
+    "lat": -7.6293,
+    "lon": 111.5297
+  },
+  {
+    "code": "0062",
+    "province_code": "7400",
+    "province": "Sulawesi Tenggara",
+    "region": "Kota Bau Bau",
+    "lat": -5.4302,
+    "lon": 122.6672
+  },
+  {
+    "code": "0063",
+    "province_code": "1300",
+    "province": "Sumatera Barat",
+    "region": "Solok Selatan",
+    "lat": -1.368,
+    "lon": 101.2824
+  },
+  {
+    "code": "0064",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Trenggalek",
+    "lat": -8.1269,
+    "lon": 111.6173
+  },
+  {
+    "code": "0065",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Karawang",
+    "lat": -6.2653,
+    "lon": 107.3686
+  },
+  {
+    "code": "0066",
+    "province_code": "7600",
+    "province": "Sulawesi Barat",
+    "region": "Majene",
+    "lat": -3.2376,
+    "lon": 118.9305
+  },
+  {
+    "code": "0067",
+    "province_code": "9500",
+    "province": "Papua Tengah",
+    "region": "Paniai",
+    "lat": -3.7473,
+    "lon": 136.6327
+  },
+  {
+    "code": "0068",
+    "province_code": "6100",
+    "province": "Kalimantan Barat",
+    "region": "Landak",
+    "lat": 0.5045,
+    "lon": 109.7053
+  },
+  {
+    "code": "0069",
+    "province_code": "6200",
+    "province": "Kalimantan Tengah",
+    "region": "Barito Selatan",
+    "lat": -1.9311,
+    "lon": 115.0257
+  },
+  {
+    "code": "0070",
+    "province_code": "1600",
+    "province": "Sumatera Selatan",
+    "region": "Kota Pagar Alam",
+    "lat": -4.1282,
+    "lon": 103.2716
+  },
+  {
+    "code": "0071",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Takalar",
+    "lat": -5.4034,
+    "lon": 119.5001
+  },
+  {
+    "code": "0072",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Malaka",
+    "lat": -9.5444,
+    "lon": 124.8657
+  },
+  {
+    "code": "0073",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Kota Bekasi",
+    "lat": -6.2855,
+    "lon": 106.9713
+  },
+  {
+    "code": "0074",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Purbalingga",
+    "lat": -7.3378,
+    "lon": 109.3965
+  },
+  {
+    "code": "0075",
+    "province_code": "6100",
+    "province": "Kalimantan Barat",
+    "region": "Sambas",
+    "lat": 1.4695,
+    "lon": 109.3275
+  },
+  {
+    "code": "0076",
+    "province_code": "7200",
+    "province": "Sulawesi Tengah",
+    "region": "Banggai",
+    "lat": -1.0906,
+    "lon": 122.651
+  },
+  {
+    "code": "0077",
+    "province_code": "6400",
+    "province": "Kalimantan Timur",
+    "region": "Kutai Barat",
+    "lat": -0.4115,
+    "lon": 115.8733
+  },
+  {
+    "code": "0078",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Sumba Barat",
+    "lat": -9.5859,
+    "lon": 119.3401
+  },
+  {
+    "code": "0079",
+    "province_code": "1400",
+    "province": "Riau",
+    "region": "Kota Dumai",
+    "lat": 1.8398,
+    "lon": 101.3681
+  },
+  {
+    "code": "0081",
+    "province_code": "6400",
+    "province": "Kalimantan Timur",
+    "region": "Kota Balikpapan",
+    "lat": -1.1488,
+    "lon": 116.8758
+  },
+  {
+    "code": "0082",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Bireuen",
+    "lat": 5.0845,
+    "lon": 96.6221
+  },
+  {
+    "code": "0083",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Kebumen",
+    "lat": -7.6388,
+    "lon": 109.6067
+  },
+  {
+    "code": "0084",
+    "province_code": "7400",
+    "province": "Sulawesi Tenggara",
+    "region": "Konawe Kepulauan",
+    "lat": -4.1138,
+    "lon": 123.0945
+  },
+  {
+    "code": "0085",
+    "province_code": "6300",
+    "province": "Kalimantan Selatan",
+    "region": "Tanah Bumbu",
+    "lat": -3.4384,
+    "lon": 115.6677
+  },
+  {
+    "code": "0086",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Labuhanbatu",
+    "lat": 2.2676,
+    "lon": 99.9966
+  },
+  {
+    "code": "0087",
+    "province_code": "1600",
+    "province": "Sumatera Selatan",
+    "region": "Ogan Ilir",
+    "lat": -3.4211,
+    "lon": 104.5711
+  },
+  {
+    "code": "0088",
+    "province_code": "5100",
+    "province": "Bali",
+    "region": "Bangli",
+    "lat": -8.3377,
+    "lon": 115.3453
+  },
+  {
+    "code": "0089",
+    "province_code": "6100",
+    "province": "Kalimantan Barat",
+    "region": "Sanggau",
+    "lat": 0.3489,
+    "lon": 110.4269
+  },
+  {
+    "code": "0090",
+    "province_code": "2100",
+    "province": "Kepulauan Riau",
+    "region": "Natuna",
+    "lat": 3.789,
+    "lon": 108.4096
+  },
+  {
+    "code": "0091",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Wonogiri",
+    "lat": -7.9618,
+    "lon": 111.0295
+  },
+  {
+    "code": "0092",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Sinjai",
+    "lat": -5.2019,
+    "lon": 120.1315
+  },
+  {
+    "code": "0093",
+    "province_code": "6100",
+    "province": "Kalimantan Barat",
+    "region": "Sintang",
+    "lat": 0.193,
+    "lon": 112.1044
+  },
+  {
+    "code": "0094",
+    "province_code": "7200",
+    "province": "Sulawesi Tengah",
+    "region": "Sigi",
+    "lat": -1.456,
+    "lon": 120.0009
+  },
+  {
+    "code": "0095",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Nganjuk",
+    "lat": -7.6168,
+    "lon": 111.9474
+  },
+  {
+    "code": "0096",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Blitar",
+    "lat": -8.1377,
+    "lon": 112.217
+  },
+  {
+    "code": "0097",
+    "province_code": "1600",
+    "province": "Sumatera Selatan",
+    "region": "Kota Lubuk Linggau",
+    "lat": -3.2542,
+    "lon": 102.8626
+  },
+  {
+    "code": "0098",
+    "province_code": "6200",
+    "province": "Kalimantan Tengah",
+    "region": "Sukamara",
+    "lat": -2.5446,
+    "lon": 111.0665
+  },
+  {
+    "code": "0099",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Klaten",
+    "lat": -7.6669,
+    "lon": 110.6116
+  },
+  {
+    "code": "0100",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Kota Langsa",
+    "lat": 4.4809,
+    "lon": 97.9722
+  },
+  {
+    "code": "0101",
+    "province_code": "9500",
+    "province": "Papua Tengah",
+    "region": "Dogiyai",
+    "lat": -4.0409,
+    "lon": 135.6098
+  },
+  {
+    "code": "0102",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Kota Bogor",
+    "lat": -6.6086,
+    "lon": 106.7912
+  },
+  {
+    "code": "0103",
+    "province_code": "1500",
+    "province": "Jambi",
+    "region": "Merangin",
+    "lat": -2.2119,
+    "lon": 102.0846
+  },
+  {
+    "code": "0104",
+    "province_code": "9100",
+    "province": "Papua Barat",
+    "region": "Manokwari",
+    "lat": -0.9779,
+    "lon": 133.8111
+  },
+  {
+    "code": "0105",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Ciamis",
+    "lat": -7.3131,
+    "lon": 108.4426
+  },
+  {
+    "code": "0106",
+    "province_code": "9400",
+    "province": "Papua",
+    "region": "Sarmi",
+    "lat": -2.5554,
+    "lon": 139.0733
+  },
+  {
+    "code": "0107",
+    "province_code": "6300",
+    "province": "Kalimantan Selatan",
+    "region": "Tanah Laut",
+    "lat": -3.8425,
+    "lon": 114.9445
+  },
+  {
+    "code": "0108",
+    "province_code": "7100",
+    "province": "Sulawesi Utara",
+    "region": "Minahasa",
+    "lat": 1.2421,
+    "lon": 124.8144
+  },
+  {
+    "code": "0109",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Tana Toraja",
+    "lat": -3.0673,
+    "lon": 119.7142
+  },
+  {
+    "code": "0110",
+    "province_code": "7500",
+    "province": "Gorontalo",
+    "region": "Gorontalo Utara",
+    "lat": 0.8731,
+    "lon": 122.6266
+  },
+  {
+    "code": "0111",
+    "province_code": "1900",
+    "province": "Kepulauan Bangka Belitung",
+    "region": "Bangka Barat",
+    "lat": -1.842,
+    "lon": 105.4447
+  },
+  {
+    "code": "0112",
+    "province_code": "5100",
+    "province": "Bali",
+    "region": "Kota Denpasar",
+    "lat": -8.6702,
+    "lon": 115.2242
+  },
+  {
+    "code": "0113",
+    "province_code": "1700",
+    "province": "Bengkulu",
+    "region": "Seluma",
+    "lat": -4.0781,
+    "lon": 102.6517
+  },
+  {
+    "code": "0114",
+    "province_code": "8200",
+    "province": "Maluku Utara",
+    "region": "Halmahera Timur",
+    "lat": 1.0062,
+    "lon": 128.2204
+  },
+  {
+    "code": "0115",
+    "province_code": "3200",
+    "province": "Banten",
+    "region": "Kota Serang",
+    "lat": -6.1171,
+    "lon": 106.1626
+  },
+  {
+    "code": "0116",
+    "province_code": "1500",
+    "province": "Jambi",
+    "region": "Tanjung Jabung Timur",
+    "lat": -1.2716,
+    "lon": 103.9139
+  },
+  {
+    "code": "0117",
+    "province_code": "1300",
+    "province": "Sumatera Barat",
+    "region": "Solok",
+    "lat": -0.9288,
+    "lon": 100.836
+  },
+  {
+    "code": "0118",
+    "province_code": "1600",
+    "province": "Sumatera Selatan",
+    "region": "Musi Rawas Utara",
+    "lat": -2.7136,
+    "lon": 102.7127
+  },
+  {
+    "code": "0119",
+    "province_code": "3200",
+    "province": "Kalimantan Selatan",
+    "region": "Banjar",
+    "lat": -3.2788,
+    "lon": 115.038
+  },
+  {
+    "code": "0120",
+    "province_code": "1700",
+    "province": "Bengkulu",
+    "region": "Bengkulu Tengah",
+    "lat": -3.6727,
+    "lon": 102.4097
+  },
+  {
+    "code": "0121",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Kota Cirebon",
+    "lat": -6.7353,
+    "lon": 108.5573
+  },
+  {
+    "code": "0122",
+    "province_code": "8100",
+    "province": "Maluku",
+    "region": "Maluku Barat Daya",
+    "lat": -7.6699,
+    "lon": 127.8413
+  },
+  {
+    "code": "0123",
+    "province_code": "2100",
+    "province": "Kepulauan Riau",
+    "region": "Lingga",
+    "lat": -0.1693,
+    "lon": 104.5989
+  },
+  {
+    "code": "0124",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Aceh Tamiang",
+    "lat": 4.2059,
+    "lon": 98.005
+  },
+  {
+    "code": "0125",
+    "province_code": "5200",
+    "province": "Nusa Tenggara Barat",
+    "region": "Lombok Utara",
+    "lat": -8.3458,
+    "lon": 116.2653
+  },
+  {
+    "code": "0126",
+    "province_code": "9300",
+    "province": "Papua Selatan",
+    "region": "Asmat",
+    "lat": -5.5453,
+    "lon": 138.8128
+  },
+  {
+    "code": "0127",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Sukoharjo",
+    "lat": -7.6791,
+    "lon": 110.8284
+  },
+  {
+    "code": "0128",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Kota Banjar",
+    "lat": -7.385,
+    "lon": 108.5658
+  },
+  {
+    "code": "0129",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Kota Palopo",
+    "lat": -2.9764,
+    "lon": 120.1395
+  },
+  {
+    "code": "0130",
+    "province_code": "6300",
+    "province": "Kalimantan Selatan",
+    "region": "Tabalong",
+    "lat": -1.8362,
+    "lon": 115.4421
+  },
+  {
+    "code": "0131",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Bondowoso",
+    "lat": -7.9429,
+    "lon": 113.9353
+  },
+  {
+    "code": "0132",
+    "province_code": "7500",
+    "province": "Gorontalo",
+    "region": "Boalemo",
+    "lat": 0.6918,
+    "lon": 122.3771
+  },
+  {
+    "code": "0133",
+    "province_code": "1500",
+    "province": "Jambi",
+    "region": "Kota Sungai Penuh",
+    "lat": -2.141,
+    "lon": 101.3423
+  },
+  {
+    "code": "0134",
+    "province_code": "1700",
+    "province": "Bengkulu",
+    "region": "Lebong",
+    "lat": -3.0538,
+    "lon": 102.2067
+  },
+  {
+    "code": "0136",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Toba",
+    "lat": 2.384,
+    "lon": 99.2224
+  },
+  {
+    "code": "0138",
+    "province_code": "9400",
+    "province": "Papua",
+    "region": "Kepulauan Yapen",
+    "lat": -1.6809,
+    "lon": 135.9913
+  },
+  {
+    "code": "0139",
+    "province_code": "1600",
+    "province": "Sumatera Selatan",
+    "region": "Penukal Abab Lematang Ilir",
+    "lat": -3.2083,
+    "lon": 103.9315
+  },
+  {
+    "code": "0140",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Lumajang",
+    "lat": -8.1294,
+    "lon": 113.134
+  },
+  {
+    "code": "0141",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Toraja Utara",
+    "lat": -2.8847,
+    "lon": 119.8806
+  },
+  {
+    "code": "0142",
+    "province_code": "1600",
+    "province": "Sumatera Selatan",
+    "region": "Ogan Komering Ulu Timur",
+    "lat": -4.1472,
+    "lon": 104.5395
+  },
+  {
+    "code": "0143",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Lembata",
+    "lat": -8.3777,
+    "lon": 123.5605
+  },
+  {
+    "code": "0144",
+    "province_code": "9300",
+    "province": "Papua Selatan",
+    "region": "Boven Digoel",
+    "lat": -6.1249,
+    "lon": 140.354
+  },
+  {
+    "code": "0145",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Gresik",
+    "lat": -6.5697,
+    "lon": 112.5561
+  },
+  {
+    "code": "0146",
+    "province_code": "8100",
+    "province": "Maluku",
+    "region": "Kota Ambon",
+    "lat": -3.6618,
+    "lon": 128.1837
+  },
+  {
+    "code": "0147",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Pakpak Bharat",
+    "lat": 2.5244,
+    "lon": 98.2684
+  },
+  {
+    "code": "0148",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Rote Ndao",
+    "lat": -10.7044,
+    "lon": 123.1177
+  },
+  {
+    "code": "0149",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Demak",
+    "lat": -6.9286,
+    "lon": 110.6545
+  },
+  {
+    "code": "0150",
+    "province_code": "6400",
+    "province": "Kalimantan Timur",
+    "region": "Kutai Timur",
+    "lat": 0.9444,
+    "lon": 117.4899
+  },
+  {
+    "code": "0151",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Aceh Tenggara",
+    "lat": 3.339,
+    "lon": 97.6179
+  },
+  {
+    "code": "0152",
+    "province_code": "7400",
+    "province": "Sulawesi Tenggara",
+    "region": "Konawe Utara",
+    "lat": -3.4549,
+    "lon": 122.0103
+  },
+  {
+    "code": "0153",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Wajo",
+    "lat": -3.9638,
+    "lon": 120.1619
+  },
+  {
+    "code": "0154",
+    "province_code": "6200",
+    "province": "Kalimantan Tengah",
+    "region": "Katingan",
+    "lat": -1.8739,
+    "lon": 112.9339
+  },
+  {
+    "code": "0155",
+    "province_code": "7400",
+    "province": "Sulawesi Tenggara",
+    "region": "Buton Utara",
+    "lat": -4.7581,
+    "lon": 123.0227
+  },
+  {
+    "code": "0156",
+    "province_code": "7200",
+    "province": "Sulawesi Tengah",
+    "region": "Donggala",
+    "lat": -0.3466,
+    "lon": 119.8173
+  },
+  {
+    "code": "0157",
+    "province_code": "6300",
+    "province": "Kalimantan Selatan",
+    "region": "Hulu Sungai Utara",
+    "lat": -2.4246,
+    "lon": 115.1291
+  },
+  {
+    "code": "0158",
+    "province_code": "1500",
+    "province": "Jambi",
+    "region": "Kerinci",
+    "lat": -2.0647,
+    "lon": 101.476
+  },
+  {
+    "code": "0159",
+    "province_code": "1800",
+    "province": "Lampung",
+    "region": "Lampung Utara",
+    "lat": -4.7966,
+    "lon": 104.8096
+  },
+  {
+    "code": "0160",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Pangandaran",
+    "lat": -7.6444,
+    "lon": 108.5571
+  },
+  {
+    "code": "0161",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Sampang",
+    "lat": -7.0583,
+    "lon": 113.2619
+  },
+  {
+    "code": "0162",
+    "province_code": "1300",
+    "province": "Sumatera Barat",
+    "region": "Dharmasraya",
+    "lat": -1.2585,
+    "lon": 101.5249
+  },
+  {
+    "code": "0163",
+    "province_code": "1700",
+    "province": "Bengkulu",
+    "region": "Rejang Lebong",
+    "lat": -3.4424,
+    "lon": 102.6901
+  },
+  {
+    "code": "0164",
+    "province_code": "8200",
+    "province": "Maluku Utara",
+    "region": "Pulau Morotai",
+    "lat": 2.3266,
+    "lon": 128.4088
+  },
+  {
+    "code": "0165",
+    "province_code": "8100",
+    "province": "Papua",
+    "region": "Waropen",
+    "lat": -2.8044,
+    "lon": 136.78
+  },
+  {
+    "code": "0166",
+    "province_code": "9100",
+    "province": "Papua Barat Daya",
+    "region": "Sorong Selatan",
+    "lat": -1.6618,
+    "lon": 132.2361
+  },
+  {
+    "code": "0167",
+    "province_code": "3600",
+    "province": "Banten",
+    "region": "Lebak",
+    "lat": -6.6433,
+    "lon": 106.1955
+  },
+  {
+    "code": "0168",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Cilacap",
+    "lat": -7.4585,
+    "lon": 108.9738
+  },
+  {
+    "code": "0169",
+    "province_code": "3100",
+    "province": "DKI Jakarta",
+    "region": "Kota Administrasi Jakarta Timur",
+    "lat": -6.2634,
+    "lon": 106.9065
+  },
+  {
+    "code": "0170",
+    "province_code": "1800",
+    "province": "Lampung",
+    "region": "Tulang Bawang",
+    "lat": -4.4022,
+    "lon": 105.5348
+  },
+  {
+    "code": "0171",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Kota Surakarta",
+    "lat": -7.5589,
+    "lon": 110.816
+  },
+  {
+    "code": "0172",
+    "province_code": "7400",
+    "province": "Sulawesi Tenggara",
+    "region": "Kolaka Utara",
+    "lat": -3.2593,
+    "lon": 121.1531
+  },
+  {
+    "code": "0173",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Belu",
+    "lat": -9.1801,
+    "lon": 124.9867
+  },
+  {
+    "code": "0174",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Langkat",
+    "lat": 3.7595,
+    "lon": 98.2321
+  },
+  {
+    "code": "0175",
+    "province_code": "3100",
+    "province": "DKI Jakarta",
+    "region": "Kota Administrasi Jakarta Barat",
+    "lat": -6.1601,
+    "lon": 106.7572
+  },
+  {
+    "code": "0176",
+    "province_code": "9400",
+    "province": "Papua",
+    "region": "Kota Jayapura",
+    "lat": -2.6578,
+    "lon": 140.8033
+  },
+  {
+    "code": "0177",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Kota Kediri",
+    "lat": -7.8284,
+    "lon": 112.0107
+  },
+  {
+    "code": "0178",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Jember",
+    "lat": -8.2634,
+    "lon": 113.6579
+  },
+  {
+    "code": "0179",
+    "province_code": "1800",
+    "province": "Lampung",
+    "region": "Pesawaran",
+    "lat": -5.4585,
+    "lon": 105.0963
+  },
+  {
+    "code": "0181",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Mojokerto",
+    "lat": -7.542,
+    "lon": 112.4979
+  },
+  {
+    "code": "0182",
+    "province_code": "7600",
+    "province": "Sulawesi Barat",
+    "region": "Mamuju",
+    "lat": -2.5383,
+    "lon": 119.2588
+  },
+  {
+    "code": "0183",
+    "province_code": "7200",
+    "province": "Sulawesi Tengah",
+    "region": "Banggai Laut",
+    "lat": -1.7542,
+    "lon": 123.4609
+  },
+  {
+    "code": "0184",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Brebes",
+    "lat": -7.0622,
+    "lon": 108.9462
+  },
+  {
+    "code": "0185",
+    "province_code": "6100",
+    "province": "Kalimantan Barat",
+    "region": "Ketapang",
+    "lat": -1.6819,
+    "lon": 110.5807
+  },
+  {
+    "code": "0186",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Aceh Jaya",
+    "lat": 4.812,
+    "lon": 95.6729
+  },
+  {
+    "code": "0187",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Alor",
+    "lat": -8.3369,
+    "lon": 124.539
+  },
+  {
+    "code": "0188",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Barru",
+    "lat": -4.4321,
+    "lon": 119.7034
+  },
+  {
+    "code": "0189",
+    "province_code": "1300",
+    "province": "Sumatera Barat",
+    "region": "Kota Payakumbuh",
+    "lat": -0.2319,
+    "lon": 100.6346
+  },
+  {
+    "code": "0190",
+    "province_code": "7100",
+    "province": "Sulawesi Utara",
+    "region": "Kota Manado",
+    "lat": 1.5055,
+    "lon": 124.8584
+  },
+  {
+    "code": "0191",
+    "province_code": "1700",
+    "province": "Bengkulu",
+    "region": "Bengkulu Selatan",
+    "lat": -4.3597,
+    "lon": 103.0427
+  },
+  {
+    "code": "0192",
+    "province_code": "9600",
+    "province": "Papua Pegunungan",
+    "region": "Pegunungan Bintang",
+    "lat": -4.5072,
+    "lon": 140.4718
+  },
+  {
+    "code": "0193",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Wonosobo",
+    "lat": -7.3956,
+    "lon": 109.9056
+  },
+  {
+    "code": "0194",
+    "province_code": "7200",
+    "province": "Sulawesi Tengah",
+    "region": "Morowali Utara",
+    "lat": -1.8431,
+    "lon": 121.4378
+  },
+  {
+    "code": "0195",
+    "province_code": "8200",
+    "province": "Maluku Utara",
+    "region": "Kepulauan Sula",
+    "lat": -2.1275,
+    "lon": 125.8272
+  },
+  {
+    "code": "0196",
+    "province_code": "6200",
+    "province": "Kalimantan Tengah",
+    "region": "Kota Palangkaraya",
+    "lat": -1.9938,
+    "lon": 113.792
+  },
+  {
+    "code": "0197",
+    "province_code": "3100",
+    "province": "DKI Jakarta",
+    "region": "Kota Administrasi Jakarta Selatan",
+    "lat": -6.2717,
+    "lon": 106.8014
+  },
+  {
+    "code": "0198",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Padang Lawas Utara",
+    "lat": 1.6293,
+    "lon": 99.8503
+  },
+  {
+    "code": "0199",
+    "province_code": "9600",
+    "province": "Papua Pegunungan",
+    "region": "Yahukimo",
+    "lat": -4.4558,
+    "lon": 139.4583
+  },
+  {
+    "code": "0200",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Gayo Lues",
+    "lat": 3.9774,
+    "lon": 97.3229
+  },
+  {
+    "code": "0201",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Pidie Jaya",
+    "lat": 5.1003,
+    "lon": 96.192
+  },
+  {
+    "code": "0202",
+    "province_code": "9600",
+    "province": "Papua Pegunungan",
+    "region": "Nduga",
+    "lat": -4.4171,
+    "lon": 138.3592
+  },
+  {
+    "code": "0203",
+    "province_code": "1700",
+    "province": "Bengkulu",
+    "region": "Muko Muko",
+    "lat": -2.7086,
+    "lon": 101.4441
+  },
+  {
+    "code": "0204",
+    "province_code": "1800",
+    "province": "Lampung",
+    "region": "Lampung Barat",
+    "lat": -5.1049,
+    "lon": 104.2014
+  },
+  {
+    "code": "0205",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Bogor",
+    "lat": -6.5459,
+    "lon": 106.8154
+  },
+  {
+    "code": "0206",
+    "province_code": "9100",
+    "province": "Papua Barat",
+    "region": "Fak Fak",
+    "lat": -3.2721,
+    "lon": 132.7403
+  },
+  {
+    "code": "0207",
+    "province_code": "1300",
+    "province": "Sumatera Barat",
+    "region": "Pesisir Selatan",
+    "lat": -1.7187,
+    "lon": 100.8293
+  },
+  {
+    "code": "0208",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Luwu",
+    "lat": -3.1637,
+    "lon": 120.1517
+  },
+  {
+    "code": "0209",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Majalengka",
+    "lat": -6.8135,
+    "lon": 108.2254
+  },
+  {
+    "code": "0210",
+    "province_code": "7100",
+    "province": "Sulawesi Utara",
+    "region": "Kepulauan Talaud",
+    "lat": 4.1361,
+    "lon": 126.787
+  },
+  {
+    "code": "0211",
+    "province_code": "1600",
+    "province": "Sumatera Selatan",
+    "region": "Muara Enim",
+    "lat": -3.6942,
+    "lon": 103.9964
+  },
+  {
+    "code": "0213",
+    "province_code": "7200",
+    "province": "Sulawesi Tengah",
+    "region": "Banggai Kepulauan",
+    "lat": -1.3943,
+    "lon": 123.1712
+  },
+  {
+    "code": "0214",
+    "province_code": "6300",
+    "province": "Kalimantan Selatan",
+    "region": "Hulu Sungai Selatan",
+    "lat": -2.7166,
+    "lon": 115.2304
+  },
+  {
+    "code": "0215",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Padang Lawas",
+    "lat": 1.1554,
+    "lon": 99.8036
+  },
+  {
+    "code": "0216",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Kota Depok",
+    "lat": -6.386,
+    "lon": 106.8198
+  },
+  {
+    "code": "0217",
+    "province_code": "8200",
+    "province": "Maluku Utara",
+    "region": "Halmahera Utara",
+    "lat": 1.5731,
+    "lon": 127.8332
+  },
+  {
+    "code": "0218",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Nias Selatan",
+    "lat": 0.2301,
+    "lon": 98.1888
+  },
+  {
+    "code": "0219",
+    "province_code": "1800",
+    "province": "Lampung",
+    "region": "Kota Metro",
+    "lat": -5.1127,
+    "lon": 105.3086
+  },
+  {
+    "code": "0220",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Kota Surabaya",
+    "lat": -7.2723,
+    "lon": 112.7217
+  },
+  {
+    "code": "0221",
+    "province_code": "6400",
+    "province": "Kalimantan Timur",
+    "region": "Berau",
+    "lat": 1.7746,
+    "lon": 117.564
+  },
+  {
+    "code": "0222",
+    "province_code": "9600",
+    "province": "Papua Pegunungan",
+    "region": "Lanny Jaya",
+    "lat": -3.9986,
+    "lon": 138.3538
+  },
+  {
+    "code": "0223",
+    "province_code": "1900",
+    "province": "Kepulauan Bangka Belitung",
+    "region": "Kota Pangkal Pinang",
+    "lat": -2.1027,
+    "lon": 106.1091
+  },
+  {
+    "code": "0224",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Gowa",
+    "lat": -5.3275,
+    "lon": 119.6815
+  },
+  {
+    "code": "0225",
+    "province_code": "6300",
+    "province": "Kalimantan Selatan",
+    "region": "Balangan",
+    "lat": -2.2865,
+    "lon": 115.575
+  },
+  {
+    "code": "0226",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Magetan",
+    "lat": -7.6512,
+    "lon": 111.3481
+  },
+  {
+    "code": "0227",
+    "province_code": "2100",
+    "province": "Kepulauan Riau",
+    "region": "Kepulauan Anambas",
+    "lat": 3.0595,
+    "lon": 106.0004
+  },
+  {
+    "code": "0228",
+    "province_code": "8200",
+    "province": "Maluku Utara",
+    "region": "Pulau Taliabu",
+    "lat": -1.8373,
+    "lon": 124.8154
+  },
+  {
+    "code": "0229",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Timor Tengah Utara",
+    "lat": -9.3399,
+    "lon": 124.4767
+  },
+  {
+    "code": "0230",
+    "province_code": "6200",
+    "province": "Kalimantan Tengah",
+    "region": "Pulang Pisau",
+    "lat": -2.5007,
+    "lon": 113.9664
+  },
+  {
+    "code": "0231",
+    "province_code": "8200",
+    "province": "Maluku",
+    "region": "Buru Selatan",
+    "lat": -3.5044,
+    "lon": 126.6239
+  },
+  {
+    "code": "0232",
+    "province_code": "1600",
+    "province": "Sumatera Selatan",
+    "region": "Kota Prabumulih",
+    "lat": -3.4554,
+    "lon": 104.2387
+  },
+  {
+    "code": "0233",
+    "province_code": "7400",
+    "province": "Sulawesi Tenggara",
+    "region": "Buton",
+    "lat": -5.3628,
+    "lon": 122.9509
+  },
+  {
+    "code": "0234",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Subang",
+    "lat": -6.4992,
+    "lon": 107.7264
+  },
+  {
+    "code": "0235",
+    "province_code": "9600",
+    "province": "Papua Pegunungan",
+    "region": "Jayawijaya",
+    "lat": -4.1225,
+    "lon": 138.9024
+  },
+  {
+    "code": "0236",
+    "province_code": "6200",
+    "province": "Kalimantan Tengah",
+    "region": "Barito Utara",
+    "lat": -0.757,
+    "lon": 115.1519
+  },
+  {
+    "code": "0237",
+    "province_code": "1700",
+    "province": "Bengkulu",
+    "region": "Bengkulu Utara",
+    "lat": -4.1181,
+    "lon": 101.9743
+  },
+  {
+    "code": "0238",
+    "province_code": "1800",
+    "province": "Lampung",
+    "region": "Pesisir Barat",
+    "lat": -5.3585,
+    "lon": 104.1296
+  },
+  {
+    "code": "0239",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Malang",
+    "lat": -8.1032,
+    "lon": 112.6278
+  },
+  {
+    "code": "0240",
+    "province_code": "5200",
+    "province": "Nusa Tenggara Barat",
+    "region": "Lombok Timur",
+    "lat": -8.5833,
+    "lon": 116.5484
+  },
+  {
+    "code": "0241",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Aceh Barat Daya",
+    "lat": 3.834,
+    "lon": 96.8703
+  },
+  {
+    "code": "0243",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Lamongan",
+    "lat": -7.1221,
+    "lon": 112.3092
+  },
+  {
+    "code": "0244",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Sukabumi",
+    "lat": -7.0762,
+    "lon": 106.7107
+  },
+  {
+    "code": "0245",
+    "province_code": "1600",
+    "province": "Sumatera Selatan",
+    "region": "Empat Lawang",
+    "lat": -3.7163,
+    "lon": 102.9112
+  },
+  {
+    "code": "0246",
+    "province_code": "6400",
+    "province": "Kalimantan Timur",
+    "region": "Kutai Kartanegara",
+    "lat": 0.1926,
+    "lon": 116.4333
+  },
+  {
+    "code": "0247",
+    "province_code": "7100",
+    "province": "Sulawesi Utara",
+    "region": "Minahasa Selatan",
+    "lat": 1.0706,
+    "lon": 124.5287
+  },
+  {
+    "code": "0248",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Aceh Singkil",
+    "lat": 2.307,
+    "lon": 97.6368
+  },
+  {
+    "code": "0249",
+    "province_code": "7500",
+    "province": "Gorontalo",
+    "region": "Kota Gorontalo",
+    "lat": 0.5349,
+    "lon": 123.0478
+  },
+  {
+    "code": "0250",
+    "province_code": "8100",
+    "province": "Maluku",
+    "region": "Maluku Tenggara",
+    "lat": -5.6325,
+    "lon": 132.9131
+  },
+  {
+    "code": "0251",
+    "province_code": "8100",
+    "province": "Maluku",
+    "region": "Kepulauan Tanimbar",
+    "lat": -7.5064,
+    "lon": 131.3791
+  },
+  {
+    "code": "0252",
+    "province_code": "1600",
+    "province": "Sumatera Selatan",
+    "region": "Musi Banyuasin",
+    "lat": -2.4884,
+    "lon": 103.8567
+  },
+  {
+    "code": "0253",
+    "province_code": "1400",
+    "province": "Riau",
+    "region": "Kampar",
+    "lat": 0.2946,
+    "lon": 101.0505
+  },
+  {
+    "code": "0254",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Sikka",
+    "lat": -8.5522,
+    "lon": 122.1811
+  },
+  {
+    "code": "0255",
+    "province_code": "1600",
+    "province": "Sumatera Selatan",
+    "region": "Musi Rawas",
+    "lat": -3.1518,
+    "lon": 103.0674
+  },
+  {
+    "code": "0256",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Labuhanbatu Utara",
+    "lat": 2.4365,
+    "lon": 99.7303
+  },
+  {
+    "code": "0257",
+    "province_code": "7200",
+    "province": "Sulawesi Tengah",
+    "region": "Toli Toli",
+    "lat": 0.9721,
+    "lon": 120.6571
+  },
+  {
+    "code": "0258",
+    "province_code": "6200",
+    "province": "Kalimantan Tengah",
+    "region": "Barito Timur",
+    "lat": -2.0081,
+    "lon": 115.1774
+  },
+  {
+    "code": "0259",
+    "province_code": "1300",
+    "province": "Sumatera Barat",
+    "region": "Agam",
+    "lat": -0.2557,
+    "lon": 100.1571
+  },
+  {
+    "code": "0260",
+    "province_code": "8200",
+    "province": "Maluku Utara",
+    "region": "Halmahera Selatan",
+    "lat": -0.6812,
+    "lon": 127.7088
+  },
+  {
+    "code": "0261",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Kota Pematangsiantar",
+    "lat": 2.9569,
+    "lon": 99.0621
+  },
+  {
+    "code": "0262",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Dairi",
+    "lat": 2.8297,
+    "lon": 98.2795
+  },
+  {
+    "code": "0263",
+    "province_code": "6100",
+    "province": "Kalimantan Barat",
+    "region": "Kubu Raya",
+    "lat": -0.3921,
+    "lon": 109.5139
+  },
+  {
+    "code": "0264",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Deli Serdang",
+    "lat": 3.4864,
+    "lon": 98.7067
+  },
+  {
+    "code": "0265",
+    "province_code": "2100",
+    "province": "Kepulauan Riau",
+    "region": "Kota Tanjung Pinang",
+    "lat": 0.9144,
+    "lon": 104.4828
+  },
+  {
+    "code": "0266",
+    "province_code": "9100",
+    "province": "Papua Barat",
+    "region": "Teluk Bintuni",
+    "lat": -2.1797,
+    "lon": 133.4788
+  },
+  {
+    "code": "0267",
+    "province_code": "9100",
+    "province": "Papua Barat",
+    "region": "Pegunungan Arfak",
+    "lat": -1.2594,
+    "lon": 133.6617
+  },
+  {
+    "code": "0268",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Sumedang",
+    "lat": -6.8089,
+    "lon": 107.9787
+  },
+  {
+    "code": "0269",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Madiun",
+    "lat": -7.611,
+    "lon": 111.6496
+  },
+  {
+    "code": "0270",
+    "province_code": "1500",
+    "province": "Jambi",
+    "region": "Bungo",
+    "lat": -1.52,
+    "lon": 101.9625
+  },
+  {
+    "code": "0271",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Aceh Tengah",
+    "lat": 4.5625,
+    "lon": 96.8144
+  },
+  {
+    "code": "0272",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Kepulauan Selayar",
+    "lat": -6.5956,
+    "lon": 121.1342
+  },
+  {
+    "code": "0273",
+    "province_code": "7400",
+    "province": "Sulawesi Tenggara",
+    "region": "Kolaka",
+    "lat": -4.1228,
+    "lon": 121.457
+  },
+  {
+    "code": "0274",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Jeneponto",
+    "lat": -5.5424,
+    "lon": 119.7136
+  },
+  {
+    "code": "0275",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Kota Sukabumi",
+    "lat": -6.9359,
+    "lon": 106.9286
+  },
+  {
+    "code": "0276",
+    "province_code": "1400",
+    "province": "Riau",
+    "region": "Pelalawan",
+    "lat": 0.1644,
+    "lon": 102.4236
+  },
+  {
+    "code": "0278",
+    "province_code": "1800",
+    "province": "Lampung",
+    "region": "Pringsewu",
+    "lat": -5.3663,
+    "lon": 104.9235
+  },
+  {
+    "code": "0279",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Pasuruan",
+    "lat": -7.7505,
+    "lon": 112.8375
+  },
+  {
+    "code": "0280",
+    "province_code": "1500",
+    "province": "Jambi",
+    "region": "Sarolangun",
+    "lat": -2.3282,
+    "lon": 102.6472
+  },
+  {
+    "code": "0281",
+    "province_code": "7400",
+    "province": "Sulawesi Tenggara",
+    "region": "Konawe Selatan",
+    "lat": -4.2653,
+    "lon": 122.3941
+  },
+  {
+    "code": "0282",
+    "province_code": "1400",
+    "province": "Kepulauan Riau",
+    "region": "Bintan",
+    "lat": 1.0207,
+    "lon": 105.9055
+  },
+  {
+    "code": "0284",
+    "province_code": "5200",
+    "province": "Nusa Tenggara Barat",
+    "region": "Lombok Barat",
+    "lat": -8.6567,
+    "lon": 116.0804
+  },
+  {
+    "code": "0285",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Kota Subulussalam",
+    "lat": 2.7538,
+    "lon": 97.9416
+  },
+  {
+    "code": "0286",
+    "province_code": "7400",
+    "province": "Sulawesi Tenggara",
+    "region": "Bombana",
+    "lat": -4.9031,
+    "lon": 121.7891
+  },
+  {
+    "code": "0287",
+    "province_code": "1400",
+    "province": "Riau",
+    "region": "Kuantan Singingi",
+    "lat": -0.484,
+    "lon": 101.4818
+  },
+  {
+    "code": "0288",
+    "province_code": "7500",
+    "province": "Gorontalo",
+    "region": "Bone Bolango",
+    "lat": 0.5583,
+    "lon": 123.3022
+  },
+  {
+    "code": "0289",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Luwu Timur",
+    "lat": -2.5194,
+    "lon": 121.1272
+  },
+  {
+    "code": "0290",
+    "province_code": "9300",
+    "province": "Papua Selatan",
+    "region": "Merauke",
+    "lat": -7.8705,
+    "lon": 139.3303
+  },
+  {
+    "code": "0291",
+    "province_code": "9600",
+    "province": "Papua Pegunungan",
+    "region": "Tolikara",
+    "lat": -3.3713,
+    "lon": 138.4714
+  },
+  {
+    "code": "0292",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Asahan",
+    "lat": 2.8554,
+    "lon": 99.5349
+  },
+  {
+    "code": "0293",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Kota Blitar",
+    "lat": -8.0955,
+    "lon": 112.1667
+  },
+  {
+    "code": "0294",
+    "province_code": "9500",
+    "province": "Papua Tengah",
+    "region": "Intan Jaya",
+    "lat": -3.5235,
+    "lon": 136.7993
+  },
+  {
+    "code": "0295",
+    "province_code": "9400",
+    "province": "Papua",
+    "region": "Supiori",
+    "lat": -0.7573,
+    "lon": 135.5719
+  },
+  {
+    "code": "0296",
+    "province_code": "1800",
+    "province": "Lampung",
+    "region": "Lampung Selatan",
+    "lat": -5.5243,
+    "lon": 105.4784
+  },
+  {
+    "code": "0297",
+    "province_code": "5200",
+    "province": "Nusa Tenggara Barat",
+    "region": "Sumbawa",
+    "lat": -8.6224,
+    "lon": 117.6028
+  },
+  {
+    "code": "0298",
+    "province_code": "5100",
+    "province": "Bali",
+    "region": "Klungkung",
+    "lat": -8.6345,
+    "lon": 115.4931
+  },
+  {
+    "code": "0299",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Samosir",
+    "lat": 2.5754,
+    "lon": 98.7201
+  },
+  {
+    "code": "0300",
+    "province_code": "9100",
+    "province": "Papua Barat Daya",
+    "region": "Tambrauw",
+    "lat": -0.8499,
+    "lon": 132.6158
+  },
+  {
+    "code": "0301",
+    "province_code": "1500",
+    "province": "Jambi",
+    "region": "Muaro Jambi",
+    "lat": -1.7078,
+    "lon": 103.8126
+  },
+  {
+    "code": "0302",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Sragen",
+    "lat": -7.3924,
+    "lon": 110.9607
+  },
+  {
+    "code": "0303",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Kota Lhokseumawe",
+    "lat": 5.1627,
+    "lon": 97.1073
+  },
+  {
+    "code": "0304",
+    "province_code": "9100",
+    "province": "Papua Barat Daya",
+    "region": "Sorong",
+    "lat": -1.1474,
+    "lon": 131.496
+  },
+  {
+    "code": "0305",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Tapanuli Selatan",
+    "lat": 1.5509,
+    "lon": 99.194
+  },
+  {
+    "code": "0306",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Kota Bandung",
+    "lat": -6.9157,
+    "lon": 107.6247
+  },
+  {
+    "code": "0307",
+    "province_code": "8200",
+    "province": "Maluku Utara",
+    "region": "Kota Tidore Kepulauan",
+    "lat": 0.3824,
+    "lon": 127.5941
+  },
+  {
+    "code": "0308",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Kendal",
+    "lat": -7.0248,
+    "lon": 110.1378
+  },
+  {
+    "code": "0309",
+    "province_code": "8200",
+    "province": "Maluku Utara",
+    "region": "Kota Ternate",
+    "lat": 0.8121,
+    "lon": 127.3411
+  },
+  {
+    "code": "0310",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Purwakarta",
+    "lat": -6.5908,
+    "lon": 107.4071
+  },
+  {
+    "code": "0311",
+    "province_code": "3600",
+    "province": "Banten",
+    "region": "Pandeglang",
+    "lat": -6.5515,
+    "lon": 105.6685
+  },
+  {
+    "code": "0312",
+    "province_code": "9500",
+    "province": "Papua Tengah",
+    "region": "Puncak Jaya",
+    "lat": -3.4719,
+    "lon": 137.9018
+  },
+  {
+    "code": "0313",
+    "province_code": "9400",
+    "province": "Papua",
+    "region": "Jayapura",
+    "lat": -3.0399,
+    "lon": 140.0174
+  },
+  {
+    "code": "0314",
+    "province_code": "6400",
+    "province": "Kalimantan Timur",
+    "region": "Mahakam Ulu",
+    "lat": 0.618,
+    "lon": 114.8007
+  },
+  {
+    "code": "0315",
+    "province_code": "1600",
+    "province": "Sumatera Selatan",
+    "region": "Ogan Komering Ulu",
+    "lat": -4.1041,
+    "lon": 104.0888
+  },
+  {
+    "code": "0316",
+    "province_code": "7400",
+    "province": "Sulawesi Tenggara",
+    "region": "Muna Barat",
+    "lat": -4.8029,
+    "lon": 122.4889
+  },
+  {
+    "code": "0317",
+    "province_code": "7400",
+    "province": "Sulawesi Tenggara",
+    "region": "Konawe",
+    "lat": -3.5113,
+    "lon": 122.011
+  },
+  {
+    "code": "0318",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Timor Tengah Selatan",
+    "lat": -9.8276,
+    "lon": 124.4374
+  },
+  {
+    "code": "0319",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Bojonegoro",
+    "lat": -7.228,
+    "lon": 111.7879
+  },
+  {
+    "code": "0320",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Serdang Bedagai",
+    "lat": 3.3505,
+    "lon": 99.0276
+  },
+  {
+    "code": "0321",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Jepara",
+    "lat": -6.3109,
+    "lon": 110.693
+  },
+  {
+    "code": "0322",
+    "province_code": "7600",
+    "province": "Sulawesi Barat",
+    "region": "Mamuju Tengah",
+    "lat": -2.0216,
+    "lon": 119.5024
+  },
+  {
+    "code": "0323",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Mandailing Natal",
+    "lat": 0.7871,
+    "lon": 99.4021
+  },
+  {
+    "code": "0324",
+    "province_code": "8200",
+    "province": "Maluku Utara",
+    "region": "Halmahera Barat",
+    "lat": 1.363,
+    "lon": 127.5938
+  },
+  {
+    "code": "0325",
+    "province_code": "3600",
+    "province": "Banten",
+    "region": "Kota Cilegon",
+    "lat": -5.9756,
+    "lon": 106.0048
+  },
+  {
+    "code": "0326",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Pacitan",
+    "lat": -8.0988,
+    "lon": 111.16
+  },
+  {
+    "code": "0327",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Manggarai",
+    "lat": -8.5682,
+    "lon": 120.3895
+  },
+  {
+    "code": "0328",
+    "province_code": "1600",
+    "province": "Sumatera Selatan",
+    "region": "Lahat",
+    "lat": -3.8791,
+    "lon": 103.3422
+  },
+  {
+    "code": "0329",
+    "province_code": "1300",
+    "province": "Sumatera Barat",
+    "region": "Lima Puluh Kota",
+    "lat": 0.024,
+    "lon": 100.5567
+  },
+  {
+    "code": "0330",
+    "province_code": "9500",
+    "province": "Papua Tengah",
+    "region": "Nabire",
+    "lat": -3.3263,
+    "lon": 135.4602
+  },
+  {
+    "code": "0331",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Tasikmalaya",
+    "lat": -7.427,
+    "lon": 108.168
+  },
+  {
+    "code": "0332",
+    "province_code": "6500",
+    "province": "Kalimantan Utara",
+    "region": "Nunukan",
+    "lat": 3.9002,
+    "lon": 116.7483
+  },
+  {
+    "code": "0333",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Temanggung",
+    "lat": -7.2433,
+    "lon": 110.1314
+  },
+  {
+    "code": "0334",
+    "province_code": "3600",
+    "province": "Banten",
+    "region": "Kota Tangerang Selatan",
+    "lat": -6.296,
+    "lon": 106.7091
+  },
+  {
+    "code": "0335",
+    "province_code": "7400",
+    "province": "Sulawesi Tenggara",
+    "region": "Kolaka Timur",
+    "lat": -3.8215,
+    "lon": 121.5749
+  },
+  {
+    "code": "0336",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Tuban",
+    "lat": -6.9437,
+    "lon": 111.8948
+  },
+  {
+    "code": "0337",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Sumba Barat Daya",
+    "lat": -9.5433,
+    "lon": 119.1654
+  },
+  {
+    "code": "0338",
+    "province_code": "1600",
+    "province": "Sumatera Selatan",
+    "region": "Kota Palembang",
+    "lat": -2.976,
+    "lon": 104.7402
+  },
+  {
+    "code": "0339",
+    "province_code": "6200",
+    "province": "Kalimantan Tengah",
+    "region": "Murung Raya",
+    "lat": -0.0449,
+    "lon": 114.1789
+  },
+  {
+    "code": "0340",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Pati",
+    "lat": -6.7046,
+    "lon": 111.036
+  },
+  {
+    "code": "0341",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Maros",
+    "lat": -4.9652,
+    "lon": 119.7199
+  },
+  {
+    "code": "0342",
+    "province_code": "7200",
+    "province": "Sulawesi Tengah",
+    "region": "Morowali",
+    "lat": -2.8945,
+    "lon": 122.3109
+  },
+  {
+    "code": "0343",
+    "province_code": "1900",
+    "province": "Kepulauan Bangka Belitung",
+    "region": "Bangka Tengah",
+    "lat": -2.4303,
+    "lon": 106.3069
+  },
+  {
+    "code": "0344",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Nagan Raya",
+    "lat": 4.1818,
+    "lon": 96.4917
+  },
+  {
+    "code": "0345",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Kota Pare Pare",
+    "lat": -4.0194,
+    "lon": 119.6706
+  },
+  {
+    "code": "0346",
+    "province_code": "5100",
+    "province": "Bali",
+    "region": "Badung",
+    "lat": -8.5444,
+    "lon": 115.1751
+  },
+  {
+    "code": "0347",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Nias Utara",
+    "lat": 1.3159,
+    "lon": 97.32
+  },
+  {
+    "code": "0348",
+    "province_code": "7200",
+    "province": "Sulawesi Tengah",
+    "region": "Buol",
+    "lat": 0.9923,
+    "lon": 121.5391
+  },
+  {
+    "code": "0349",
+    "province_code": "7100",
+    "province": "Sulawesi Utara",
+    "region": "Kota Kotamobagu",
+    "lat": 0.7115,
+    "lon": 124.3199
+  },
+  {
+    "code": "0350",
+    "province_code": "1400",
+    "province": "Riau",
+    "region": "Rokan Hilir",
+    "lat": 1.8888,
+    "lon": 100.8121
+  },
+  {
+    "code": "0351",
+    "province_code": "1400",
+    "province": "Riau",
+    "region": "Kepulauan Meranti",
+    "lat": 1.0517,
+    "lon": 102.6796
+  },
+  {
+    "code": "0352",
+    "province_code": "8100",
+    "province": "Maluku",
+    "region": "Maluku Tengah",
+    "lat": -3.2819,
+    "lon": 129.0325
+  },
+  {
+    "code": "0353",
+    "province_code": "6100",
+    "province": "Kalimantan Barat",
+    "region": "Kayong Utara",
+    "lat": -1.2071,
+    "lon": 109.6011
+  },
+  {
+    "code": "0354",
+    "province_code": "1500",
+    "province": "Jambi",
+    "region": "Tebo",
+    "lat": -1.3905,
+    "lon": 102.322
+  },
+  {
+    "code": "0355",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Tapanuli Tengah",
+    "lat": 1.8699,
+    "lon": 98.5923
+  },
+  {
+    "code": "0356",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Pidie",
+    "lat": 5.1297,
+    "lon": 96.1023
+  },
+  {
+    "code": "0357",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Kota Pasuruan",
+    "lat": -7.6532,
+    "lon": 112.9123
+  },
+  {
+    "code": "0358",
+    "province_code": "5100",
+    "province": "Bali",
+    "region": "Gianyar",
+    "lat": -8.4825,
+    "lon": 115.2982
+  },
+  {
+    "code": "0359",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Bantaeng",
+    "lat": -5.4715,
+    "lon": 119.9795
+  },
+  {
+    "code": "0360",
+    "province_code": "1400",
+    "province": "Riau",
+    "region": "Bengkalis",
+    "lat": 1.5234,
+    "lon": 101.741
+  },
+  {
+    "code": "0361",
+    "province_code": "6400",
+    "province": "Kalimantan Timur",
+    "region": "Paser",
+    "lat": -1.6898,
+    "lon": 116.1072
+  },
+  {
+    "code": "0362",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Kota Batu",
+    "lat": -7.8324,
+    "lon": 112.5373
+  },
+  {
+    "code": "0363",
+    "province_code": "9400",
+    "province": "Papua",
+    "region": "Mamberamo Raya",
+    "lat": -2.4404,
+    "lon": 138.0233
+  },
+  {
+    "code": "0364",
+    "province_code": "1300",
+    "province": "Sumatera Barat",
+    "region": "Kota Pariaman",
+    "lat": -0.6241,
+    "lon": 100.1361
+  },
+  {
+    "code": "0365",
+    "province_code": "1300",
+    "province": "Sumatera Barat",
+    "region": "Padang Pariaman",
+    "lat": -0.5695,
+    "lon": 100.21
+  },
+  {
+    "code": "0366",
+    "province_code": "6200",
+    "province": "Kalimantan Tengah",
+    "region": "Kotawaringin Barat",
+    "lat": -2.5045,
+    "lon": 111.6778
+  },
+  {
+    "code": "0367",
+    "province_code": "6100",
+    "province": "Kalimantan Barat",
+    "region": "Kota Pontianak",
+    "lat": -0.028,
+    "lon": 109.3222
+  },
+  {
+    "code": "0368",
+    "province_code": "7100",
+    "province": "Sulawesi Utara",
+    "region": "Kepulauan Siau Tagulandang Biaro",
+    "lat": 2.5616,
+    "lon": 125.4121
+  },
+  {
+    "code": "0369",
+    "province_code": "1300",
+    "province": "Sumatera Barat",
+    "region": "Kota Padang",
+    "lat": -0.9303,
+    "lon": 100.4283
+  },
+  {
+    "code": "0370",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Kudus",
+    "lat": -6.7996,
+    "lon": 110.8677
+  },
+  {
+    "code": "0371",
+    "province_code": "8100",
+    "province": "Maluku",
+    "region": "Buru",
+    "lat": -3.3646,
+    "lon": 126.6814
+  },
+  {
+    "code": "0372",
+    "province_code": "3200",
+    "province": "Jawa Tengah",
+    "region": "Kota Tegal",
+    "lat": -6.8694,
+    "lon": 109.1191
+  },
+  {
+    "code": "0373",
+    "province_code": "9100",
+    "province": "Papua Barat Daya",
+    "region": "Maybrat",
+    "lat": -1.4046,
+    "lon": 132.4903
+  },
+  {
+    "code": "0374",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Bangkalan",
+    "lat": -7.0469,
+    "lon": 112.9108
+  },
+  {
+    "code": "0375",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Kota Medan",
+    "lat": 3.6532,
+    "lon": 98.676
+  },
+  {
+    "code": "0376",
+    "province_code": "7100",
+    "province": "Sulawesi Utara",
+    "region": "Bolaang Mongondow",
+    "lat": 0.7215,
+    "lon": 124.0352
+  },
+  {
+    "code": "0377",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Aceh Barat",
+    "lat": 4.4285,
+    "lon": 96.1843
+  },
+  {
+    "code": "0378",
+    "province_code": "3100",
+    "province": "DKI Jakarta",
+    "region": "Kota Administrasi Jakarta Pusat",
+    "lat": -6.1723,
+    "lon": 106.8357
+  },
+  {
+    "code": "0379",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Kota Cimahi",
+    "lat": -6.8827,
+    "lon": 107.5424
+  },
+  {
+    "code": "0380",
+    "province_code": "7100",
+    "province": "Sulawesi Utara",
+    "region": "Kota Tomohon",
+    "lat": 1.3307,
+    "lon": 124.8046
+  },
+  {
+    "code": "0381",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Manggarai Timur",
+    "lat": -8.5819,
+    "lon": 120.6984
+  },
+  {
+    "code": "0383",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Kota Probolinggo",
+    "lat": -7.7747,
+    "lon": 113.2002
+  },
+  {
+    "code": "0384",
+    "province_code": "7600",
+    "province": "Sulawesi Barat",
+    "region": "Polewali Mandar",
+    "lat": -3.3031,
+    "lon": 119.2008
+  },
+  {
+    "code": "0385",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Sumenep",
+    "lat": -7.0173,
+    "lon": 114.7379
+  },
+  {
+    "code": "0386",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Humbang Hasundutan",
+    "lat": 2.2378,
+    "lon": 98.6045
+  },
+  {
+    "code": "0387",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Aceh Utara",
+    "lat": 4.9999,
+    "lon": 97.1503
+  },
+  {
+    "code": "0388",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Ngada",
+    "lat": -8.6517,
+    "lon": 121.0062
+  },
+  {
+    "code": "0389",
+    "province_code": "9100",
+    "province": "Papua Barat",
+    "region": "Teluk Wondama",
+    "lat": -2.6169,
+    "lon": 134.3615
+  },
+  {
+    "code": "0390",
+    "province_code": "3400",
+    "province": "Daerah Istimewa Yogyakarta",
+    "region": "Kulon Progo",
+    "lat": -7.8152,
+    "lon": 110.1386
+  },
+  {
+    "code": "0391",
+    "province_code": "1400",
+    "province": "Riau",
+    "region": "Indragiri Hilir",
+    "lat": -0.2942,
+    "lon": 103.1874
+  },
+  {
+    "code": "0392",
+    "province_code": "5100",
+    "province": "Sulawesi Selatan",
+    "region": "Pangkajene Kepulauan",
+    "lat": -4.7543,
+    "lon": 119.6492
+  },
+  {
+    "code": "0393",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Magelang",
+    "lat": -7.5149,
+    "lon": 110.2448
+  },
+  {
+    "code": "0394",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Sabu Raijua",
+    "lat": -10.5186,
+    "lon": 121.8428
+  },
+  {
+    "code": "0395",
+    "province_code": "7400",
+    "province": "Sulawesi Tenggara",
+    "region": "Muna",
+    "lat": -4.9203,
+    "lon": 122.6224
+  },
+  {
+    "code": "0396",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Ende",
+    "lat": -8.6665,
+    "lon": 121.7008
+  },
+  {
+    "code": "0397",
+    "province_code": "7400",
+    "province": "Sulawesi Tenggara",
+    "region": "Wakatobi",
+    "lat": -5.6299,
+    "lon": 123.8008
+  },
+  {
+    "code": "0398",
+    "province_code": "6100",
+    "province": "Kalimantan Barat",
+    "region": "Kota Singkawang",
+    "lat": 0.8818,
+    "lon": 109.0248
+  },
+  {
+    "code": "0399",
+    "province_code": "7600",
+    "province": "Sulawesi Barat",
+    "region": "Pasangkayu",
+    "lat": -1.3372,
+    "lon": 119.578
+  },
+  {
+    "code": "0400",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Tulungagung",
+    "lat": -8.0728,
+    "lon": 111.9194
+  },
+  {
+    "code": "0401",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Sumba Timur",
+    "lat": -9.7948,
+    "lon": 120.2604
+  },
+  {
+    "code": "0402",
+    "province_code": "6100",
+    "province": "Kalimantan Barat",
+    "region": "Sekadau",
+    "lat": 0.033,
+    "lon": 110.9255
+  },
+  {
+    "code": "0403",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Sidoarjo",
+    "lat": -7.4536,
+    "lon": 112.6808
+  },
+  {
+    "code": "0404",
+    "province_code": "3100",
+    "province": "DKI Jakarta",
+    "region": "Kota Administrasi Jakarta Utara",
+    "lat": -6.128,
+    "lon": 106.841
+  },
+  {
+    "code": "0405",
+    "province_code": "6300",
+    "province": "Kalimantan Selatan",
+    "region": "Barito Kuala",
+    "lat": -3.021,
+    "lon": 114.6094
+  },
+  {
+    "code": "0406",
+    "province_code": "1300",
+    "province": "Sumatera Barat",
+    "region": "Kepulauan Mentawai",
+    "lat": -2.1282,
+    "lon": 99.5376
+  },
+  {
+    "code": "0407",
+    "province_code": "6500",
+    "province": "Kalimantan Utara",
+    "region": "Kota Tarakan",
+    "lat": 3.3417,
+    "lon": 117.5904
+  },
+  {
+    "code": "0408",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Rembang",
+    "lat": -6.7671,
+    "lon": 111.4627
+  },
+  {
+    "code": "0409",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Karanganyar",
+    "lat": -7.6179,
+    "lon": 110.9536
+  },
+  {
+    "code": "0410",
+    "province_code": "6300",
+    "province": "Kalimantan Selatan",
+    "region": "Tapin",
+    "lat": -2.8613,
+    "lon": 115.1526
+  },
+  {
+    "code": "0411",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Bandung Barat",
+    "lat": -6.8977,
+    "lon": 107.4662
+  },
+  {
+    "code": "0412",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Nias",
+    "lat": 1.0841,
+    "lon": 97.7158
+  },
+  {
+    "code": "0413",
+    "province_code": "9300",
+    "province": "Papua Selatan",
+    "region": "Mappi",
+    "lat": -6.3379,
+    "lon": 139.3247
+  },
+  {
+    "code": "0414",
+    "province_code": "6300",
+    "province": "Kalimantan Selatan",
+    "region": "Kotabaru",
+    "lat": -3.1719,
+    "lon": 116.0337
+  },
+  {
+    "code": "0415",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Grobogan",
+    "lat": -7.1062,
+    "lon": 110.8978
+  },
+  {
+    "code": "0416",
+    "province_code": "6300",
+    "province": "Kalimantan Selatan",
+    "region": "Kota Banjarbaru",
+    "lat": -3.4693,
+    "lon": 114.7906
+  },
+  {
+    "code": "0417",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Karo",
+    "lat": 3.0804,
+    "lon": 98.2672
+  },
+  {
+    "code": "0418",
+    "province_code": "7500",
+    "province": "Gorontalo",
+    "region": "Pohuwato",
+    "lat": 0.7053,
+    "lon": 121.6443
+  },
+  {
+    "code": "0419",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Probolinggo",
+    "lat": -7.8634,
+    "lon": 113.2893
+  },
+  {
+    "code": "0420",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Kota Banda Aceh",
+    "lat": 5.5639,
+    "lon": 95.3248
+  },
+  {
+    "code": "0421",
+    "province_code": "7600",
+    "province": "Sulawesi Barat",
+    "region": "Mamasa",
+    "lat": -2.9982,
+    "lon": 119.3228
+  },
+  {
+    "code": "0422",
+    "province_code": "1400",
+    "province": "Riau",
+    "region": "Siak",
+    "lat": 0.8216,
+    "lon": 101.9418
+  },
+  {
+    "code": "0423",
+    "province_code": "7100",
+    "province": "Sulawesi Utara",
+    "region": "Kepulauan Sangihe",
+    "lat": 3.5544,
+    "lon": 125.5369
+  },
+  {
+    "code": "0424",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Sumba Tengah",
+    "lat": -9.5861,
+    "lon": 119.6644
+  },
+  {
+    "code": "0425",
+    "province_code": "7400",
+    "province": "Sulawesi Tenggara",
+    "region": "Buton Selatan",
+    "lat": -5.5877,
+    "lon": 122.6481
+  },
+  {
+    "code": "0426",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Garut",
+    "lat": -7.3449,
+    "lon": 107.7798
+  },
+  {
+    "code": "0427",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Ngawi",
+    "lat": -7.4366,
+    "lon": 111.3966
+  },
+  {
+    "code": "0429",
+    "province_code": "1700",
+    "province": "Bengkulu",
+    "region": "Kepahiang",
+    "lat": -3.6488,
+    "lon": 102.6283
+  },
+  {
+    "code": "0430",
+    "province_code": "3600",
+    "province": "Banten",
+    "region": "Serang",
+    "lat": -6.1059,
+    "lon": 106.1193
+  },
+  {
+    "code": "0431",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Sidenreng Rappang",
+    "lat": -3.8088,
+    "lon": 120.0013
+  },
+  {
+    "code": "0432",
+    "province_code": "3400",
+    "province": "Daerah Istimewa Yogyakarta",
+    "region": "Bantul",
+    "lat": -7.8981,
+    "lon": 110.3655
+  },
+  {
+    "code": "0433",
+    "province_code": "1300",
+    "province": "Sumatera Barat",
+    "region": "Kota Solok",
+    "lat": -0.779,
+    "lon": 100.6116
+  },
+  {
+    "code": "0434",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Simalungun",
+    "lat": 2.9507,
+    "lon": 99.0514
+  },
+  {
+    "code": "0435",
+    "province_code": "1600",
+    "province": "Sumatera Selatan",
+    "region": "Banyuasin",
+    "lat": -2.3943,
+    "lon": 104.8037
+  },
+  {
+    "code": "0436",
+    "province_code": "7200",
+    "province": "Sulawesi Tengah",
+    "region": "Parigi Moutong",
+    "lat": -0.2369,
+    "lon": 120.6251
+  },
+  {
+    "code": "0437",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Enrekang",
+    "lat": -3.5341,
+    "lon": 119.8951
+  },
+  {
+    "code": "0438",
+    "province_code": "7400",
+    "province": "Sulawesi Tenggara",
+    "region": "Kota Kendari",
+    "lat": -3.993,
+    "lon": 122.5471
+  },
+  {
+    "code": "0439",
+    "province_code": "5200",
+    "province": "Nusa Tenggara Barat",
+    "region": "Dompu",
+    "lat": -8.5141,
+    "lon": 118.1246
+  },
+  {
+    "code": "0440",
+    "province_code": "7100",
+    "province": "Sulawesi Utara",
+    "region": "Minahasa Utara",
+    "lat": 1.5176,
+    "lon": 124.9929
+  },
+  {
+    "code": "0441",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Luwu Utara",
+    "lat": -2.4337,
+    "lon": 120.1667
+  },
+  {
+    "code": "0442",
+    "province_code": "3600",
+    "province": "Banten",
+    "region": "Kota Tangerang",
+    "lat": -6.1736,
+    "lon": 106.6512
+  },
+  {
+    "code": "0443",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Kota Tanjung Balai",
+    "lat": 2.9652,
+    "lon": 99.79
+  },
+  {
+    "code": "0444",
+    "province_code": "7100",
+    "province": "Sulawesi Utara",
+    "region": "Bolaang Mongondow Selatan",
+    "lat": 0.4577,
+    "lon": 123.9748
+  },
+  {
+    "code": "0445",
+    "province_code": "1800",
+    "province": "Lampung",
+    "region": "Lampung Tengah",
+    "lat": -4.8762,
+    "lon": 105.1821
+  },
+  {
+    "code": "0446",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Aceh Timur",
+    "lat": 4.6994,
+    "lon": 97.6293
+  },
+  {
+    "code": "0447",
+    "province_code": "5300",
+    "province": "Nusa Tenggara Timur",
+    "region": "Flores Timur",
+    "lat": -8.3503,
+    "lon": 122.994
+  },
+  {
+    "code": "0448",
+    "province_code": "6400",
+    "province": "Kalimantan Timur",
+    "region": "Penajam Paser Utara",
+    "lat": -1.1968,
+    "lon": 116.6403
+  },
+  {
+    "code": "0449",
+    "province_code": "6200",
+    "province": "Kalimantan Tengah",
+    "region": "Kapuas",
+    "lat": -1.9241,
+    "lon": 114.2397
+  },
+  {
+    "code": "0450",
+    "province_code": "7100",
+    "province": "Sulawesi Utara",
+    "region": "Bolaang Mongondow Timur",
+    "lat": 0.709,
+    "lon": 124.5182
+  },
+  {
+    "code": "0451",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Purworejo",
+    "lat": -7.703,
+    "lon": 109.9709
+  },
+  {
+    "code": "0452",
+    "province_code": "6100",
+    "province": "Kalimantan Barat",
+    "region": "Kapuas Hulu",
+    "lat": 0.8389,
+    "lon": 112.8673
+  },
+  {
+    "code": "0453",
+    "province_code": "8100",
+    "province": "Maluku",
+    "region": "Seram Bagian Timur",
+    "lat": -3.5647,
+    "lon": 130.654
+  },
+  {
+    "code": "0454",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Pekalongan",
+    "lat": -7.0427,
+    "lon": 109.6423
+  },
+  {
+    "code": "0455",
+    "province_code": "1700",
+    "province": "Bengkulu",
+    "region": "Kota Bengkulu",
+    "lat": -3.863,
+    "lon": 102.3105
+  },
+  {
+    "code": "0456",
+    "province_code": "5100",
+    "province": "Bali",
+    "region": "Jembrana",
+    "lat": -8.3196,
+    "lon": 114.6907
+  },
+  {
+    "code": "0457",
+    "province_code": "5200",
+    "province": "Nusa Tenggara Barat",
+    "region": "Sumbawa Barat",
+    "lat": -8.8149,
+    "lon": 116.9076
+  },
+  {
+    "code": "0458",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Soppeng",
+    "lat": -4.3196,
+    "lon": 119.9055
+  },
+  {
+    "code": "0459",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Banjarnegara",
+    "lat": -7.3559,
+    "lon": 109.6393
+  },
+  {
+    "code": "0460",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Labuhanbatu Selatan",
+    "lat": 1.8489,
+    "lon": 100.0547
+  },
+  {
+    "code": "0461",
+    "province_code": "9100",
+    "province": "Papua Barat Daya",
+    "region": "Kota Sorong",
+    "lat": -0.8646,
+    "lon": 131.315
+  },
+  {
+    "code": "0462",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Batang",
+    "lat": -7.0284,
+    "lon": 109.8627
+  },
+  {
+    "code": "0463",
+    "province_code": "9400",
+    "province": "Papua",
+    "region": "Keerom",
+    "lat": -3.4167,
+    "lon": 140.6593
+  },
+  {
+    "code": "0464",
+    "province_code": "1300",
+    "province": "Sumatera Barat",
+    "region": "Sijunjung",
+    "lat": -0.653,
+    "lon": 101.1685
+  },
+  {
+    "code": "0465",
+    "province_code": "1300",
+    "province": "Sumatera Barat",
+    "region": "Tanah Datar",
+    "lat": -0.469,
+    "lon": 100.5826
+  },
+  {
+    "code": "0466",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Nias Barat",
+    "lat": 1.0399,
+    "lon": 97.4918
+  },
+  {
+    "code": "0467",
+    "province_code": "1500",
+    "province": "Jambi",
+    "region": "Tanjung Jabung Barat",
+    "lat": -1.0867,
+    "lon": 103.1089
+  },
+  {
+    "code": "0468",
+    "province_code": "6300",
+    "province": "Kalimantan Selatan",
+    "region": "Kota Banjarmasin",
+    "lat": -3.3248,
+    "lon": 114.5804
+  },
+  {
+    "code": "0469",
+    "province_code": "5200",
+    "province": "Nusa Tenggara Barat",
+    "region": "Kota Mataram",
+    "lat": -8.5879,
+    "lon": 116.1181
+  },
+  {
+    "code": "0470",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Ponorogo",
+    "lat": -7.9709,
+    "lon": 111.5329
+  },
+  {
+    "code": "0471",
+    "province_code": "5100",
+    "province": "Bali",
+    "region": "Tabanan",
+    "lat": -8.4413,
+    "lon": 115.0665
+  },
+  {
+    "code": "0472",
+    "province_code": "7100",
+    "province": "Sulawesi Utara",
+    "region": "Kota Bitung",
+    "lat": 1.4965,
+    "lon": 125.1563
+  },
+  {
+    "code": "0473",
+    "province_code": "6400",
+    "province": "Kalimantan Timur",
+    "region": "Kota Samarinda",
+    "lat": -0.5184,
+    "lon": 117.176
+  },
+  {
+    "code": "0474",
+    "province_code": "1800",
+    "province": "Lampung",
+    "region": "Tulang Bawang Barat",
+    "lat": -4.4336,
+    "lon": 105.0792
+  },
+  {
+    "code": "0475",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Situbondo",
+    "lat": -7.7987,
+    "lon": 114.0311
+  },
+  {
+    "code": "0476",
+    "province_code": "1300",
+    "province": "Sumatera Barat",
+    "region": "Pasaman Barat",
+    "lat": 0.1794,
+    "lon": 99.613
+  },
+  {
+    "code": "0477",
+    "province_code": "5100",
+    "province": "Bali",
+    "region": "Karangasem",
+    "lat": -8.3587,
+    "lon": 115.5534
+  },
+  {
+    "code": "0478",
+    "province_code": "1800",
+    "province": "Lampung",
+    "region": "Kota Bandar Lampung",
+    "lat": -5.4277,
+    "lon": 105.2618
+  },
+  {
+    "code": "0479",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Kota Salatiga",
+    "lat": -7.3386,
+    "lon": 110.5016
+  },
+  {
+    "code": "0480",
+    "province_code": "1300",
+    "province": "Sumatera Barat",
+    "region": "Kota Sawahlunto",
+    "lat": -0.6697,
+    "lon": 100.7486
+  },
+  {
+    "code": "0481",
+    "province_code": "3400",
+    "province": "Daerah Istimewa Yogyakarta",
+    "region": "Sleman",
+    "lat": -7.6882,
+    "lon": 110.3798
+  },
+  {
+    "code": "0482",
+    "province_code": "8200",
+    "province": "Maluku Utara",
+    "region": "Halmahera Tengah",
+    "lat": 0.2218,
+    "lon": 128.6736
+  },
+  {
+    "code": "0483",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Cianjur",
+    "lat": -7.0537,
+    "lon": 107.1319
+  },
+  {
+    "code": "0484",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Banyuwangi",
+    "lat": -8.3327,
+    "lon": 114.2214
+  },
+  {
+    "code": "0485",
+    "province_code": "6200",
+    "province": "Kalimantan Tengah",
+    "region": "Lamandau",
+    "lat": -1.7798,
+    "lon": 111.358
+  },
+  {
+    "code": "0486",
+    "province_code": "1200",
+    "province": "Sumatera Utara",
+    "region": "Batu Bara",
+    "lat": 3.2558,
+    "lon": 99.472
+  },
+  {
+    "code": "0487",
+    "province_code": "7200",
+    "province": "Sulawesi Tengah",
+    "region": "Kota Palu",
+    "lat": -0.8198,
+    "lon": 119.9041
+  },
+  {
+    "code": "0488",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Kota Sabang",
+    "lat": 5.837,
+    "lon": 95.3162
+  },
+  {
+    "code": "0489",
+    "province_code": "1900",
+    "province": "Kepulauan Bangka Belitung",
+    "region": "Bangka Selatan",
+    "lat": -2.8014,
+    "lon": 106.4905
+  },
+  {
+    "code": "0490",
+    "province_code": "9500",
+    "province": "Papua Tengah",
+    "region": "Mimika",
+    "lat": -4.6076,
+    "lon": 136.4281
+  },
+  {
+    "code": "0491",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Kota Makassar",
+    "lat": -5.1461,
+    "lon": 119.4616
+  },
+  {
+    "code": "0492",
+    "province_code": "8100",
+    "province": "Maluku",
+    "region": "Seram Bagian Barat",
+    "lat": -3.1887,
+    "lon": 128.1651
+  },
+  {
+    "code": "0493",
+    "province_code": "1400",
+    "province": "Riau",
+    "region": "Kota Pekanbaru",
+    "lat": 0.558,
+    "lon": 101.4628
+  },
+  {
+    "code": "0494",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Kediri",
+    "lat": -7.7954,
+    "lon": 112.1083
+  },
+  {
+    "code": "0495",
+    "province_code": "9100",
+    "province": "Papua Barat",
+    "region": "Kaimana",
+    "lat": -3.522,
+    "lon": 134.0174
+  },
+  {
+    "code": "0496",
+    "province_code": "5200",
+    "province": "Nusa Tenggara Barat",
+    "region": "Bima",
+    "lat": -8.4824,
+    "lon": 118.5469
+  },
+  {
+    "code": "0497",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Banyumas",
+    "lat": -7.4561,
+    "lon": 109.1783
+  },
+  {
+    "code": "0498",
+    "province_code": "1900",
+    "province": "Kepulauan Bangka Belitung",
+    "region": "Belitung",
+    "lat": -2.8849,
+    "lon": 107.6751
+  },
+  {
+    "code": "0499",
+    "province_code": "6100",
+    "province": "Kalimantan Barat",
+    "region": "Mempawah",
+    "lat": 0.3439,
+    "lon": 109.1409
+  },
+  {
+    "code": "0500",
+    "province_code": "6200",
+    "province": "Kalimantan Tengah",
+    "region": "Seruyan",
+    "lat": -2.1223,
+    "lon": 112.1455
+  },
+  {
+    "code": "0501",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Blora",
+    "lat": -7.108,
+    "lon": 111.3601
+  },
+  {
+    "code": "0502",
+    "province_code": "6200",
+    "province": "Kalimantan Tengah",
+    "region": "Gunung Mas",
+    "lat": -0.977,
+    "lon": 113.5843
+  },
+  {
+    "code": "0503",
+    "province_code": "7500",
+    "province": "Gorontalo",
+    "region": "Gorontalo",
+    "lat": 0.7012,
+    "lon": 122.662
+  },
+  {
+    "code": "0504",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Bandung",
+    "lat": -7.0613,
+    "lon": 107.6171
+  },
+  {
+    "code": "0505",
+    "province_code": "2100",
+    "province": "Kepulauan Riau",
+    "region": "Karimun",
+    "lat": 0.8795,
+    "lon": 103.6084
+  },
+  {
+    "code": "0506",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Pemalang",
+    "lat": -7.014,
+    "lon": 109.3959
+  },
+  {
+    "code": "0507",
+    "province_code": "3200",
+    "province": "Jawa Barat",
+    "region": "Kuningan",
+    "lat": -6.9879,
+    "lon": 108.5888
+  },
+  {
+    "code": "0508",
+    "province_code": "1900",
+    "province": "Kepulauan Bangka Belitung",
+    "region": "Bangka",
+    "lat": -1.9355,
+    "lon": 105.9457
+  },
+  {
+    "code": "0509",
+    "province_code": "1800",
+    "province": "Lampung",
+    "region": "Way Kanan",
+    "lat": -4.5681,
+    "lon": 104.6847
+  },
+  {
+    "code": "0510",
+    "province_code": "5100",
+    "province": "Bali",
+    "region": "Buleleng",
+    "lat": -8.2224,
+    "lon": 114.9453
+  },
+  {
+    "code": "0511",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Kota Semarang",
+    "lat": -7.0308,
+    "lon": 110.3869
+  },
+  {
+    "code": "0512",
+    "province_code": "8100",
+    "province": "Maluku",
+    "region": "Kota Tual",
+    "lat": -5.5003,
+    "lon": 132.3922
+  },
+  {
+    "code": "0513",
+    "province_code": "3300",
+    "province": "Jawa Tengah",
+    "region": "Kota Pekalongan",
+    "lat": -6.8922,
+    "lon": 109.6815
+  },
+  {
+    "code": "0514",
+    "province_code": "9400",
+    "province": "Papua",
+    "region": "Biak Numfor",
+    "lat": -0.9425,
+    "lon": 135.5899
+  },
+  {
+    "code": "0515",
+    "province_code": "7300",
+    "province": "Sulawesi Selatan",
+    "region": "Pinrang",
+    "lat": -3.6261,
+    "lon": 119.617
+  },
+  {
+    "code": "0516",
+    "province_code": "1500",
+    "province": "Jambi",
+    "region": "Batanghari",
+    "lat": -1.8543,
+    "lon": 102.9717
+  },
+  {
+    "code": "0517",
+    "province_code": "3500",
+    "province": "Jawa Timur",
+    "region": "Jombang",
+    "lat": -7.5621,
+    "lon": 112.2591
+  },
+  {
+    "code": "0518",
+    "province_code": "1100",
+    "province": "Aceh",
+    "region": "Simeulue",
+    "lat": 2.4855,
+    "lon": 96.1904
+  }
+]
