@@ -4,3 +4,4 @@ data/indonesia-latest.osm.pbf
 __pycache__/
 *.pyc
 .conversion-venv/
+data/bmkg_weather_cache.json

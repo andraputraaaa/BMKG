@@ -10,6 +10,8 @@ BMKG_WEATHER_URL = 'https://api.bmkg.go.id/publik/prakiraan-cuaca'
 BMKG_REQUEST_TIMEOUT = 10
 BMKG_MIN_REQUEST_INTERVAL = 0.5
 BMKG_MAX_RETRIES = 3
+BMKG_CACHE_FILE = os.path.join('data', 'bmkg_weather_cache.json')
+BMKG_CACHE_TTL = 3600
 BMKG_REQUEST_HEADERS = {
     'Accept': 'application/json, text/plain, */*',
     'Origin': 'https://www.bmkg.go.id',
@@ -30,6 +32,36 @@ DEFAULT_AWS_STATIONS = {
     "Makassar": {"prov_code": "7300", "lat": -5.1477, "lon": 119.4327},
     "Jayapura": {"prov_code": "9100", "lat": -2.5489, "lon": 140.7186}
 }
+
+def load_weather_cache():
+    if not os.path.exists(BMKG_CACHE_FILE):
+        return {}
+    try:
+        with open(BMKG_CACHE_FILE, 'r', encoding='utf-8') as file:
+            payload = json.load(file)
+        now = time.time()
+        return {
+            adm4: entry['weather']
+            for adm4, entry in payload.items()
+            if now - float(entry['cached_at']) < BMKG_CACHE_TTL
+        }
+    except (OSError, KeyError, TypeError, ValueError, json.JSONDecodeError) as error:
+        print(f"[WARNING] Cache cuaca BMKG tidak dapat dibaca: {error}")
+        return {}
+
+def save_weather_cache():
+    try:
+        os.makedirs(os.path.dirname(BMKG_CACHE_FILE), exist_ok=True)
+        payload = {
+            adm4: {'cached_at': time.time(), 'weather': weather}
+            for adm4, weather in WEATHER_CACHE.items()
+        }
+        with open(BMKG_CACHE_FILE, 'w', encoding='utf-8') as file:
+            json.dump(payload, file, ensure_ascii=False)
+    except OSError as error:
+        print(f"[WARNING] Cache cuaca BMKG tidak dapat disimpan: {error}")
+
+WEATHER_CACHE.update(load_weather_cache())
 
 def load_master_regions():
     """Membaca data wilayah dari file JSON hasil ekstraksi SHP."""
@@ -109,6 +141,7 @@ def fetch_bmkg_weather(adm4):
         'source': 'BMKG Public API'
     }
     WEATHER_CACHE[adm4] = weather_data
+    save_weather_cache()
     return weather_data
 
 def fetch_nearest_bmkg_weather(region, regions):
@@ -127,6 +160,26 @@ def fetch_nearest_bmkg_weather(region, regions):
             float(candidate.get('lon', 118.0)) - lon
         ) ** 2
     )
+
+    cached_candidates = [
+        candidate for candidate in candidates
+        if candidate['adm4'] in WEATHER_CACHE
+    ]
+    if cached_candidates:
+        candidate = cached_candidates[0]
+        weather_data = dict(WEATHER_CACHE[candidate['adm4']])
+        candidate_lat = float(candidate.get('lat', -2.5))
+        candidate_lon = float(candidate.get('lon', 118.0))
+        weather_data.update({
+            'source': 'BMKG Public API (nearest ADM4 cache)',
+            'source_adm4': candidate['adm4'],
+            'source_region': candidate.get('region', 'Unknown'),
+            'source_distance_degrees': round(
+                ((candidate_lat - lat) ** 2 + (candidate_lon - lon) ** 2) ** 0.5,
+                4
+            )
+        })
+        return weather_data
 
     last_error = None
     for candidate in candidates:
