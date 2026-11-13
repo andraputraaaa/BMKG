@@ -111,6 +111,47 @@ def fetch_bmkg_weather(adm4):
     WEATHER_CACHE[adm4] = weather_data
     return weather_data
 
+def fetch_nearest_bmkg_weather(region, regions):
+    """Menggunakan prakiraan BMKG dari ADM4 terdekat jika ADM4 utama gagal."""
+    lat = float(region.get('lat', -2.5))
+    lon = float(region.get('lon', 118.0))
+    region_code = region.get('code')
+    candidates = sorted(
+        (
+            candidate for candidate in regions
+            if candidate.get('code') != region_code and candidate.get('adm4')
+        ),
+        key=lambda candidate: (
+            float(candidate.get('lat', -2.5)) - lat
+        ) ** 2 + (
+            float(candidate.get('lon', 118.0)) - lon
+        ) ** 2
+    )
+
+    last_error = None
+    for candidate in candidates:
+        try:
+            weather_data = dict(fetch_bmkg_weather(candidate['adm4']))
+            candidate_lat = float(candidate.get('lat', -2.5))
+            candidate_lon = float(candidate.get('lon', 118.0))
+            weather_data.update({
+                'source': 'BMKG Public API (nearest ADM4)',
+                'source_adm4': candidate['adm4'],
+                'source_region': candidate.get('region', 'Unknown'),
+                'source_distance_degrees': round(
+                    ((candidate_lat - lat) ** 2 + (candidate_lon - lon) ** 2) ** 0.5,
+                    4
+                )
+            })
+            return weather_data
+        except (requests.RequestException, ValueError) as error:
+            last_error = error
+
+    raise ValueError(
+        f'Tidak ada prakiraan BMKG terdekat yang tersedia untuk '
+        f"{region.get('region', 'wilayah')}"
+    ) from last_error
+
 def get_aws_weather_data():
     """Mengembalikan data EWS terintegrasi untuk seluruh wilayah."""
     regions = load_master_regions()
@@ -137,8 +178,15 @@ def get_aws_weather_data():
         try:
             weather_data = fetch_bmkg_weather(reg.get('adm4'))
         except (requests.RequestException, ValueError) as error:
-            print(f"[WARNING] Wilayah {r_name} dilewati: {error}")
-            continue
+            try:
+                weather_data = fetch_nearest_bmkg_weather(reg, regions)
+                print(
+                    f"[WARNING] Wilayah {r_name} menggunakan "
+                    f"prakiraan ADM4 terdekat: {error}"
+                )
+            except ValueError as fallback_error:
+                print(f"[WARNING] Wilayah {r_name} dilewati: {fallback_error}")
+                continue
 
         # 2. Ekstraksi Data Spasial dari GeoTIFF Landcover & DEM SRTM
         region_code = reg.get('code')
