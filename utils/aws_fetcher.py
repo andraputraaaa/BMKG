@@ -7,6 +7,14 @@ from utils.raster_processor import process_landcover_tiles, get_dem_elevation
 REGIONAL_FILE = os.path.join('data', 'indonesia_514_regencies.json')
 BMKG_WEATHER_URL = 'https://api.bmkg.go.id/publik/prakiraan-cuaca'
 BMKG_REQUEST_TIMEOUT = 10
+BMKG_REQUEST_HEADERS = {
+    'Accept': 'application/json, text/plain, */*',
+    'Origin': 'https://www.bmkg.go.id',
+    'Referer': 'https://www.bmkg.go.id/',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+                  'AppleWebKit/537.36 (KHTML, like Gecko) '
+                  'Chrome/131.0.0.0 Safari/537.36',
+}
 WEATHER_CACHE = {}
 
 # Backup Stasiun Utama jika JSON belum di-extract dari SHP
@@ -40,6 +48,7 @@ def fetch_bmkg_weather(adm4):
     response = requests.get(
         BMKG_WEATHER_URL,
         params={'adm4': adm4},
+        headers=BMKG_REQUEST_HEADERS,
         timeout=BMKG_REQUEST_TIMEOUT
     )
     response.raise_for_status()
