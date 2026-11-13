@@ -1,12 +1,15 @@
 import json
 import os
 import requests
+import time
 from utils.ibf_calculator import calculate_ibf_risk
 from utils.raster_processor import process_landcover_tiles, get_dem_elevation
 
 REGIONAL_FILE = os.path.join('data', 'indonesia_514_regencies.json')
 BMKG_WEATHER_URL = 'https://api.bmkg.go.id/publik/prakiraan-cuaca'
 BMKG_REQUEST_TIMEOUT = 10
+BMKG_MIN_REQUEST_INTERVAL = 0.5
+BMKG_MAX_RETRIES = 3
 BMKG_REQUEST_HEADERS = {
     'Accept': 'application/json, text/plain, */*',
     'Origin': 'https://www.bmkg.go.id',
@@ -16,6 +19,7 @@ BMKG_REQUEST_HEADERS = {
                   'Chrome/131.0.0.0 Safari/537.36',
 }
 WEATHER_CACHE = {}
+_LAST_BMKG_REQUEST_AT = 0.0
 
 # Backup Stasiun Utama jika JSON belum di-extract dari SHP
 DEFAULT_AWS_STATIONS = {
@@ -45,12 +49,33 @@ def fetch_bmkg_weather(adm4):
     if adm4 in WEATHER_CACHE:
         return WEATHER_CACHE[adm4]
 
-    response = requests.get(
-        BMKG_WEATHER_URL,
-        params={'adm4': adm4},
-        headers=BMKG_REQUEST_HEADERS,
-        timeout=BMKG_REQUEST_TIMEOUT
-    )
+    global _LAST_BMKG_REQUEST_AT
+    response = None
+    for attempt in range(BMKG_MAX_RETRIES + 1):
+        wait_time = BMKG_MIN_REQUEST_INTERVAL - (
+            time.monotonic() - _LAST_BMKG_REQUEST_AT
+        )
+        if wait_time > 0:
+            time.sleep(wait_time)
+
+        response = requests.get(
+            BMKG_WEATHER_URL,
+            params={'adm4': adm4},
+            headers=BMKG_REQUEST_HEADERS,
+            timeout=BMKG_REQUEST_TIMEOUT
+        )
+        _LAST_BMKG_REQUEST_AT = time.monotonic()
+
+        if response.status_code != 429 or attempt == BMKG_MAX_RETRIES:
+            break
+
+        retry_after = response.headers.get('Retry-After')
+        try:
+            retry_delay = float(retry_after)
+        except (TypeError, ValueError):
+            retry_delay = 2 ** attempt
+        time.sleep(max(retry_delay, 1.0))
+
     response.raise_for_status()
     payload = response.json()
 
