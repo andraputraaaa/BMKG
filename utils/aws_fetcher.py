@@ -55,8 +55,16 @@ def fetch_bmkg_weather(adm4):
     payload = response.json()
 
     try:
-        forecast = payload['data'][0]['cuaca'][0][0]
-    except (KeyError, IndexError, TypeError) as error:
+        forecast_groups = payload['data'][0]['cuaca']
+        if not forecast_groups:
+            raise ValueError(f'BMKG belum menyediakan prakiraan untuk {adm4}')
+        forecast = next(
+            forecast_item
+            for forecast_group in forecast_groups
+            if forecast_group
+            for forecast_item in forecast_group
+        )
+    except (KeyError, IndexError, TypeError, StopIteration) as error:
         raise ValueError(f'Respons prakiraan BMKG tidak valid untuk {adm4}') from error
 
     wind_speed_ms = forecast.get('ws')
@@ -101,7 +109,11 @@ def get_aws_weather_data():
         r_name = str(reg.get('region', 'Kota/Kabupaten'))
 
         # 1. Prakiraan cuaca BMKG untuk wilayah administratif tingkat IV.
-        weather_data = fetch_bmkg_weather(reg.get('adm4'))
+        try:
+            weather_data = fetch_bmkg_weather(reg.get('adm4'))
+        except (requests.RequestException, ValueError) as error:
+            print(f"[WARNING] Wilayah {r_name} dilewati: {error}")
+            continue
 
         # 2. Ekstraksi Data Spasial dari GeoTIFF Landcover & DEM SRTM
         region_code = reg.get('code')
@@ -130,5 +142,8 @@ def get_aws_weather_data():
             "population": pop_info,
             "ibf_status": ibf_res
         })
+
+    if not results:
+        raise RuntimeError('Tidak ada wilayah yang berhasil mendapatkan data cuaca BMKG')
 
     return results
