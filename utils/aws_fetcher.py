@@ -2,6 +2,7 @@ import json
 import os
 import requests
 import time
+import threading
 from utils.ibf_calculator import calculate_ibf_risk
 from utils.raster_processor import process_landcover_tiles, get_dem_elevation
 
@@ -11,7 +12,8 @@ BMKG_REQUEST_TIMEOUT = 10
 BMKG_MIN_REQUEST_INTERVAL = 0.5
 BMKG_MAX_RETRIES = 3
 BMKG_CACHE_FILE = os.path.join('data', 'bmkg_weather_cache.json')
-BMKG_CACHE_TTL = 3600
+BMKG_STAGING_CACHE_FILE = os.path.join('data', 'bmkg_weather_cache.staging.json')
+BMKG_CACHE_TTL = 600
 BMKG_REQUEST_HEADERS = {
     'Accept': 'application/json, text/plain, */*',
     'Origin': 'https://www.bmkg.go.id',
@@ -21,7 +23,10 @@ BMKG_REQUEST_HEADERS = {
                   'Chrome/131.0.0.0 Safari/537.36',
 }
 WEATHER_CACHE = {}
+WEATHER_CACHE_TIMESTAMPS = {}
 _LAST_BMKG_REQUEST_AT = 0.0
+_WEATHER_DATA_READY = False
+_WEATHER_REFRESH_LOCK = threading.Lock()
 
 # Backup Stasiun Utama jika JSON belum di-extract dari SHP
 DEFAULT_AWS_STATIONS = {
@@ -35,33 +40,42 @@ DEFAULT_AWS_STATIONS = {
 
 def load_weather_cache():
     if not os.path.exists(BMKG_CACHE_FILE):
-        return {}
+        return {}, {}
     try:
         with open(BMKG_CACHE_FILE, 'r', encoding='utf-8') as file:
             payload = json.load(file)
-        now = time.time()
-        return {
-            adm4: entry['weather']
-            for adm4, entry in payload.items()
-            if now - float(entry['cached_at']) < BMKG_CACHE_TTL
-        }
+        weather_cache = {}
+        cache_timestamps = {}
+        for adm4, entry in payload.items():
+            cached_at = float(entry['cached_at'])
+            weather_cache[adm4] = entry['weather']
+            cache_timestamps[adm4] = cached_at
+        return weather_cache, cache_timestamps
     except (OSError, KeyError, TypeError, ValueError, json.JSONDecodeError) as error:
         print(f"[WARNING] Cache cuaca BMKG tidak dapat dibaca: {error}")
-        return {}
+        return {}, {}
 
-def save_weather_cache():
+def save_weather_cache(cache=None, timestamps=None, cache_file=None):
+    cache = WEATHER_CACHE if cache is None else cache
+    timestamps = WEATHER_CACHE_TIMESTAMPS if timestamps is None else timestamps
+    cache_file = BMKG_CACHE_FILE if cache_file is None else cache_file
     try:
-        os.makedirs(os.path.dirname(BMKG_CACHE_FILE), exist_ok=True)
+        os.makedirs(os.path.dirname(cache_file), exist_ok=True)
         payload = {
-            adm4: {'cached_at': time.time(), 'weather': weather}
-            for adm4, weather in WEATHER_CACHE.items()
+            adm4: {
+                'cached_at': timestamps[adm4],
+                'weather': weather
+            } for adm4, weather in cache.items()
         }
-        with open(BMKG_CACHE_FILE, 'w', encoding='utf-8') as file:
+        with open(cache_file, 'w', encoding='utf-8') as file:
             json.dump(payload, file, ensure_ascii=False)
+        return True
     except OSError as error:
         print(f"[WARNING] Cache cuaca BMKG tidak dapat disimpan: {error}")
+        return False
 
-WEATHER_CACHE.update(load_weather_cache())
+WEATHER_CACHE, WEATHER_CACHE_TIMESTAMPS = load_weather_cache()
+_WEATHER_DATA_READY = bool(WEATHER_CACHE)
 
 def load_master_regions():
     """Membaca data wilayah dari file JSON hasil ekstraksi SHP."""
@@ -73,14 +87,25 @@ def load_master_regions():
             print(f"Error membaca {REGIONAL_FILE}: {e}")
     return []
 
-def fetch_bmkg_weather(adm4):
+def fetch_bmkg_weather(
+    adm4,
+    cache=None,
+    timestamps=None,
+    persist=True
+):
     """Mengambil prakiraan cuaca BMKG untuk satu kode wilayah ADM4."""
     if not adm4:
         raise ValueError('Kode wilayah ADM4 tidak tersedia untuk wilayah BMKG')
 
-    if adm4 in WEATHER_CACHE:
-        return WEATHER_CACHE[adm4]
-
+    cache = WEATHER_CACHE if cache is None else cache
+    timestamps = WEATHER_CACHE_TIMESTAMPS if timestamps is None else timestamps
+    cached_at = timestamps.get(adm4)
+    if (
+        adm4 in cache
+        and cached_at is not None
+        and time.time() - cached_at < BMKG_CACHE_TTL
+    ):
+        return cache[adm4]
     global _LAST_BMKG_REQUEST_AT
     response = None
     for attempt in range(BMKG_MAX_RETRIES + 1):
@@ -140,8 +165,100 @@ def fetch_bmkg_weather(adm4):
         'forecast_datetime': forecast.get('local_datetime'),
         'source': 'BMKG Public API'
     }
-    WEATHER_CACHE[adm4] = weather_data
-    save_weather_cache()
+    cache[adm4] = weather_data
+    timestamps[adm4] = time.time()
+    if persist:
+        save_weather_cache(cache, timestamps)
+    return weather_data
+
+
+def refresh_weather_cache(regions):
+    """Refresh weather data without blocking API responses."""
+    global WEATHER_CACHE, WEATHER_CACHE_TIMESTAMPS
+    staging_cache = dict(WEATHER_CACHE)
+    staging_timestamps = dict(WEATHER_CACHE_TIMESTAMPS)
+
+    for region in regions:
+        adm4 = region.get('adm4')
+        try:
+            fetch_bmkg_weather(
+                adm4,
+                cache=staging_cache,
+                timestamps=staging_timestamps,
+                persist=False
+            )
+        except (requests.RequestException, ValueError) as error:
+            print(
+                f"[WARNING] Refresh cuaca gagal untuk "
+                f"{region.get('region', 'Unknown')}: {error}"
+            )
+
+    if not save_weather_cache(
+        staging_cache,
+        staging_timestamps,
+        BMKG_STAGING_CACHE_FILE
+    ):
+        return
+
+    try:
+        os.replace(BMKG_STAGING_CACHE_FILE, BMKG_CACHE_FILE)
+    except OSError as error:
+        print(f"[WARNING] Cache cuaca aktif tidak dapat ditukar: {error}")
+        return
+    WEATHER_CACHE = staging_cache
+    WEATHER_CACHE_TIMESTAMPS = staging_timestamps
+
+
+def start_background_weather_refresh(regions):
+    if not _WEATHER_REFRESH_LOCK.acquire(blocking=False):
+        return
+
+    def run_refresh():
+        try:
+            refresh_weather_cache(regions)
+        finally:
+            _WEATHER_REFRESH_LOCK.release()
+
+    thread = threading.Thread(target=run_refresh, daemon=True)
+    thread.start()
+
+
+def get_cached_weather(region, regions):
+    """Return the latest cached weather, including stale data during refresh."""
+    adm4 = region.get('adm4')
+    if adm4 in WEATHER_CACHE:
+        return WEATHER_CACHE[adm4]
+
+    lat = float(region.get('lat', -2.5))
+    lon = float(region.get('lon', 118.0))
+    cached_candidates = [
+        candidate for candidate in regions
+        if candidate.get('adm4') in WEATHER_CACHE
+        and candidate.get('code') != region.get('code')
+    ]
+    if not cached_candidates:
+        return None
+
+    candidate = min(
+        cached_candidates,
+        key=lambda item: (
+            float(item.get('lat', -2.5)) - lat
+        ) ** 2 + (
+            float(item.get('lon', 118.0)) - lon
+        ) ** 2
+    )
+    weather_data = dict(WEATHER_CACHE[candidate['adm4']])
+    candidate_lat = float(candidate.get('lat', -2.5))
+    candidate_lon = float(candidate.get('lon', 118.0))
+    weather_data.update({
+        'source': 'BMKG Public API (nearest ADM4 cache)',
+        'source_adm4': candidate['adm4'],
+        'source_region': candidate.get('region', 'Unknown'),
+        'source_distance_degrees': round(
+            ((candidate_lat - lat) ** 2 + (candidate_lon - lon) ** 2) ** 0.5,
+            4
+        )
+    })
     return weather_data
 
 def fetch_nearest_bmkg_weather(region, regions):
@@ -207,6 +324,7 @@ def fetch_nearest_bmkg_weather(region, regions):
 
 def get_aws_weather_data():
     """Mengembalikan data EWS terintegrasi untuk seluruh wilayah."""
+    global _WEATHER_DATA_READY
     regions = load_master_regions()
     results = []
 
@@ -221,6 +339,9 @@ def get_aws_weather_data():
                 "lon": info["lon"]
             })
 
+    if _WEATHER_DATA_READY:
+        start_background_weather_refresh(regions)
+
     for reg in regions:
         lat = float(reg.get('lat', -2.5))
         lon = float(reg.get('lon', 118.0))
@@ -228,18 +349,24 @@ def get_aws_weather_data():
         r_name = str(reg.get('region', 'Kota/Kabupaten'))
 
         # 1. Prakiraan cuaca BMKG untuk wilayah administratif tingkat IV.
-        try:
-            weather_data = fetch_bmkg_weather(reg.get('adm4'))
-        except (requests.RequestException, ValueError) as error:
-            try:
-                weather_data = fetch_nearest_bmkg_weather(reg, regions)
-                print(
-                    f"[WARNING] Wilayah {r_name} menggunakan "
-                    f"prakiraan ADM4 terdekat: {error}"
-                )
-            except ValueError as fallback_error:
-                print(f"[WARNING] Wilayah {r_name} dilewati: {fallback_error}")
+        if _WEATHER_DATA_READY:
+            weather_data = get_cached_weather(reg, regions)
+            if weather_data is None:
+                print(f"[WARNING] Cache cuaca belum tersedia untuk {r_name}")
                 continue
+        else:
+            try:
+                weather_data = fetch_bmkg_weather(reg.get('adm4'))
+            except (requests.RequestException, ValueError) as error:
+                try:
+                    weather_data = fetch_nearest_bmkg_weather(reg, regions)
+                    print(
+                        f"[WARNING] Wilayah {r_name} menggunakan "
+                        f"prakiraan ADM4 terdekat: {error}"
+                    )
+                except ValueError as fallback_error:
+                    print(f"[WARNING] Wilayah {r_name} dilewati: {fallback_error}")
+                    continue
 
         # 2. Ekstraksi Data Spasial dari GeoTIFF Landcover & DEM SRTM
         region_code = reg.get('code')
@@ -272,4 +399,5 @@ def get_aws_weather_data():
     if not results:
         raise RuntimeError('Tidak ada wilayah yang berhasil mendapatkan data cuaca BMKG')
 
+    _WEATHER_DATA_READY = True
     return results

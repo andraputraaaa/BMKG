@@ -10,11 +10,28 @@ document.addEventListener('DOMContentLoaded', function() {
     }).addTo(map);
 
     let cityMarkersGroup = L.layerGroup().addTo(map);
+    let searchFocusMarker = null;
     let masterEWSData = [];
 
     // State Filter Active
     let activeProvFilter = 'ALL';
     let activeRiskFilter = 'ALL';
+
+    function getItemCoordinates(item) {
+        const coordinates = item.coordinates;
+        if (Array.isArray(coordinates) && coordinates.length === 2) {
+            const lat = Number(coordinates[0]);
+            const lon = Number(coordinates[1]);
+            if (Number.isFinite(lat) && Number.isFinite(lon)) {
+                return [lat, lon];
+            }
+        }
+
+        const weather = item.weather || {};
+        const lat = Number(weather.lat);
+        const lon = Number(weather.lon);
+        return Number.isFinite(lat) && Number.isFinite(lon) ? [lat, lon] : null;
+    }
 
     // 1. JAM REAL-TIME (WIB)
     function startRealTimeClock() {
@@ -57,13 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let highRiskCount = 0;
 
         filteredData.forEach(item => {
-            let coords = null;
-            if (item.coordinates && item.coordinates.length === 2 && item.coordinates[0] && item.coordinates[1]) {
-                coords = [parseFloat(item.coordinates[0]), parseFloat(item.coordinates[1])];
-            } else if (item.weather && item.weather.lat && item.weather.lon) {
-                coords = [parseFloat(item.weather.lat), parseFloat(item.weather.lon)];
-            }
-
+            const coords = getItemCoordinates(item);
             if (!coords) return;
 
             bounds.push(coords);
@@ -223,13 +234,24 @@ document.addEventListener('DOMContentLoaded', function() {
                         searchInput.value = cityName;
                         searchResults.classList.add('d-none');
 
-                        let coords = null;
-                        if (item.coordinates && item.coordinates.length === 2) {
-                            coords = [parseFloat(item.coordinates[0]), parseFloat(item.coordinates[1])];
-                        }
+                        const coords = getItemCoordinates(item);
 
                         if (coords) {
                             map.flyTo(coords, 10, { duration: 1.2 });
+                            if (searchFocusMarker) {
+                                map.removeLayer(searchFocusMarker);
+                            }
+                            searchFocusMarker = L.circleMarker(coords, {
+                                radius: 11,
+                                color: '#0f172a',
+                                weight: 3,
+                                fillColor: '#ffffff',
+                                fillOpacity: 0.25,
+                                className: 'search-focus-marker'
+                            })
+                                .bindTooltip(cityName, { permanent: true, direction: 'top', offset: [0, -8] })
+                                .addTo(map);
+
                             cityMarkersGroup.eachLayer(layer => {
                                 const latLng = layer.getLatLng();
                                 if (Math.abs(latLng.lat - coords[0]) < 0.01 && Math.abs(latLng.lng - coords[1]) < 0.01) {
