@@ -3,7 +3,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # BPS API Configuration
-BPS_API_KEY = "1b7591ea4f62a838e000d1e8c0ec0be"
+BPS_API_KEY = os.getenv("BPS_API_KEY", "")
 
 # Domain BPS untuk Agregat Nasional (Satu Indonesia)
 BPS_DOMAIN_NATIONAL = "0000"

@@ -11,8 +11,15 @@ BMKG_WEATHER_URL = 'https://api.bmkg.go.id/publik/prakiraan-cuaca'
 BMKG_REQUEST_TIMEOUT = 10
 BMKG_MIN_REQUEST_INTERVAL = 0.5
 BMKG_MAX_RETRIES = 3
-BMKG_CACHE_FILE = os.path.join('data', 'bmkg_weather_cache.json')
-BMKG_STAGING_CACHE_FILE = os.path.join('data', 'bmkg_weather_cache.staging.json')
+BMKG_CACHE_FILE = os.getenv(
+    'BMKG_CACHE_FILE',
+    os.path.join('data', 'bmkg_weather_cache.json')
+)
+BMKG_STAGING_CACHE_FILE = os.getenv(
+    'BMKG_STAGING_CACHE_FILE',
+    os.path.join(os.path.dirname(BMKG_CACHE_FILE), 'bmkg_weather_cache.staging.json')
+)
+BMKG_CACHE_SEED_FILE = os.path.join('data', 'bmkg_weather_cache.seed.json')
 BMKG_CACHE_TTL = 600
 BMKG_REQUEST_HEADERS = {
     'Accept': 'application/json, text/plain, */*',
@@ -39,10 +46,13 @@ DEFAULT_AWS_STATIONS = {
 }
 
 def load_weather_cache():
-    if not os.path.exists(BMKG_CACHE_FILE):
+    cache_file = BMKG_CACHE_FILE
+    if not os.path.exists(cache_file):
+        cache_file = BMKG_CACHE_SEED_FILE
+    if not os.path.exists(cache_file):
         return {}, {}
     try:
-        with open(BMKG_CACHE_FILE, 'r', encoding='utf-8') as file:
+        with open(cache_file, 'r', encoding='utf-8') as file:
             payload = json.load(file)
         weather_cache = {}
         cache_timestamps = {}

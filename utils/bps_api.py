@@ -53,18 +53,21 @@ def fetch_population_data(domain_code=None):
     
     domains_to_fetch = [domain_code] if domain_code and domain_code not in ['ALL', '0000'] else BPS_DOMAIN_ALL_PROVINCES
 
-    for domain in domains_to_fetch:
-        url = f"https://webapi.bps.go.id/v1/api/list/model/data/lang/ind/domain/{domain}/var/{var_id}/key/{BPS_API_KEY}/"
-        try:
-            # Timeout dipersingkat ke 2 detik agar tidak menghambat Flask
-            response = requests.get(url, timeout=2)
-            if response.status_code == 200:
-                data = response.json()
-                if data.get("data-availability") == "available":
-                    population_data[domain] = data.get("datacontent", {})
-        except Exception:
-            # Jika timeout / error, gunakan data fallback untuk domain tersebut
-            population_data[domain] = DEFAULT_POPULATION_DATA.get(domain, {"kepadatan": 500, "nama": "Indonesia"})
+    if not BPS_API_KEY:
+        print("[WARNING] BPS_API_KEY is not configured; using fallback population data.")
+    else:
+        for domain in domains_to_fetch:
+            url = f"https://webapi.bps.go.id/v1/api/list/model/data/lang/ind/domain/{domain}/var/{var_id}/key/{BPS_API_KEY}/"
+            try:
+                # Timeout dipersingkat ke 2 detik agar tidak menghambat Flask
+                response = requests.get(url, timeout=2)
+                if response.status_code == 200:
+                    data = response.json()
+                    if data.get("data-availability") == "available":
+                        population_data[domain] = data.get("datacontent", {})
+            except Exception:
+                # Jika timeout / error, gunakan data fallback untuk domain tersebut
+                population_data[domain] = DEFAULT_POPULATION_DATA.get(domain, {"kepadatan": 500, "nama": "Indonesia"})
 
     # Gabungkan dengan data default jika ada domain yang belum terisi
     for domain in BPS_DOMAIN_ALL_PROVINCES:
